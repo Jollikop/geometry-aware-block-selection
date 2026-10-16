@@ -1,0 +1,17 @@
+{
+  "numerical_results_unchanged": true,
+  "outputs": {
+    "Report/figures/hard_pic_full_v1/amplitude-rbf_1_block_diag.pdf": "sha256:2c84c8576fe78c55ce3b7443cac333a3a3c7200137d633991be81e35ea1009d3",
+    "Report/figures/hard_pic_full_v1/amplitude-rbf_2_block_diag.pdf": "sha256:0ddabfb6a58d8e52d986e0b386a3bd2a58f972911442ce4c04e881103a9cbb2f",
+    "Report/figures/hard_pic_full_v1/gibbs_1_block_diag.pdf": "sha256:ff798c59e1342236b53e7b5fa8efd7c05cd95dc5ef31c20404edd7aca5171f15",
+    "Report/figures/hard_pic_full_v1/gibbs_2_block_diag.pdf": "sha256:1e3ef0fb1dc5af859e90d3c4e5b50d3c51bc5d45a24bb257601dcfb1d1644d80",
+    "Report/figures/hard_pic_full_v1/matern52_1_block_diag.pdf": "sha256:25b9f4e2fdab27f46a9d2c7cca8a6e06504d52ad883bad662f1e49f7ad367b22",
+    "Report/figures/hard_pic_full_v1/matern52_2_block_diag.pdf": "sha256:b35e316da4b83b8c750e00210d77e30fe25ab12f55a4304b883fa0baf6c3bf9c",
+    "Report/figures/hard_pic_full_v1/rbf_1_block_diag.pdf": "sha256:0e9c448e855670b94f28521f6aa95d856b4211789155a86b0d2109c496be6aa3",
+    "Report/figures/hard_pic_full_v1/rbf_2_block_diag.pdf": "sha256:c8c9724dfba74748226e4be0b0df957120929679c17768e548d20b4ccf2b1096",
+    "Report/figures/hard_pic_full_v1/svgp_rbf_amplitude_final_page_block_diag.pdf": "sha256:baf1499fd8e7b6b3f7c0b54cd74c8baa18c86a9292cc44e1ec90c25d3ae1664e"
+  },
+  "render_only": true,
+  "source_summary": "Report/Results/hard_pic_full_v1/svgp_hard_pic_summary.csv",
+  "source_summary_sha256": "sha256:060be5c79beb85c7fd1652071c09849bb70081833750db672a65db7de4320fe5"
+}

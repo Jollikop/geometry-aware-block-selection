@@ -1,0 +1,23 @@
+% M=512 slice of the unchanged frozen accuracy and timing summaries.
+\begin{table}[!ht]
+\caption{Complete predictors on RBF--Kin40k: \(M=512\), \(N=5000\),
+2000 test points, \(b=500\). Mean (SE in the last decimal places), ten seeds.
+Search: warm partition search per build, in ms.
+Bold: best non-dense method. \(^\dagger\)Dense reference; --- not reported.}
+\label{tab:kin40k-sgpr}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Method & RMSE & NLL & Search (ms) \\
+\midrule
+SGPR & .229(2) & $-$.041(7) & --- \\
+T-SGPR & .205(2) & $-$.175(10) & --- \\
+(R)BT-SGPR & .197(2) & $-$.219(11) & --- \\
+(S)BT-SGPR & \textbf{.185(2)} & \textbf{$-$.280(11)} & 6.07 \\
+\midrule
+(METIS)BT-SGPR$^\dagger$ & .179(2) & $-$.304(13) & 1034.92 \\
+Exact GP$^\dagger$ & .151(2) & $-$.618(14) & --- \\
+\bottomrule
+\end{tabular}
+\end{table}

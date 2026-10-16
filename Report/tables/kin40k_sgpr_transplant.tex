@@ -1,0 +1,33 @@
+% Generated from the audited RBF v23 subset.
+\begin{table*}[t]
+\caption{Kin40k RBF hyperparameter transplant, \(5000/2000\) train/test points. Donor kernel and noise parameters are fixed; only inducing locations are refined under the SGPR trace bound, with at most 100000 L-BFGS-B steps. Entries are mean (standard error) over ten seeds. All fits pass the optimization gate. Four of 30 SGPR self-transplant controls exceed the separate invariance tolerances (see text). Lower RMSE/NLL and larger \(\Delta\mathrm{ELBO}/N\) are better.}
+\label{tab:kin40k-sgpr-transplant}
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{0.94}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+& \multicolumn{2}{c}{Donor, own predictor} & \multicolumn{1}{c}{Donor as sparse} & \multicolumn{2}{c}{After SGPR transplant} & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-4}\cmidrule(lr){5-6}
+Donor bound & RMSE & NLL & NLL & RMSE & NLL & \(\Delta\mathrm{ELBO}/N\) \\
+\midrule
+\multicolumn{7}{@{}l}{\textbf{RBF, \(M=128\)}} \\
+SGPR & 0.368 (0.011) & 0.440 (0.027) & 0.440 (0.027) & 0.368 (0.011) & 0.440 (0.027) & 0.0002 (0.0001) \\
+T-SGPR & 0.338 (0.012) & 0.334 (0.036) & 0.371 (0.029) & 0.339 (0.012) & 0.372 (0.029) & 0.0017 (0.0005) \\
+RBT-SGPR & 0.322 (0.019) & 0.272 (0.061) & 0.352 (0.040) & 0.328 (0.017) & 0.350 (0.041) & 0.0220 (0.0070) \\
+\textbf{SBT-SGPR} & \textbf{0.307 (0.022)} & \textbf{0.213 (0.077)} & \textbf{0.378 (0.032)} & \textbf{0.321 (0.018)} & \textbf{0.360 (0.036)} & \textbf{0.1577 (0.0499)} \\
+\midrule
+\multicolumn{7}{@{}l}{\textbf{RBF, \(M=256\)}} \\
+SGPR & 0.269 (0.002) & 0.141 (0.006) & 0.141 (0.006) & 0.269 (0.002) & 0.141 (0.006) & 0.0003 (0.0001) \\
+T-SGPR & 0.235 (0.003) & -0.027 (0.009) & 0.049 (0.007) & 0.238 (0.003) & 0.052 (0.007) & 0.0058 (0.0003) \\
+RBT-SGPR & 0.218 (0.003) & -0.110 (0.011) & 0.022 (0.007) & 0.223 (0.003) & 0.019 (0.007) & 0.0314 (0.0006) \\
+\textbf{SBT-SGPR} & \textbf{0.196 (0.002)} & \textbf{-0.216 (0.011)} & \textbf{0.034 (0.007)} & \textbf{0.210 (0.002)} & \textbf{0.015 (0.006)} & \textbf{0.2212 (0.0051)} \\
+\midrule
+\multicolumn{7}{@{}l}{\textbf{RBF, \(M=512\)}} \\
+SGPR & 0.229 (0.002) & -0.041 (0.007) & -0.041 (0.007) & 0.229 (0.002) & -0.041 (0.007) & 0.0002 (0.0000) \\
+T-SGPR & 0.205 (0.002) & -0.175 (0.010) & -0.122 (0.007) & 0.207 (0.002) & -0.119 (0.007) & 0.0095 (0.0001) \\
+RBT-SGPR & 0.197 (0.002) & -0.219 (0.011) & -0.144 (0.007) & 0.200 (0.002) & -0.142 (0.007) & 0.0210 (0.0006) \\
+\textbf{SBT-SGPR} & \textbf{0.185 (0.002)} & \textbf{-0.280 (0.011)} & \textbf{-0.158 (0.007)} & \textbf{0.190 (0.002)} & \textbf{-0.164 (0.007)} & \textbf{0.1193 (0.0035)} \\
+\bottomrule
+\end{tabular}
+\end{table*}

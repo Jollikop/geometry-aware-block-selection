@@ -1,0 +1,32 @@
+numpy==1.26.4
+scipy==1.13.1
+matplotlib==3.9.4
+pandas==2.3.3
+scikit-learn==1.6.1
+jax[cuda12]==0.4.30; platform_system == "Linux"
+# The cuda12 extra leaves the NVIDIA wheels unpinned, so pip resolves the
+# newest ptxas available at install time. Pinned to the CUDA version of the
+# cluster driver: a newer ptxas disables parallel compilation in XLA and
+# changes the generated device code without any version check noticing.
+nvidia-cuda-nvcc-cu12==12.8.93; platform_system == "Linux"
+jax==0.4.30; platform_system != "Linux"
+jaxlib==0.4.30; platform_system != "Linux"
+optax==0.2.4
+tensorflow==2.16.2
+tf-keras==2.16.0
+tensorflow-probability==0.24.0
+gpflow==2.10.1
+check-shapes==1.1.1
+pymetis==2023.1.1
+# Not on PyPI: a pinned commit of the GitHub package, which is how the release
+# environment actually has it. Written as a direct reference so this file is
+# installable as-is -- the bare "uci-datasets==1.1.0" pin never resolved.
+#
+# It ships ~313 MB of data and is imported lazily, in one branch of
+# common.datasets.load_raw that only runs when a verified cache is missing. A
+# machine that already has dataset/<key>.npz and its provenance sidecar never
+# needs it, which is why the Snelson release profile does not list it. Install
+# it where caches are built; skip it with
+#   grep -v '^uci-datasets' requirements.txt > req.txt
+# on a laptop that only reads finished runs.
+uci-datasets @ git+https://github.com/treforevans/uci_datasets.git@f0737523712fe66a1640e4b980b927e8490b58eb

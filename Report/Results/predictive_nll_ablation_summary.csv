@@ -1,0 +1,4 @@
+variant,label,n_seeds,mean_nll,error_mode,half_width
+nll_approx,No cross term,10,0.5097893057256382,sem,0.007775151998457365
+nll_local_cross,Training-block local cross,10,0.4832767998139822,sem,0.008832097030575092
+nll_full_cross,Dense Eq. (12),10,0.462346454685118,sem,0.010218202256629486

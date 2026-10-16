@@ -1,0 +1,97 @@
+{
+  "artifacts": {
+    "snelson_sgpr_t_bt_sbt.pdf": "sha256:94429c58a2462aa99ab768fb58cbb09a216c82c64bd99bfe1b353b51a8caafdd",
+    "snelson_summary_sgpr_t_bt_sbt.csv": "sha256:8d033bbce0f889aa924850892bd93879463c6bc51ce9f3fdc3320450c9879c13",
+    "snelson_table_sgpr_t_bt_sbt.tex": "sha256:331ae31f3435f4e52bd9e6ab25e81d86f9e26cbb55e4f6537f9a3e8d3585a1d5"
+  },
+  "code": {
+    "commit": "b85768b15bf55e37173baa1a14119bfe05027df6",
+    "dirty_entries": [],
+    "source_dirty": false,
+    "source_paths": [
+      "Simulations"
+    ]
+  },
+  "data_signature": "sha256:5bab4bbce15e916b126cf0fc5011714c35ef731d05873c43104774d58931c253",
+  "data_source": "repository:snelson.csv",
+  "final_negative_bound_per_datum": {
+    "BT-SGPR": 0.48213875961112235,
+    "E-SGPR": 0.30468348582689586,
+    "SBT-SGPR": 0.33763811710942465,
+    "SGPR": 0.5589146589994543,
+    "T-SGPR": 0.52531705865736,
+    "True GP": 0.27950138344680825
+  },
+  "implementation": "snelson-bound-matched-sgpr-v6",
+  "protocol": {
+    "M": 5,
+    "block_size": 20,
+    "max_iterations": 60,
+    "n_train": 200,
+    "phase_iterations": [
+      2,
+      3,
+      5,
+      20,
+      30
+    ],
+    "reported_predictor": {
+      "BT-SGPR": "full",
+      "E-SGPR": "full",
+      "Exact-GP": "exact",
+      "METIS-SGPR": "full",
+      "SBT-SGPR": "full",
+      "SGPR": "sparse",
+      "T-SGPR": "full"
+    },
+    "seed": 72
+  },
+  "runtime": {
+    "cuda_visible_devices": null,
+    "jax_devices": [
+      {
+        "id": 0,
+        "kind": "cpu",
+        "platform": "cpu"
+      }
+    ],
+    "nvidia_smi": [],
+    "packages": {
+      "check-shapes": "1.1.1",
+      "gpflow": "2.10.1",
+      "jax": "0.4.30",
+      "jaxlib": "0.4.30",
+      "matplotlib": "3.9.4",
+      "numpy": "1.26.4",
+      "optax": "0.2.4",
+      "pandas": "2.3.3",
+      "pymetis": "2023.1.1",
+      "scikit-learn": "1.6.1",
+      "scipy": "1.13.1",
+      "tensorflow": "2.16.2",
+      "tensorflow-probability": "0.24.0",
+      "tf-keras": "2.16.0"
+    },
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.12.13"
+  },
+  "schema": 1,
+  "training_fit_metrics": {
+    "BT-SGPR": {
+      "nll": 0.20278114809590406,
+      "rmse": 0.29053761546655543
+    },
+    "SBT-SGPR": {
+      "nll": 0.15079652783893505,
+      "rmse": 0.27981073919678284
+    },
+    "SGPR": {
+      "nll": 0.27947377352130426,
+      "rmse": 0.29686762222718127
+    },
+    "T-SGPR": {
+      "nll": 0.22050425389264597,
+      "rmse": 0.2930015241580365
+    }
+  }
+}

@@ -1,0 +1,20 @@
+% Prediction-only hard-block certificate; frozen fits and search times unchanged.
+\begin{table}[!ht]
+\caption{RBF--Kin40k: \(M=512\), \(N=5000\), 2000 test points and \(b=500\). Test RMSE/NLL use the one-block predictive residual of Eq.~\eqref{eq:hard-block-correction}; mean (SE in parentheses) over ten seeds. Search is the original partition-build time in ms. Bold: best non-dense method; \(^\dagger\)dense reference.}
+\label{tab:kin40k-sgpr}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Method & RMSE & NLL & Search (ms) \\
+\midrule
+SGPR & $0.229(2)$ & $-0.041(7)$ & --- \\
+T-SGPR & $0.205(2)$ & $-0.146(7)$ & --- \\
+(R)BT-SGPR & $0.197(2)$ & $-0.179(7)$ & --- \\
+(S)BT-SGPR & \textbf{$0.185(2)$} & \textbf{$-0.240(7)$} & 6.07 \\
+\midrule
+(METIS)BT-SGPR$^\dagger$ & $0.179(2)$ & $-0.296(6)$ & 1034.92 \\
+Exact GP$^\dagger$ & $0.151(2)$ & $-0.618(14)$ & --- \\
+\bottomrule
+\end{tabular}
+\end{table}

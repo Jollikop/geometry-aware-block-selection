@@ -1,0 +1,1622 @@
+{
+  "complete": true,
+  "count": 320,
+  "expected": 320,
+  "experiment": "E2",
+  "implementation": "partition-controls-certificate-v1",
+  "max_jitter": 0.0,
+  "min_raw_residual_variance": 1.5907727112411295e-05,
+  "missing": [],
+  "plan_sha256": "sha256:48527875c388884face560e530b3bf3543602fb2d6c0bfed68981bae1dac8cd1",
+  "predictions": {
+    "svgp/amplitude-rbf/kin40k/M128/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:ab32c4be9dd32495bdd06e7b481afb0c006a2095803282f5f33564afb42add90",
+      "seed_pred": 10007,
+      "sha256": "sha256:1653adbd0a75e882cb9a8a3d99b819745488d68f5ccfce41b21a4a261d7871d4"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:a288cc9933f370c7a433e8f30e566f514c85bbf718eb806fe0f30d1a9ac3e414",
+      "seed_pred": 10008,
+      "sha256": "sha256:19f9418e583ed942efb132b7bb78b1687e34767c32a9d9eeae896627beff14e5"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:42bfd2e16349d91e55b31c28955135fa3d5d47c5b7eeca89741e85be159f47d8",
+      "seed_pred": 10009,
+      "sha256": "sha256:d6d417e8fdd3508eff9ac292e64521c17c9d927051bd359e2d51f2b2d905d3c2"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:db573401f1da5399a5975a6a91a8ab6d4c1af30c83956e976632e444f35e4f7a",
+      "seed_pred": 10010,
+      "sha256": "sha256:ccb0fe3629455a1ff3c70b74413d5bf0470ac4fa4316bbb27af5200bc0a31323"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:4685a22f7c6e4ef064dc03aae4cd0c95e0325ce3895eef92ad57f88f0efa31f0",
+      "seed_pred": 10011,
+      "sha256": "sha256:9636ff3c2419937ac78b08a20cf6865419e3fee19dcc6ca3f51b1996778add4b"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:c5f238c068861d633f493f11a7c0fe9c59cb6fbf012709152c8c4612c4640b8e",
+      "seed_pred": 10012,
+      "sha256": "sha256:2a8684671363468e8b5fa68443873284db7dc7583f975bcfa6c938b9e6849080"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:177b797b42545a667cc005a8767db8b99f636716d404523874fbbe4bd1fbdf04",
+      "seed_pred": 10013,
+      "sha256": "sha256:ef648aeec732792d5f8bd386de0169f47bbe4f488ad40f4ecce4334e57edac05"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:60514a06aa86a8ef6ebd4eeae7428374c11f97b7788b23f056ca89879a47065f",
+      "seed_pred": 10014,
+      "sha256": "sha256:a1c8b4b9506aea9df96023089e7efe8d67aa6249fa23bb5a19912348da60d077"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:f8d70351a88db4281304da4898deb6c914e1074ca5c1a5aa53be47d49d429f04",
+      "seed_pred": 10015,
+      "sha256": "sha256:22d67520bfd34403d6f2b5c40787c9818b70947f98536e6e812e2170ae8fdde6"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:7ae9781301daedbad5a14ea43dcef2704cb88dec5a56d672cff24e9757449bcc",
+      "seed_pred": 10016,
+      "sha256": "sha256:330bf663fbecb4ffff69eb1a65b4b40a00b983f69b05753d806abfb41694398f"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:ab32c4be9dd32495bdd06e7b481afb0c006a2095803282f5f33564afb42add90",
+      "seed_pred": 10007,
+      "sha256": "sha256:0fc2dad156a420e107999ffe9a8e7dd7580a010d5392d91998f78d866fcd01cb"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:a288cc9933f370c7a433e8f30e566f514c85bbf718eb806fe0f30d1a9ac3e414",
+      "seed_pred": 10008,
+      "sha256": "sha256:54863a6ca94a7ef2d7b71df052d84a409d5bd7d3ce62144fc8f4a6b7d867eb6d"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:42bfd2e16349d91e55b31c28955135fa3d5d47c5b7eeca89741e85be159f47d8",
+      "seed_pred": 10009,
+      "sha256": "sha256:fe069c73c28c4b7e30fe8e6ec23458a3a640d1d2d52c911829191f80acde24c1"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:db573401f1da5399a5975a6a91a8ab6d4c1af30c83956e976632e444f35e4f7a",
+      "seed_pred": 10010,
+      "sha256": "sha256:230bdb3ded12652ebac836d01a4739f3dc86a62cf164140043529cd2225e32df"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:4685a22f7c6e4ef064dc03aae4cd0c95e0325ce3895eef92ad57f88f0efa31f0",
+      "seed_pred": 10011,
+      "sha256": "sha256:0b4f443c753e5ba3e0b94bbd49a077834fc28e231b37588246b79a27717bf49e"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:c5f238c068861d633f493f11a7c0fe9c59cb6fbf012709152c8c4612c4640b8e",
+      "seed_pred": 10012,
+      "sha256": "sha256:c069f2d784c8e1dd4ccfd57f711ab94082a4898a13c02364bb3bfec5f87d7001"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:177b797b42545a667cc005a8767db8b99f636716d404523874fbbe4bd1fbdf04",
+      "seed_pred": 10013,
+      "sha256": "sha256:305249aa387486fa070e692cb86705d3457fe721a7e389a935a8088a2084e180"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:60514a06aa86a8ef6ebd4eeae7428374c11f97b7788b23f056ca89879a47065f",
+      "seed_pred": 10014,
+      "sha256": "sha256:ed551e996fe53b9be9c86031268f43d830582b87ded0c4ace55f9654bc008f83"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:f8d70351a88db4281304da4898deb6c914e1074ca5c1a5aa53be47d49d429f04",
+      "seed_pred": 10015,
+      "sha256": "sha256:3e9aad60bad7dc7c7a5f3b84dfdff6e0ac899f41fa97992fc151578050e62d22"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:7ae9781301daedbad5a14ea43dcef2704cb88dec5a56d672cff24e9757449bcc",
+      "seed_pred": 10016,
+      "sha256": "sha256:57aa7226b2a0e379ce3c48ece17392953504f4da3efe7e9b9138e9c3e33b9854"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:ab32c4be9dd32495bdd06e7b481afb0c006a2095803282f5f33564afb42add90",
+      "seed_pred": 10007,
+      "sha256": "sha256:356ae207c65727ea702ee19686cf35fca9e329a127191e13e4bbc1f6350bdc13"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:a288cc9933f370c7a433e8f30e566f514c85bbf718eb806fe0f30d1a9ac3e414",
+      "seed_pred": 10008,
+      "sha256": "sha256:8db59f179dca812a766f29a4c4fdd1f924ff590af909ffbbfaf3ec6933059a2a"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:42bfd2e16349d91e55b31c28955135fa3d5d47c5b7eeca89741e85be159f47d8",
+      "seed_pred": 10009,
+      "sha256": "sha256:d1afbfde1af8a7212de3ca6e3052654062948a510fb96cf850da23d4d0a7f99a"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:db573401f1da5399a5975a6a91a8ab6d4c1af30c83956e976632e444f35e4f7a",
+      "seed_pred": 10010,
+      "sha256": "sha256:6e9f82633970aece26ba9d81829ba2562ba8adfbb5359a4feb68315862663707"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:4685a22f7c6e4ef064dc03aae4cd0c95e0325ce3895eef92ad57f88f0efa31f0",
+      "seed_pred": 10011,
+      "sha256": "sha256:874cfacf4fe18f038e8b3831d146fb13ee27d6c15c049791a3c7c29be815dd8d"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:c5f238c068861d633f493f11a7c0fe9c59cb6fbf012709152c8c4612c4640b8e",
+      "seed_pred": 10012,
+      "sha256": "sha256:5bfa7fc3237513797592ef23562a98d4d62699d9dbd4a5676335a9c9db449efa"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:177b797b42545a667cc005a8767db8b99f636716d404523874fbbe4bd1fbdf04",
+      "seed_pred": 10013,
+      "sha256": "sha256:09059bbecf431b509646547996ab896d148a81d26c882b85151f48be277c9820"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:60514a06aa86a8ef6ebd4eeae7428374c11f97b7788b23f056ca89879a47065f",
+      "seed_pred": 10014,
+      "sha256": "sha256:f0ecee72d659fe00affa5a25e4594e7db56a2a5be344413a39e9e105254d7aa6"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:f8d70351a88db4281304da4898deb6c914e1074ca5c1a5aa53be47d49d429f04",
+      "seed_pred": 10015,
+      "sha256": "sha256:a81d6655ba32b0df100f5bca66fa6fc378ab4b0dbb2bc2580a48a345835bd8e3"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:7ae9781301daedbad5a14ea43dcef2704cb88dec5a56d672cff24e9757449bcc",
+      "seed_pred": 10016,
+      "sha256": "sha256:9c409e8f861cfb4084ac6e5666e992dd6ffcc97a3e59733721149d197b5168d1"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:ab32c4be9dd32495bdd06e7b481afb0c006a2095803282f5f33564afb42add90",
+      "seed_pred": 10007,
+      "sha256": "sha256:7bd05539f9f6930bdea79eb49342242faceae81209dd732d851e046b11553454"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:a288cc9933f370c7a433e8f30e566f514c85bbf718eb806fe0f30d1a9ac3e414",
+      "seed_pred": 10008,
+      "sha256": "sha256:0d42810d2bd436a2fa9e9be2814580d1779a7852b19f26348db0497d0663d117"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:42bfd2e16349d91e55b31c28955135fa3d5d47c5b7eeca89741e85be159f47d8",
+      "seed_pred": 10009,
+      "sha256": "sha256:6224974e6425df3979126440eeb4848af41237c15736ea87da02fe6a35279256"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:db573401f1da5399a5975a6a91a8ab6d4c1af30c83956e976632e444f35e4f7a",
+      "seed_pred": 10010,
+      "sha256": "sha256:f4e31c6f851ceec24ad93321099ac258f314f81aeea9c719a9544209b3d2d446"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:4685a22f7c6e4ef064dc03aae4cd0c95e0325ce3895eef92ad57f88f0efa31f0",
+      "seed_pred": 10011,
+      "sha256": "sha256:5ec4d45fce8674f358edf3c747b161e94dd32a9aaff902e9a835855204bd0495"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:c5f238c068861d633f493f11a7c0fe9c59cb6fbf012709152c8c4612c4640b8e",
+      "seed_pred": 10012,
+      "sha256": "sha256:05e83d6b3da46a4478448f4d60434a670901d61e099dd244f0169e90a401833e"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:177b797b42545a667cc005a8767db8b99f636716d404523874fbbe4bd1fbdf04",
+      "seed_pred": 10013,
+      "sha256": "sha256:6a95ccb26f92b79a1788dad940842d16ced06901f161b13a7f184e703ece547b"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:60514a06aa86a8ef6ebd4eeae7428374c11f97b7788b23f056ca89879a47065f",
+      "seed_pred": 10014,
+      "sha256": "sha256:c7fbf4856102b9a73d432f4121171b25bf4c35816c4660966e7aa9abbddb527e"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:f8d70351a88db4281304da4898deb6c914e1074ca5c1a5aa53be47d49d429f04",
+      "seed_pred": 10015,
+      "sha256": "sha256:f8739d184b51614a06e3b5ae65c4dc47343efbd3e9ff5fd7973ee33eca5748b5"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:7ae9781301daedbad5a14ea43dcef2704cb88dec5a56d672cff24e9757449bcc",
+      "seed_pred": 10016,
+      "sha256": "sha256:c24d03fe04a7949bbbe25e58a89e550a7e9b396f51a31c4014d808163610febb"
+    },
+    "svgp/amplitude-rbf/pol/M128/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8b502f25d59ea8a9b491707047db6af7ce45a0eebb4e637c5e3c0ba305c995b3",
+      "seed_pred": 10007,
+      "sha256": "sha256:4fac0ea0c1fe1fb6bb52190454bbabb71541c0ab87e4ceb90594f5c463a01b24"
+    },
+    "svgp/amplitude-rbf/pol/M128/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:006dc0cff21ed881870676e434fbc7ffc467d909da8bc4ade074dfdeb31cbf1c",
+      "seed_pred": 10008,
+      "sha256": "sha256:4d22be85c4da7437db7dd1208b5c3d09d01436f3bad7bf08cd00d95be3fc9f94"
+    },
+    "svgp/amplitude-rbf/pol/M128/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:1c7b4092c7f96c12d3a682be55a2ab85114330c1b6c46ca6b010b1c638464e62",
+      "seed_pred": 10009,
+      "sha256": "sha256:f02669b1bcfa81102a95577c8441f4814f1aa3369990bce349363afbb167534a"
+    },
+    "svgp/amplitude-rbf/pol/M128/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:59efb0d984ef93911400b2817457554c7db80f90045da37d427a692791e3fa90",
+      "seed_pred": 10010,
+      "sha256": "sha256:95cb625102e088934a42f8fbabf661b17a856383279a3e6b0744774f2c44a447"
+    },
+    "svgp/amplitude-rbf/pol/M128/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:af98561efcf6136af2ab2b3ff4fdfe090bd4a5568e4d80f6f04789791d4e5742",
+      "seed_pred": 10011,
+      "sha256": "sha256:f0f1649ae87a3da4b8b5f7ef41143f60b052f5b6b3008e0acfcff6a8068dfdc2"
+    },
+    "svgp/amplitude-rbf/pol/M128/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:73b52fd9b8bb2abe54aedba2dc79251629cbce21271b6ed11da2b099e36478ec",
+      "seed_pred": 10012,
+      "sha256": "sha256:133679b3a9b0d6a775650d753280deb08f7a45311f6e490d51a0359289fb09d7"
+    },
+    "svgp/amplitude-rbf/pol/M128/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:897adb9f78140f73cab5481b1a36cf5d0460939a462a051748d64ca6d058e53b",
+      "seed_pred": 10013,
+      "sha256": "sha256:d092a825b731c9b5cf185d67fae082eb4b5abe061b5e9a9a84ee7f0f97d8dae0"
+    },
+    "svgp/amplitude-rbf/pol/M128/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:0a4dd998666f9ccf36ca10770c21812a1bfa75a5b8b4866741befad070034b32",
+      "seed_pred": 10014,
+      "sha256": "sha256:2ea3bc2fe9344e0fe245b312f337c790eba24ea0adb874a901840b2b068b655e"
+    },
+    "svgp/amplitude-rbf/pol/M128/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:649339d1525ba5ece2a2f83a4b47259bdb6ff4a663c1140887a170fa677464ce",
+      "seed_pred": 10015,
+      "sha256": "sha256:674e8521207221bafe8e876bdc6209f252ecab9256842f6f50c19dae7b0ed327"
+    },
+    "svgp/amplitude-rbf/pol/M128/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:9c97d610bd4cc93e5d16325a031dc08cb661c7762b2b8b0b59bcb0fc1ee71341",
+      "seed_pred": 10016,
+      "sha256": "sha256:55199e1696b048196655f94752c77775620da9fc23402c822546be268a3cf01e"
+    },
+    "svgp/amplitude-rbf/pol/M256/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8b502f25d59ea8a9b491707047db6af7ce45a0eebb4e637c5e3c0ba305c995b3",
+      "seed_pred": 10007,
+      "sha256": "sha256:feea6b59b007d66e150c700f3944053742f5614f47ad27f16e50802a5c1c6dfa"
+    },
+    "svgp/amplitude-rbf/pol/M256/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:006dc0cff21ed881870676e434fbc7ffc467d909da8bc4ade074dfdeb31cbf1c",
+      "seed_pred": 10008,
+      "sha256": "sha256:7b2ced720d60a18d5523614777e20083ef6c52d0d99a0cb6ace07c652bbe4e98"
+    },
+    "svgp/amplitude-rbf/pol/M256/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:1c7b4092c7f96c12d3a682be55a2ab85114330c1b6c46ca6b010b1c638464e62",
+      "seed_pred": 10009,
+      "sha256": "sha256:f401defe3acb7b3192fb7a8de6d8b51c213ea2f727236d2857729205fdeb6426"
+    },
+    "svgp/amplitude-rbf/pol/M256/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:59efb0d984ef93911400b2817457554c7db80f90045da37d427a692791e3fa90",
+      "seed_pred": 10010,
+      "sha256": "sha256:a8edf95f62da2e7b0c0ceb77dae01872c45eab66d5fc656adce238a03f81b4ca"
+    },
+    "svgp/amplitude-rbf/pol/M256/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:af98561efcf6136af2ab2b3ff4fdfe090bd4a5568e4d80f6f04789791d4e5742",
+      "seed_pred": 10011,
+      "sha256": "sha256:11b34811ecd720f17186782838fbfbf852a9d5264b55de5e656962f492ddebc2"
+    },
+    "svgp/amplitude-rbf/pol/M256/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:73b52fd9b8bb2abe54aedba2dc79251629cbce21271b6ed11da2b099e36478ec",
+      "seed_pred": 10012,
+      "sha256": "sha256:21d496d23e997f2cef441e66b1dc32a78ed22bb754d71b96f190407635f0e0d7"
+    },
+    "svgp/amplitude-rbf/pol/M256/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:897adb9f78140f73cab5481b1a36cf5d0460939a462a051748d64ca6d058e53b",
+      "seed_pred": 10013,
+      "sha256": "sha256:ed68a8bc1ef5aa99fb95bbec513c14ff996fb9f1997121cdeb7cf0f95513fd51"
+    },
+    "svgp/amplitude-rbf/pol/M256/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:0a4dd998666f9ccf36ca10770c21812a1bfa75a5b8b4866741befad070034b32",
+      "seed_pred": 10014,
+      "sha256": "sha256:e04e4c6af3d2997ac4f6fae59ac11cf279f303ed0947418cfc5d56af754b12b6"
+    },
+    "svgp/amplitude-rbf/pol/M256/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:649339d1525ba5ece2a2f83a4b47259bdb6ff4a663c1140887a170fa677464ce",
+      "seed_pred": 10015,
+      "sha256": "sha256:46111b18ad894fccdb62fbb76f86d51a42b465a770b5dc653ce9085e619c0035"
+    },
+    "svgp/amplitude-rbf/pol/M256/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:9c97d610bd4cc93e5d16325a031dc08cb661c7762b2b8b0b59bcb0fc1ee71341",
+      "seed_pred": 10016,
+      "sha256": "sha256:042ace0208a7d058cc4624943159522bed9e9c98a73ad541c0811244ce10f9f0"
+    },
+    "svgp/amplitude-rbf/pol/M512/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8b502f25d59ea8a9b491707047db6af7ce45a0eebb4e637c5e3c0ba305c995b3",
+      "seed_pred": 10007,
+      "sha256": "sha256:bb23b08ce00ec2316a29db617832b32fda5ad4393596c37283e92ed807b5f30e"
+    },
+    "svgp/amplitude-rbf/pol/M512/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:006dc0cff21ed881870676e434fbc7ffc467d909da8bc4ade074dfdeb31cbf1c",
+      "seed_pred": 10008,
+      "sha256": "sha256:8a40d687406d035099e456836d91632ddacb5fd3b2c89e39b53bd23183c2217a"
+    },
+    "svgp/amplitude-rbf/pol/M512/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:1c7b4092c7f96c12d3a682be55a2ab85114330c1b6c46ca6b010b1c638464e62",
+      "seed_pred": 10009,
+      "sha256": "sha256:01c5b555d0007dd038da5e8c6551d169cf83e6938af876187c53b0cb5620999d"
+    },
+    "svgp/amplitude-rbf/pol/M512/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:59efb0d984ef93911400b2817457554c7db80f90045da37d427a692791e3fa90",
+      "seed_pred": 10010,
+      "sha256": "sha256:09a7e65c270c6930ef93ae7897cad5129f50c7052536d87d09377d1a0e7ba363"
+    },
+    "svgp/amplitude-rbf/pol/M512/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:af98561efcf6136af2ab2b3ff4fdfe090bd4a5568e4d80f6f04789791d4e5742",
+      "seed_pred": 10011,
+      "sha256": "sha256:77df7fbe3604d718ff8d893be5d7b8fe27d7fe24f04a5809d24cfe6e40d4416f"
+    },
+    "svgp/amplitude-rbf/pol/M512/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:73b52fd9b8bb2abe54aedba2dc79251629cbce21271b6ed11da2b099e36478ec",
+      "seed_pred": 10012,
+      "sha256": "sha256:ebae1e1d5226b1794ceb5e7be8b8c5002f3d413b98fbb205ac3951a2eb4188e5"
+    },
+    "svgp/amplitude-rbf/pol/M512/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:897adb9f78140f73cab5481b1a36cf5d0460939a462a051748d64ca6d058e53b",
+      "seed_pred": 10013,
+      "sha256": "sha256:31ec5297c80a92fdad14f4adad862405059736a48ab7dcc8ebcc4b0b228f25d4"
+    },
+    "svgp/amplitude-rbf/pol/M512/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:0a4dd998666f9ccf36ca10770c21812a1bfa75a5b8b4866741befad070034b32",
+      "seed_pred": 10014,
+      "sha256": "sha256:fd092d8267938a46e682cf169a878cd6e27dd677afa3cd65525da80c93f4d2aa"
+    },
+    "svgp/amplitude-rbf/pol/M512/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:649339d1525ba5ece2a2f83a4b47259bdb6ff4a663c1140887a170fa677464ce",
+      "seed_pred": 10015,
+      "sha256": "sha256:6c0cc2e341359468c36719648e8c7934392965c22384171ef06805a30c72810e"
+    },
+    "svgp/amplitude-rbf/pol/M512/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:9c97d610bd4cc93e5d16325a031dc08cb661c7762b2b8b0b59bcb0fc1ee71341",
+      "seed_pred": 10016,
+      "sha256": "sha256:b2affc6e3c73018caa5105aa780286fe835074be92de3712b81e4a0836e79cfa"
+    },
+    "svgp/amplitude-rbf/pol/M64/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8b502f25d59ea8a9b491707047db6af7ce45a0eebb4e637c5e3c0ba305c995b3",
+      "seed_pred": 10007,
+      "sha256": "sha256:1c478c8ffb226718779e2a36d3050ce50107a1c0b14a0695a7e7299b163ca872"
+    },
+    "svgp/amplitude-rbf/pol/M64/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:006dc0cff21ed881870676e434fbc7ffc467d909da8bc4ade074dfdeb31cbf1c",
+      "seed_pred": 10008,
+      "sha256": "sha256:a644a89941e3cda64ea67602de1271607e1b683f4ef8450fd9b9997ea991d450"
+    },
+    "svgp/amplitude-rbf/pol/M64/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:1c7b4092c7f96c12d3a682be55a2ab85114330c1b6c46ca6b010b1c638464e62",
+      "seed_pred": 10009,
+      "sha256": "sha256:f82dad4d9fc63512213c188e1344afe138946413afb1decbf5363e0a116ebf6e"
+    },
+    "svgp/amplitude-rbf/pol/M64/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:59efb0d984ef93911400b2817457554c7db80f90045da37d427a692791e3fa90",
+      "seed_pred": 10010,
+      "sha256": "sha256:001cc8f099e61e8252f4a2e9c6e6b5bd12d8fbcfb689ccc50f35fc0f4a6fdf34"
+    },
+    "svgp/amplitude-rbf/pol/M64/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:af98561efcf6136af2ab2b3ff4fdfe090bd4a5568e4d80f6f04789791d4e5742",
+      "seed_pred": 10011,
+      "sha256": "sha256:ecfef9797a98d76591a8e79203770fe623d4f48b952e2e7ec1aa79daf52da65f"
+    },
+    "svgp/amplitude-rbf/pol/M64/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:73b52fd9b8bb2abe54aedba2dc79251629cbce21271b6ed11da2b099e36478ec",
+      "seed_pred": 10012,
+      "sha256": "sha256:a9c1b2e23a0a064149feacbf245249fda427117a6487568974c5ea3f1445d11d"
+    },
+    "svgp/amplitude-rbf/pol/M64/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:897adb9f78140f73cab5481b1a36cf5d0460939a462a051748d64ca6d058e53b",
+      "seed_pred": 10013,
+      "sha256": "sha256:e8d1f9d283d3af3e1e476400233ea2bbc37748459267bfa91a99b1116de893ba"
+    },
+    "svgp/amplitude-rbf/pol/M64/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:0a4dd998666f9ccf36ca10770c21812a1bfa75a5b8b4866741befad070034b32",
+      "seed_pred": 10014,
+      "sha256": "sha256:b4bbc87d2fff223869a3eac99f22cee8076a3a7582a85d0e3202c27cd6ab476a"
+    },
+    "svgp/amplitude-rbf/pol/M64/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:649339d1525ba5ece2a2f83a4b47259bdb6ff4a663c1140887a170fa677464ce",
+      "seed_pred": 10015,
+      "sha256": "sha256:2125a4c4c0e3266209498342cfa54ec1905ad1695742fe7e8b6accb9925edafd"
+    },
+    "svgp/amplitude-rbf/pol/M64/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:9c97d610bd4cc93e5d16325a031dc08cb661c7762b2b8b0b59bcb0fc1ee71341",
+      "seed_pred": 10016,
+      "sha256": "sha256:e4fc68e2d807c7f38438b6f22f88778fb0bb7efa47e9a55d8da1b85c90c2d25a"
+    },
+    "svgp/amplitude-rbf/protein/M128/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:a200f4454ed549576a25b26f61835e0ec0f7873d0d323330e3e1a5cb7cca9a2b",
+      "seed_pred": 10007,
+      "sha256": "sha256:9c219ea41a61ef4c54731bc9850ed283d20714cbf1aa819554b78505a05b14d7"
+    },
+    "svgp/amplitude-rbf/protein/M128/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:c8eceadc928fc53dcef0b4a5fe2f953964667ca3791df69a24abb34d64abc72c",
+      "seed_pred": 10008,
+      "sha256": "sha256:57e4c4ace3d6dee47ddefbbac4d98cfa3c8fe026724291ad5e498a50678bf303"
+    },
+    "svgp/amplitude-rbf/protein/M128/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:835528f2d4cdd33f881bed554a4723e02e3232228819d3eeb851a0078152300d",
+      "seed_pred": 10009,
+      "sha256": "sha256:768c3300a79a7bb730332ce522f3645e69990940b117308a42c9643253e08e99"
+    },
+    "svgp/amplitude-rbf/protein/M128/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:e46d5a8ce6fa83dd0f348a4e4399fbc52799ed0137fa1e32ce426d3fd1eff9ee",
+      "seed_pred": 10010,
+      "sha256": "sha256:254a3eefb032eecfdeb725089f3ae92a876e6f060a1a5712fe828bfb8eee6a75"
+    },
+    "svgp/amplitude-rbf/protein/M128/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:5d26a0a156f72702226b9943fab4e749ca5e0901253a1885374b1c75a5beee73",
+      "seed_pred": 10011,
+      "sha256": "sha256:82276d3c4fb5b87efce8ccd61206a72da11123f30a0948c4089c8b3369ad9434"
+    },
+    "svgp/amplitude-rbf/protein/M128/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:e5ced7f54364a50b1544b7708ee8132c121be949a60e80d76c85979263f3a5fa",
+      "seed_pred": 10012,
+      "sha256": "sha256:32accca182ea18a5fd3b6a1be68006ef1866500d5434dd69f2e55b601800d607"
+    },
+    "svgp/amplitude-rbf/protein/M128/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:1e5c692d5abeac08c0bd36b6d5be3ca970b8cf38901c96d12dadb6044384b8b1",
+      "seed_pred": 10013,
+      "sha256": "sha256:0a8d5f622dbc3f01dc721ea13b3068d38b8a97e64fc0284d96cb7048f30889ba"
+    },
+    "svgp/amplitude-rbf/protein/M128/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:3caa05a7c11d4b1ee5ca6bbc4e326daf7a0fb481d6450ec0f031390abce9f222",
+      "seed_pred": 10014,
+      "sha256": "sha256:94cc30bd13a41faa2e1bda76b6c422e85a66cfd0e34297ee21fbffb9e240167c"
+    },
+    "svgp/amplitude-rbf/protein/M128/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:92bf2749d2bf6ea0af2a7f3e0b6ebb957c7eadc7c4937c431a7be174cfe0a110",
+      "seed_pred": 10015,
+      "sha256": "sha256:1eba1902007c97eac4b3bb81e056203308ef46dd396eaa3a84118404cbfb80d1"
+    },
+    "svgp/amplitude-rbf/protein/M128/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:f35c146f40ba015ade2d2d2dc76afedcc905d50371d0c3c4034ffa7fa165cd3c",
+      "seed_pred": 10016,
+      "sha256": "sha256:e5cfe8b3f8d6523c4b828b471624d2bdbb42a7aae7b828cd181a0533af04a0d0"
+    },
+    "svgp/amplitude-rbf/protein/M256/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:a200f4454ed549576a25b26f61835e0ec0f7873d0d323330e3e1a5cb7cca9a2b",
+      "seed_pred": 10007,
+      "sha256": "sha256:a8d1f94135e88fac71c807be03e00fbb2c201ffab38775e1065fc2e7a0133b13"
+    },
+    "svgp/amplitude-rbf/protein/M256/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:c8eceadc928fc53dcef0b4a5fe2f953964667ca3791df69a24abb34d64abc72c",
+      "seed_pred": 10008,
+      "sha256": "sha256:e1eb1e9b67b4ce8f6e774df1c45d278318baed99c2e32bbd81f1c1b102cd48ea"
+    },
+    "svgp/amplitude-rbf/protein/M256/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:835528f2d4cdd33f881bed554a4723e02e3232228819d3eeb851a0078152300d",
+      "seed_pred": 10009,
+      "sha256": "sha256:a24a8cd77fa1e5dd3c475c7853e9694377b045741288356c52bb08cc086ff473"
+    },
+    "svgp/amplitude-rbf/protein/M256/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:e46d5a8ce6fa83dd0f348a4e4399fbc52799ed0137fa1e32ce426d3fd1eff9ee",
+      "seed_pred": 10010,
+      "sha256": "sha256:a37eae515238a28a883ba1402c2335b1f2662c5d84fc1b730071a384b42db2ad"
+    },
+    "svgp/amplitude-rbf/protein/M256/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:5d26a0a156f72702226b9943fab4e749ca5e0901253a1885374b1c75a5beee73",
+      "seed_pred": 10011,
+      "sha256": "sha256:f08167aa5cfc31ae493f9dc44088d04478f82a5b3a161a3bed7d1341b32a1627"
+    },
+    "svgp/amplitude-rbf/protein/M256/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:e5ced7f54364a50b1544b7708ee8132c121be949a60e80d76c85979263f3a5fa",
+      "seed_pred": 10012,
+      "sha256": "sha256:334ca6567827c50845b3a211de98e9bd7cbc835d0400decb49df724571d11b2c"
+    },
+    "svgp/amplitude-rbf/protein/M256/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:1e5c692d5abeac08c0bd36b6d5be3ca970b8cf38901c96d12dadb6044384b8b1",
+      "seed_pred": 10013,
+      "sha256": "sha256:c3b7abbbb37a7c1ee9803ef25e6a1e58398c6a8e56f9ca5cb73e89dabf49ac44"
+    },
+    "svgp/amplitude-rbf/protein/M256/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:3caa05a7c11d4b1ee5ca6bbc4e326daf7a0fb481d6450ec0f031390abce9f222",
+      "seed_pred": 10014,
+      "sha256": "sha256:3f3470efb65fe0bd48a73781c3f7af5fd7b2a9cb0d120347ecb0bfc66a8822ba"
+    },
+    "svgp/amplitude-rbf/protein/M256/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:92bf2749d2bf6ea0af2a7f3e0b6ebb957c7eadc7c4937c431a7be174cfe0a110",
+      "seed_pred": 10015,
+      "sha256": "sha256:1f82fa8f3828e18ab4ae11aacacd708fbe91bbec1656954010fb9ac8ef098ade"
+    },
+    "svgp/amplitude-rbf/protein/M256/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:f35c146f40ba015ade2d2d2dc76afedcc905d50371d0c3c4034ffa7fa165cd3c",
+      "seed_pred": 10016,
+      "sha256": "sha256:fa06e90e75687bc3d9369173eaf9057692fa04b1192ff78991fcd125a226b1c1"
+    },
+    "svgp/amplitude-rbf/protein/M512/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:a200f4454ed549576a25b26f61835e0ec0f7873d0d323330e3e1a5cb7cca9a2b",
+      "seed_pred": 10007,
+      "sha256": "sha256:ebf668ed383726a2c13a90ba33dbb9e27ef48820014893be1388b19452b22127"
+    },
+    "svgp/amplitude-rbf/protein/M512/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:c8eceadc928fc53dcef0b4a5fe2f953964667ca3791df69a24abb34d64abc72c",
+      "seed_pred": 10008,
+      "sha256": "sha256:708d293f051c2f2344d0905ac5f26526c6969634b832eb6713b848997023694e"
+    },
+    "svgp/amplitude-rbf/protein/M512/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:835528f2d4cdd33f881bed554a4723e02e3232228819d3eeb851a0078152300d",
+      "seed_pred": 10009,
+      "sha256": "sha256:dd95ca0ed28e92f29bbdafb6e60bb697c463095799821eff615022bd4f83cf2a"
+    },
+    "svgp/amplitude-rbf/protein/M512/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:e46d5a8ce6fa83dd0f348a4e4399fbc52799ed0137fa1e32ce426d3fd1eff9ee",
+      "seed_pred": 10010,
+      "sha256": "sha256:00b7f4848e5f1a2ee58783aa7eaae92a132e961c66b9ed8eb945eb01efcf6125"
+    },
+    "svgp/amplitude-rbf/protein/M512/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:5d26a0a156f72702226b9943fab4e749ca5e0901253a1885374b1c75a5beee73",
+      "seed_pred": 10011,
+      "sha256": "sha256:81ae3bebc64eb26fda2c4db0aa85721290be8b0161c2f422589c508e46127dad"
+    },
+    "svgp/amplitude-rbf/protein/M512/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:e5ced7f54364a50b1544b7708ee8132c121be949a60e80d76c85979263f3a5fa",
+      "seed_pred": 10012,
+      "sha256": "sha256:467994260aadcb2c43cd9994bd5c7025e8db0b9d6b2d75e0a183f6380132baf7"
+    },
+    "svgp/amplitude-rbf/protein/M512/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:1e5c692d5abeac08c0bd36b6d5be3ca970b8cf38901c96d12dadb6044384b8b1",
+      "seed_pred": 10013,
+      "sha256": "sha256:bf1fee2dcaaf140a0516845eaffbc79b7a46805cdd9e2087f3257fc891110c34"
+    },
+    "svgp/amplitude-rbf/protein/M512/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:3caa05a7c11d4b1ee5ca6bbc4e326daf7a0fb481d6450ec0f031390abce9f222",
+      "seed_pred": 10014,
+      "sha256": "sha256:0c23d7a24bb6e407e136cedb23b58eb917817c8bb1b4ea39f55a1715e05a4d85"
+    },
+    "svgp/amplitude-rbf/protein/M512/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:92bf2749d2bf6ea0af2a7f3e0b6ebb957c7eadc7c4937c431a7be174cfe0a110",
+      "seed_pred": 10015,
+      "sha256": "sha256:74579ddc98f1d57193be391b292ef2a490f51d81c590a490434962d0a9fc041f"
+    },
+    "svgp/amplitude-rbf/protein/M512/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:f35c146f40ba015ade2d2d2dc76afedcc905d50371d0c3c4034ffa7fa165cd3c",
+      "seed_pred": 10016,
+      "sha256": "sha256:728eaed8902b93ff2fa80e178bef30c8b30a13853cd2cd8f8bd47c42ce22652a"
+    },
+    "svgp/amplitude-rbf/protein/M64/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:a200f4454ed549576a25b26f61835e0ec0f7873d0d323330e3e1a5cb7cca9a2b",
+      "seed_pred": 10007,
+      "sha256": "sha256:84c7aeb1ed663c3ccef8af27a81af0196c526972d5d4cedf8307707ef72f73db"
+    },
+    "svgp/amplitude-rbf/protein/M64/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:c8eceadc928fc53dcef0b4a5fe2f953964667ca3791df69a24abb34d64abc72c",
+      "seed_pred": 10008,
+      "sha256": "sha256:51def4d78d5262e0ff9e392d99aa7847a0d7fa706a3ec7bf133f6277a58d9c5d"
+    },
+    "svgp/amplitude-rbf/protein/M64/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:835528f2d4cdd33f881bed554a4723e02e3232228819d3eeb851a0078152300d",
+      "seed_pred": 10009,
+      "sha256": "sha256:56208a1020e5dad12865eec0cf66fc752927b0602e8899ca06eb984f376a35f2"
+    },
+    "svgp/amplitude-rbf/protein/M64/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:e46d5a8ce6fa83dd0f348a4e4399fbc52799ed0137fa1e32ce426d3fd1eff9ee",
+      "seed_pred": 10010,
+      "sha256": "sha256:296debb2146feef777ff7492f87678a55d614544a7dd0cfeef71d9ac479af44e"
+    },
+    "svgp/amplitude-rbf/protein/M64/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:5d26a0a156f72702226b9943fab4e749ca5e0901253a1885374b1c75a5beee73",
+      "seed_pred": 10011,
+      "sha256": "sha256:d4eea17c4e4c93a00372a99a6fa4e8a907d3b28dde07307f0fcbbb394b6d44b2"
+    },
+    "svgp/amplitude-rbf/protein/M64/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:e5ced7f54364a50b1544b7708ee8132c121be949a60e80d76c85979263f3a5fa",
+      "seed_pred": 10012,
+      "sha256": "sha256:f1ab71345da9b2ddd91566b52217270759e60a7a6de0dc43f8e46e119039ae64"
+    },
+    "svgp/amplitude-rbf/protein/M64/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:1e5c692d5abeac08c0bd36b6d5be3ca970b8cf38901c96d12dadb6044384b8b1",
+      "seed_pred": 10013,
+      "sha256": "sha256:51d93231386aaaa764067de4ca233e82dd8475268f75717592a57c7c5ae880a8"
+    },
+    "svgp/amplitude-rbf/protein/M64/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:3caa05a7c11d4b1ee5ca6bbc4e326daf7a0fb481d6450ec0f031390abce9f222",
+      "seed_pred": 10014,
+      "sha256": "sha256:6747f54a23919e8ed1697b2391231218ee1830351de0b48dd24e9306c10ecac3"
+    },
+    "svgp/amplitude-rbf/protein/M64/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:92bf2749d2bf6ea0af2a7f3e0b6ebb957c7eadc7c4937c431a7be174cfe0a110",
+      "seed_pred": 10015,
+      "sha256": "sha256:efd3cf23fc5c2c8413430adeecf4560922f2a0f020a1f5e0387426f1f2d91591"
+    },
+    "svgp/amplitude-rbf/protein/M64/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:f35c146f40ba015ade2d2d2dc76afedcc905d50371d0c3c4034ffa7fa165cd3c",
+      "seed_pred": 10016,
+      "sha256": "sha256:7075703a6e4f89dca7ce92412bfb9fcb491820f4edc3bf663c5cad9790039014"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:c4c5bcd3b90e090dca68641c487b03a086cfed53ff3a812e78e26f651bccef0b",
+      "seed_pred": 10007,
+      "sha256": "sha256:8b563864c6b27974df2041c14fece832bbe9da0942d0f40856adc7728e066aec"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:79d1260898dd2e00f013c8aac20c3ec894adaa6d11ea5599a4ce987eba61d07a",
+      "seed_pred": 10008,
+      "sha256": "sha256:b8a42743ff9511fd50ecc6ee03f76e857bc939523bedd0350530b2d636007b15"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:39160eefa850cfb1ec6cfd95ebfc29079ebd89265b972ad14890392326a40bbe",
+      "seed_pred": 10009,
+      "sha256": "sha256:a09adcdbe255becc8fdea84db147a5c754be65d1a357c85e7d5ffdd03e212cb6"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:5e5ca64841145b8d0ebf7f751b8c627e4f5c56f97dd701e16c09ad881bc7e81f",
+      "seed_pred": 10010,
+      "sha256": "sha256:aaf4f13bcae3d489c770957fa3939676e7cb09c01dcfb31409d885f8bf9f9078"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:01554bc57be6ea4746b6df492f9e4371c677ec342b63ec9e3f5d6653a0bb0ef8",
+      "seed_pred": 10011,
+      "sha256": "sha256:9cdec0f0b98ea981ff2a0fe94796c6138bab8e8b4ffba391d729196e9abaf92c"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:5c28e850f252b7877b576b1b7c9320ad6973d7826af07742b5f52fbfe9b8333d",
+      "seed_pred": 10012,
+      "sha256": "sha256:afc0f25392c2a0b7371ef17514371137337fafe8be00513b60e3ee87d774a648"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:901c122954907c27d0138b096faee702cee1ea30624b4da371438d1fc863117c",
+      "seed_pred": 10013,
+      "sha256": "sha256:62b121a5d97b2a03965375fdba1c76e8b7afde25e5c06cb8290bc3ffe3f35ae4"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:494c6ad8cda33b849219bd9ed6f6f9d1290d14b2089ec234efa9f0079af7e741",
+      "seed_pred": 10014,
+      "sha256": "sha256:347bd7c8c383ccd780e19fe840eed39d17447512513f895b2c84d1936a802bb5"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:29d4a4aafbf17fd4bf848fa8314a07a2a64a17cd2edadd918e472b6f69893b4a",
+      "seed_pred": 10015,
+      "sha256": "sha256:6da0d072c7e36d1641d5b6eaae2a3fc5561bfd4d5dead14614a48817927ee638"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:81d01fcd295acec162c0da77bdf9e4f78db92c8ebac98e67f6f98f20022e4896",
+      "seed_pred": 10016,
+      "sha256": "sha256:dfb7c220b814ee116e5ef674e99215fa311fee7f9cddfacb01bfefce5988f1a4"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:c4c5bcd3b90e090dca68641c487b03a086cfed53ff3a812e78e26f651bccef0b",
+      "seed_pred": 10007,
+      "sha256": "sha256:0fabb6230859cfdcdb57f64b04f35c9a8678a66789a205e34bc6a442ecea0706"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:79d1260898dd2e00f013c8aac20c3ec894adaa6d11ea5599a4ce987eba61d07a",
+      "seed_pred": 10008,
+      "sha256": "sha256:8795d9322189510cce05df7c33e97a19d5e2aa05c9638a329a57916d2abd0882"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:39160eefa850cfb1ec6cfd95ebfc29079ebd89265b972ad14890392326a40bbe",
+      "seed_pred": 10009,
+      "sha256": "sha256:676006db7977a526f418f40c93bfe12f42c5e109b34fe891edc78cd6af67c6d0"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:5e5ca64841145b8d0ebf7f751b8c627e4f5c56f97dd701e16c09ad881bc7e81f",
+      "seed_pred": 10010,
+      "sha256": "sha256:94da2544c7b6f37abb39f878bce2fe348f48eb4139d08b36c440754a0234d0a1"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:01554bc57be6ea4746b6df492f9e4371c677ec342b63ec9e3f5d6653a0bb0ef8",
+      "seed_pred": 10011,
+      "sha256": "sha256:a4dbd74312f5cc942f0facfa7baaa7cc7bac1253ed0d929007af9adda0fe323e"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:5c28e850f252b7877b576b1b7c9320ad6973d7826af07742b5f52fbfe9b8333d",
+      "seed_pred": 10012,
+      "sha256": "sha256:425226a8cb7a7315a5de31c884944889e7c3cf9a170ca9b9390c1cd8c589b2f4"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:901c122954907c27d0138b096faee702cee1ea30624b4da371438d1fc863117c",
+      "seed_pred": 10013,
+      "sha256": "sha256:5ae68b28dafd836d5470a8fa0ee52843fea469630cc644ffae7de417a54d27b3"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:494c6ad8cda33b849219bd9ed6f6f9d1290d14b2089ec234efa9f0079af7e741",
+      "seed_pred": 10014,
+      "sha256": "sha256:c216b89150cf2b35bc82fe6f5f72a11eb3c0ca620b124ae474470fc5346d1e17"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:29d4a4aafbf17fd4bf848fa8314a07a2a64a17cd2edadd918e472b6f69893b4a",
+      "seed_pred": 10015,
+      "sha256": "sha256:87b00e4986ce123580c07f09f866a41c7c7fee40bd06957351a29ee8f085c5ca"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:81d01fcd295acec162c0da77bdf9e4f78db92c8ebac98e67f6f98f20022e4896",
+      "seed_pred": 10016,
+      "sha256": "sha256:ca94364156d6e41c288127eff1a7c5f5d8b15ee38258a3f89e1ac7427954ed9a"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:c4c5bcd3b90e090dca68641c487b03a086cfed53ff3a812e78e26f651bccef0b",
+      "seed_pred": 10007,
+      "sha256": "sha256:6d4af9916162d1134dcda634addf7b9cda65ad722a3dfd1cb3a6734439b1abbb"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:79d1260898dd2e00f013c8aac20c3ec894adaa6d11ea5599a4ce987eba61d07a",
+      "seed_pred": 10008,
+      "sha256": "sha256:0595c0c95de78c43e01910561c9f4a1f447f82a7a4c0834c200da1c8b5d4f948"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:39160eefa850cfb1ec6cfd95ebfc29079ebd89265b972ad14890392326a40bbe",
+      "seed_pred": 10009,
+      "sha256": "sha256:dd55bbc1777a908bed62ac9685fc3c507d34ca51b5839ea2b493bbfc7b0b2f96"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:5e5ca64841145b8d0ebf7f751b8c627e4f5c56f97dd701e16c09ad881bc7e81f",
+      "seed_pred": 10010,
+      "sha256": "sha256:855dccf51ac34575e40091aa85553d485dbfafc482350388ea6025ac6c3998ef"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:01554bc57be6ea4746b6df492f9e4371c677ec342b63ec9e3f5d6653a0bb0ef8",
+      "seed_pred": 10011,
+      "sha256": "sha256:5c053947e0d8d54baa212d96eadf60197e2e167512c346c698998c32624381ac"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:5c28e850f252b7877b576b1b7c9320ad6973d7826af07742b5f52fbfe9b8333d",
+      "seed_pred": 10012,
+      "sha256": "sha256:9736c888f5cb68230ecb7b672e8769eba5a1e0cd4cacf74777eb5c3d6a6733d2"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:901c122954907c27d0138b096faee702cee1ea30624b4da371438d1fc863117c",
+      "seed_pred": 10013,
+      "sha256": "sha256:a07ecca82664f028fac021a327a3a393d80b6ed40bb37173cd37964577f1f9fd"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:494c6ad8cda33b849219bd9ed6f6f9d1290d14b2089ec234efa9f0079af7e741",
+      "seed_pred": 10014,
+      "sha256": "sha256:3335bb55609becb239d7fe27985393aa8f230dfb8268a67fdf86075ee7750e54"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:29d4a4aafbf17fd4bf848fa8314a07a2a64a17cd2edadd918e472b6f69893b4a",
+      "seed_pred": 10015,
+      "sha256": "sha256:1f1b8a6bd039d15c506b16530f9736956599a364f46fb65e1a4500a04e6c4853"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:81d01fcd295acec162c0da77bdf9e4f78db92c8ebac98e67f6f98f20022e4896",
+      "seed_pred": 10016,
+      "sha256": "sha256:5567744d393f6287ee4213980051b926bda8c15f865117e1e8229c6bfd291ac7"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:c4c5bcd3b90e090dca68641c487b03a086cfed53ff3a812e78e26f651bccef0b",
+      "seed_pred": 10007,
+      "sha256": "sha256:ef18e6bc10e9c9ef351281c0203f1b48920ab78fa550d841375560e5bef6f8b4"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:79d1260898dd2e00f013c8aac20c3ec894adaa6d11ea5599a4ce987eba61d07a",
+      "seed_pred": 10008,
+      "sha256": "sha256:7d5e6d244debb42404af5e1a45d6e622137a783f6477b03c10ef5799252786c1"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:39160eefa850cfb1ec6cfd95ebfc29079ebd89265b972ad14890392326a40bbe",
+      "seed_pred": 10009,
+      "sha256": "sha256:869e7be565c95ed69cc4d4e8fde4c66072497ad086600c96edc2ad6ec76af650"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:5e5ca64841145b8d0ebf7f751b8c627e4f5c56f97dd701e16c09ad881bc7e81f",
+      "seed_pred": 10010,
+      "sha256": "sha256:9c862f2d6356610acd383292bed081400abeb66d4667341e9686fa542c79ae75"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:01554bc57be6ea4746b6df492f9e4371c677ec342b63ec9e3f5d6653a0bb0ef8",
+      "seed_pred": 10011,
+      "sha256": "sha256:667198087406aaf668e131f0b278188ae7394dde8d39ca4d57e803b979f3899a"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:5c28e850f252b7877b576b1b7c9320ad6973d7826af07742b5f52fbfe9b8333d",
+      "seed_pred": 10012,
+      "sha256": "sha256:2bdd78f7566bc2a852a8714cd80a1140a16f01674a73343277e0a479a8d6a445"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:901c122954907c27d0138b096faee702cee1ea30624b4da371438d1fc863117c",
+      "seed_pred": 10013,
+      "sha256": "sha256:ff18b3024871ed72a95fb7b762ceeca25f7f867d9f9023b84ae89f698546d186"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:494c6ad8cda33b849219bd9ed6f6f9d1290d14b2089ec234efa9f0079af7e741",
+      "seed_pred": 10014,
+      "sha256": "sha256:587e46436c7dcd56e1359210930c552f2eac001b57fccc8857eb4de66c01f0a1"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:29d4a4aafbf17fd4bf848fa8314a07a2a64a17cd2edadd918e472b6f69893b4a",
+      "seed_pred": 10015,
+      "sha256": "sha256:dcf6cef19f62fd8c986e0a5a4dc9c9ef8a40da42ddd1e527b606b1ed0fad6476"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:81d01fcd295acec162c0da77bdf9e4f78db92c8ebac98e67f6f98f20022e4896",
+      "seed_pred": 10016,
+      "sha256": "sha256:35837e0d8a19729b6b2b307336db9944482916a980420bea23f54f1dd6ddc83f"
+    },
+    "svgp/rbf/kin40k/M128/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:ab32c4be9dd32495bdd06e7b481afb0c006a2095803282f5f33564afb42add90",
+      "seed_pred": 10007,
+      "sha256": "sha256:602963ca08d73ff6242e9918fc05d19f002b00b97d36ad4da45d57b35a58cc6d"
+    },
+    "svgp/rbf/kin40k/M128/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:a288cc9933f370c7a433e8f30e566f514c85bbf718eb806fe0f30d1a9ac3e414",
+      "seed_pred": 10008,
+      "sha256": "sha256:9f502011cf05fcbca749a9511bafc1eee385fcfe974e0ebd027ddcb315af6744"
+    },
+    "svgp/rbf/kin40k/M128/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:42bfd2e16349d91e55b31c28955135fa3d5d47c5b7eeca89741e85be159f47d8",
+      "seed_pred": 10009,
+      "sha256": "sha256:4db6615f409e1755259ad29a191159ea1fa47d17a4f40ea8f1a3839285e58aef"
+    },
+    "svgp/rbf/kin40k/M128/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:db573401f1da5399a5975a6a91a8ab6d4c1af30c83956e976632e444f35e4f7a",
+      "seed_pred": 10010,
+      "sha256": "sha256:2623b44dad55b12510eff6f82e6d7c61f973fc24a2154eb54b9c53ba4be25fb6"
+    },
+    "svgp/rbf/kin40k/M128/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:4685a22f7c6e4ef064dc03aae4cd0c95e0325ce3895eef92ad57f88f0efa31f0",
+      "seed_pred": 10011,
+      "sha256": "sha256:4fca8aed35bb18970f445c42bffeecd9a4d0f6b9063c5db64568ec32c87c14bc"
+    },
+    "svgp/rbf/kin40k/M128/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:c5f238c068861d633f493f11a7c0fe9c59cb6fbf012709152c8c4612c4640b8e",
+      "seed_pred": 10012,
+      "sha256": "sha256:72b2cf3bf87517eea14ef040a4ba93585f5fef915a349cd59590f96efe25ca8c"
+    },
+    "svgp/rbf/kin40k/M128/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:177b797b42545a667cc005a8767db8b99f636716d404523874fbbe4bd1fbdf04",
+      "seed_pred": 10013,
+      "sha256": "sha256:b02381e771257c02d9a909b81742ff2a48306a29b5d63b5e2dec8b7b51a96f40"
+    },
+    "svgp/rbf/kin40k/M128/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:60514a06aa86a8ef6ebd4eeae7428374c11f97b7788b23f056ca89879a47065f",
+      "seed_pred": 10014,
+      "sha256": "sha256:1de3c9eb00347d9ad33b71bb8e39ccbc899f3005feba88e380783e7f20b91066"
+    },
+    "svgp/rbf/kin40k/M128/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:f8d70351a88db4281304da4898deb6c914e1074ca5c1a5aa53be47d49d429f04",
+      "seed_pred": 10015,
+      "sha256": "sha256:ee020832f2639ab7a422d1dc2ddf8377be7dcc563f5e14bc3d5f909197f8b0e1"
+    },
+    "svgp/rbf/kin40k/M128/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:7ae9781301daedbad5a14ea43dcef2704cb88dec5a56d672cff24e9757449bcc",
+      "seed_pred": 10016,
+      "sha256": "sha256:7a81a7e267196e37112f30a23d071a5a8a5cbd945c60cd0740b626846f104536"
+    },
+    "svgp/rbf/kin40k/M256/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:ab32c4be9dd32495bdd06e7b481afb0c006a2095803282f5f33564afb42add90",
+      "seed_pred": 10007,
+      "sha256": "sha256:bc87252d34a6fd992d389d041036a4215ab610608aaadd1ebfb0953a66bf87ae"
+    },
+    "svgp/rbf/kin40k/M256/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:a288cc9933f370c7a433e8f30e566f514c85bbf718eb806fe0f30d1a9ac3e414",
+      "seed_pred": 10008,
+      "sha256": "sha256:7b1548138ea152f58a4d51cce026724fa7a9978f0a4a6bb661b9df92857c6bdb"
+    },
+    "svgp/rbf/kin40k/M256/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:42bfd2e16349d91e55b31c28955135fa3d5d47c5b7eeca89741e85be159f47d8",
+      "seed_pred": 10009,
+      "sha256": "sha256:58edc64582cfac17ae36a8883296a02693c71ce3b1142db97a6137d83b0c1c95"
+    },
+    "svgp/rbf/kin40k/M256/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:db573401f1da5399a5975a6a91a8ab6d4c1af30c83956e976632e444f35e4f7a",
+      "seed_pred": 10010,
+      "sha256": "sha256:d9a70012bac50b1091d0630ff7ebd4dcfd07a54555016a9c77e0bd515bb41f56"
+    },
+    "svgp/rbf/kin40k/M256/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:4685a22f7c6e4ef064dc03aae4cd0c95e0325ce3895eef92ad57f88f0efa31f0",
+      "seed_pred": 10011,
+      "sha256": "sha256:64d954f43bfddbd8057d7e9c13a09ef213728228fa943d553b109bdbc5a2ab30"
+    },
+    "svgp/rbf/kin40k/M256/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:c5f238c068861d633f493f11a7c0fe9c59cb6fbf012709152c8c4612c4640b8e",
+      "seed_pred": 10012,
+      "sha256": "sha256:0f6c81ba76a2eaf8569ab441c297d6e0ab8a615f794177231672696fa31856f1"
+    },
+    "svgp/rbf/kin40k/M256/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:177b797b42545a667cc005a8767db8b99f636716d404523874fbbe4bd1fbdf04",
+      "seed_pred": 10013,
+      "sha256": "sha256:6b268179797bac5354651ad6b3653985298f926e48611ae6f3c5b67e95dab005"
+    },
+    "svgp/rbf/kin40k/M256/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:60514a06aa86a8ef6ebd4eeae7428374c11f97b7788b23f056ca89879a47065f",
+      "seed_pred": 10014,
+      "sha256": "sha256:9dd8520f3265901487aa2ad7b789ea3147eb44a4b262e9269246522d8c712f2a"
+    },
+    "svgp/rbf/kin40k/M256/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:f8d70351a88db4281304da4898deb6c914e1074ca5c1a5aa53be47d49d429f04",
+      "seed_pred": 10015,
+      "sha256": "sha256:cdd2d858e0335f127a77f52d642a3e59d80e91a6f51e2635580d7fa8f1731356"
+    },
+    "svgp/rbf/kin40k/M256/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:7ae9781301daedbad5a14ea43dcef2704cb88dec5a56d672cff24e9757449bcc",
+      "seed_pred": 10016,
+      "sha256": "sha256:6bda2eacc9a29f9de33b9e48ddfe6261f43daa91f92a2d82970364e3c4fd0caa"
+    },
+    "svgp/rbf/kin40k/M512/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:ab32c4be9dd32495bdd06e7b481afb0c006a2095803282f5f33564afb42add90",
+      "seed_pred": 10007,
+      "sha256": "sha256:d0ec05fb68ed902f33b370bdc1efb97c59f99779a7c3f8e644c5c57246ba63b6"
+    },
+    "svgp/rbf/kin40k/M512/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:a288cc9933f370c7a433e8f30e566f514c85bbf718eb806fe0f30d1a9ac3e414",
+      "seed_pred": 10008,
+      "sha256": "sha256:c757476699fd956ad6d7b991fb5e1943927d404dd53706184f2b3623c8fb6b1c"
+    },
+    "svgp/rbf/kin40k/M512/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:42bfd2e16349d91e55b31c28955135fa3d5d47c5b7eeca89741e85be159f47d8",
+      "seed_pred": 10009,
+      "sha256": "sha256:63dbc87bffffb7dd85e76d9356fd507120d03b7cfc31c5ad992c0898909db11d"
+    },
+    "svgp/rbf/kin40k/M512/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:db573401f1da5399a5975a6a91a8ab6d4c1af30c83956e976632e444f35e4f7a",
+      "seed_pred": 10010,
+      "sha256": "sha256:4b7c4a640e87861648989520b621f3115e56f0d5b5b811709270d26e71b8ac5d"
+    },
+    "svgp/rbf/kin40k/M512/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:4685a22f7c6e4ef064dc03aae4cd0c95e0325ce3895eef92ad57f88f0efa31f0",
+      "seed_pred": 10011,
+      "sha256": "sha256:7eee79b765f1c804cd5a2a1e5ac038fc35f7b2d145ff1b8eab72390b757357c3"
+    },
+    "svgp/rbf/kin40k/M512/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:c5f238c068861d633f493f11a7c0fe9c59cb6fbf012709152c8c4612c4640b8e",
+      "seed_pred": 10012,
+      "sha256": "sha256:8290a387a7d1d63cad2c94a50099613e2962070583933aa11e2d9eef8cb499c4"
+    },
+    "svgp/rbf/kin40k/M512/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:177b797b42545a667cc005a8767db8b99f636716d404523874fbbe4bd1fbdf04",
+      "seed_pred": 10013,
+      "sha256": "sha256:829fb566965ca3767e8c8a24d01b97850b831bb10d397a7887a56335ddf1b210"
+    },
+    "svgp/rbf/kin40k/M512/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:60514a06aa86a8ef6ebd4eeae7428374c11f97b7788b23f056ca89879a47065f",
+      "seed_pred": 10014,
+      "sha256": "sha256:f93d24955d126f2400a02da1ea1b1b8d4aa5d45c3941aa1d9c6a00c20eec535f"
+    },
+    "svgp/rbf/kin40k/M512/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:f8d70351a88db4281304da4898deb6c914e1074ca5c1a5aa53be47d49d429f04",
+      "seed_pred": 10015,
+      "sha256": "sha256:bfe2d36d95eb761e457f8a318433ff0eabfa2baa6e6ad0d62ca3b47a54eeef77"
+    },
+    "svgp/rbf/kin40k/M512/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:7ae9781301daedbad5a14ea43dcef2704cb88dec5a56d672cff24e9757449bcc",
+      "seed_pred": 10016,
+      "sha256": "sha256:2fb7af7ed5c934fbc2e87ba2e9a094ab52e832a6a81307fa3bb7839ed681ec61"
+    },
+    "svgp/rbf/kin40k/M64/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:ab32c4be9dd32495bdd06e7b481afb0c006a2095803282f5f33564afb42add90",
+      "seed_pred": 10007,
+      "sha256": "sha256:547fbe7228f0c182b9da0bdad01149ab6985dd486cd1cbc6d12ef06761e5156f"
+    },
+    "svgp/rbf/kin40k/M64/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:a288cc9933f370c7a433e8f30e566f514c85bbf718eb806fe0f30d1a9ac3e414",
+      "seed_pred": 10008,
+      "sha256": "sha256:7b6891907b8ce00e590e5782d8e7bcf987ead0253ec2ff15fa07e748985ba53b"
+    },
+    "svgp/rbf/kin40k/M64/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:42bfd2e16349d91e55b31c28955135fa3d5d47c5b7eeca89741e85be159f47d8",
+      "seed_pred": 10009,
+      "sha256": "sha256:eb69680aee5c44d41fb9979fb8e2eff05c95be8631a6febbb3e3db86f2999d71"
+    },
+    "svgp/rbf/kin40k/M64/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:db573401f1da5399a5975a6a91a8ab6d4c1af30c83956e976632e444f35e4f7a",
+      "seed_pred": 10010,
+      "sha256": "sha256:9bd67bd6f6c1e00e83fa2c9d2eb5b545c41e1dc4d14fb55b3647d2cbb49736aa"
+    },
+    "svgp/rbf/kin40k/M64/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:4685a22f7c6e4ef064dc03aae4cd0c95e0325ce3895eef92ad57f88f0efa31f0",
+      "seed_pred": 10011,
+      "sha256": "sha256:37b66a5beaf22a23be7692f0fb56f5d51025bef28457dd5ed2e59603813d4504"
+    },
+    "svgp/rbf/kin40k/M64/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:c5f238c068861d633f493f11a7c0fe9c59cb6fbf012709152c8c4612c4640b8e",
+      "seed_pred": 10012,
+      "sha256": "sha256:869ebb41ef1bc210b382144d7d9957ef377df6b1291efffe49e2b2fe24867bcc"
+    },
+    "svgp/rbf/kin40k/M64/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:177b797b42545a667cc005a8767db8b99f636716d404523874fbbe4bd1fbdf04",
+      "seed_pred": 10013,
+      "sha256": "sha256:8256c79a74ffd812167c1f83f9f223fa8692e5038376dca454ac12c939dc6cae"
+    },
+    "svgp/rbf/kin40k/M64/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:60514a06aa86a8ef6ebd4eeae7428374c11f97b7788b23f056ca89879a47065f",
+      "seed_pred": 10014,
+      "sha256": "sha256:e67d4e696122f417bf429cf99cd1c8bf10e8b5ab6178e0fc9cab18d3e3089036"
+    },
+    "svgp/rbf/kin40k/M64/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:f8d70351a88db4281304da4898deb6c914e1074ca5c1a5aa53be47d49d429f04",
+      "seed_pred": 10015,
+      "sha256": "sha256:310092bbb867722fbad4cabafb2abbd22d5c60a226cf8d57a9d90806464e3e7c"
+    },
+    "svgp/rbf/kin40k/M64/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:7ae9781301daedbad5a14ea43dcef2704cb88dec5a56d672cff24e9757449bcc",
+      "seed_pred": 10016,
+      "sha256": "sha256:4b3650be41c2646505c9985749bccaf19b98b4eaf3d0073aedc278fde4666587"
+    },
+    "svgp/rbf/pol/M128/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8b502f25d59ea8a9b491707047db6af7ce45a0eebb4e637c5e3c0ba305c995b3",
+      "seed_pred": 10007,
+      "sha256": "sha256:712fbb5986d5254263b7dd52c3a08369b9ee4f3cf4c01b958a63f28fded8f540"
+    },
+    "svgp/rbf/pol/M128/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:006dc0cff21ed881870676e434fbc7ffc467d909da8bc4ade074dfdeb31cbf1c",
+      "seed_pred": 10008,
+      "sha256": "sha256:502c7bb77d6dccc7b4a4e43d490edd59ab2cfaddc61eb3d615e9486aadb6e398"
+    },
+    "svgp/rbf/pol/M128/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:1c7b4092c7f96c12d3a682be55a2ab85114330c1b6c46ca6b010b1c638464e62",
+      "seed_pred": 10009,
+      "sha256": "sha256:1bc83f76fdce0f4a0ab77dad53f01846d36ef633fd2bec45926469410e208f70"
+    },
+    "svgp/rbf/pol/M128/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:59efb0d984ef93911400b2817457554c7db80f90045da37d427a692791e3fa90",
+      "seed_pred": 10010,
+      "sha256": "sha256:af7b834794f8d18cb21d8a56f1b397edbb0d509c183ec5ca6d952b89040c418c"
+    },
+    "svgp/rbf/pol/M128/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:af98561efcf6136af2ab2b3ff4fdfe090bd4a5568e4d80f6f04789791d4e5742",
+      "seed_pred": 10011,
+      "sha256": "sha256:8515a34acdb56431ab0fd0b30ab59233769a04177c96e4368525724e89f6bfe3"
+    },
+    "svgp/rbf/pol/M128/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:73b52fd9b8bb2abe54aedba2dc79251629cbce21271b6ed11da2b099e36478ec",
+      "seed_pred": 10012,
+      "sha256": "sha256:256940b841086c1f8b9f22b57eb3d9386fdafa0f0688855810acd838dfe652fa"
+    },
+    "svgp/rbf/pol/M128/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:897adb9f78140f73cab5481b1a36cf5d0460939a462a051748d64ca6d058e53b",
+      "seed_pred": 10013,
+      "sha256": "sha256:40b3415d4e8eef98773e7985b844f7317c7e3f458ace8eafb182ab47c3c1d7fd"
+    },
+    "svgp/rbf/pol/M128/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:0a4dd998666f9ccf36ca10770c21812a1bfa75a5b8b4866741befad070034b32",
+      "seed_pred": 10014,
+      "sha256": "sha256:49738082c7f0a01d26e7becd73e261b0a199db1e7cb55e1a3abdf3bf1f799b70"
+    },
+    "svgp/rbf/pol/M128/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:649339d1525ba5ece2a2f83a4b47259bdb6ff4a663c1140887a170fa677464ce",
+      "seed_pred": 10015,
+      "sha256": "sha256:814b1df45f9c4a1acd792b0f410f50f4673316d3be3c6911ca3b8f2d23253830"
+    },
+    "svgp/rbf/pol/M128/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:9c97d610bd4cc93e5d16325a031dc08cb661c7762b2b8b0b59bcb0fc1ee71341",
+      "seed_pred": 10016,
+      "sha256": "sha256:b5953daa553b55c73b8367a1c38fdaba66da5c755c26efe989f77d7cf2a2c552"
+    },
+    "svgp/rbf/pol/M256/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8b502f25d59ea8a9b491707047db6af7ce45a0eebb4e637c5e3c0ba305c995b3",
+      "seed_pred": 10007,
+      "sha256": "sha256:90455e80b94cf00f1033d583cb7b7b220ff4830bfdede3d699eefd1f7eff50fd"
+    },
+    "svgp/rbf/pol/M256/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:006dc0cff21ed881870676e434fbc7ffc467d909da8bc4ade074dfdeb31cbf1c",
+      "seed_pred": 10008,
+      "sha256": "sha256:815e2f5125a09e23ec31690bc10814da564052c5261ed1972be8e42e35c0ad68"
+    },
+    "svgp/rbf/pol/M256/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:1c7b4092c7f96c12d3a682be55a2ab85114330c1b6c46ca6b010b1c638464e62",
+      "seed_pred": 10009,
+      "sha256": "sha256:5db57725b237db42b664e7b1375eb566ad4e3319a927b6e4a1909c5cf9396579"
+    },
+    "svgp/rbf/pol/M256/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:59efb0d984ef93911400b2817457554c7db80f90045da37d427a692791e3fa90",
+      "seed_pred": 10010,
+      "sha256": "sha256:1e9afa907b3221af7dd8003fecefcccfcebc36cb013686907142534726956ac6"
+    },
+    "svgp/rbf/pol/M256/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:af98561efcf6136af2ab2b3ff4fdfe090bd4a5568e4d80f6f04789791d4e5742",
+      "seed_pred": 10011,
+      "sha256": "sha256:bd9eb2bdd261e519628467e9edcfe49e495e819ba11dc8eec9023dcf5de8c809"
+    },
+    "svgp/rbf/pol/M256/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:73b52fd9b8bb2abe54aedba2dc79251629cbce21271b6ed11da2b099e36478ec",
+      "seed_pred": 10012,
+      "sha256": "sha256:4c33854de1941ccfc509eabbe9b2179e87828cdc343856b9e1b6a6a890571965"
+    },
+    "svgp/rbf/pol/M256/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:897adb9f78140f73cab5481b1a36cf5d0460939a462a051748d64ca6d058e53b",
+      "seed_pred": 10013,
+      "sha256": "sha256:e1521205b8808ba3e1f8ba7d3456784f4eac37a2189b78164279b3103a81d019"
+    },
+    "svgp/rbf/pol/M256/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:0a4dd998666f9ccf36ca10770c21812a1bfa75a5b8b4866741befad070034b32",
+      "seed_pred": 10014,
+      "sha256": "sha256:445da645e7185b874de33dbfd84d57ac880729a051e425a3ca61f70023344934"
+    },
+    "svgp/rbf/pol/M256/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:649339d1525ba5ece2a2f83a4b47259bdb6ff4a663c1140887a170fa677464ce",
+      "seed_pred": 10015,
+      "sha256": "sha256:326e7544807b16257971be08552e417eb54fa4f4fe719a7adf7b8f67f93e7cdd"
+    },
+    "svgp/rbf/pol/M256/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:9c97d610bd4cc93e5d16325a031dc08cb661c7762b2b8b0b59bcb0fc1ee71341",
+      "seed_pred": 10016,
+      "sha256": "sha256:44dd206ac8a7a0bdb2c7600f35b410dc314c23748e18aaa9631111443676cbf1"
+    },
+    "svgp/rbf/pol/M512/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8b502f25d59ea8a9b491707047db6af7ce45a0eebb4e637c5e3c0ba305c995b3",
+      "seed_pred": 10007,
+      "sha256": "sha256:e2ee75538bc2efc93bee5507273ed3c0ff952e064cacbd6c9bd8106675909f31"
+    },
+    "svgp/rbf/pol/M512/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:006dc0cff21ed881870676e434fbc7ffc467d909da8bc4ade074dfdeb31cbf1c",
+      "seed_pred": 10008,
+      "sha256": "sha256:6395075474a591d43d52907414e9c337213b295af756579a0b06fadda71bac67"
+    },
+    "svgp/rbf/pol/M512/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:1c7b4092c7f96c12d3a682be55a2ab85114330c1b6c46ca6b010b1c638464e62",
+      "seed_pred": 10009,
+      "sha256": "sha256:dc3f46d0a928d0430f667ad03000d8da0fa929be8304bb44b38f72887ffb19bd"
+    },
+    "svgp/rbf/pol/M512/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:59efb0d984ef93911400b2817457554c7db80f90045da37d427a692791e3fa90",
+      "seed_pred": 10010,
+      "sha256": "sha256:e88c0ae424082ff59c3348d7cca5d9bb6f75ba771c153055888bb1505d0902d5"
+    },
+    "svgp/rbf/pol/M512/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:af98561efcf6136af2ab2b3ff4fdfe090bd4a5568e4d80f6f04789791d4e5742",
+      "seed_pred": 10011,
+      "sha256": "sha256:c175055e4d796f31c234dfce2ccd7d5e786d5807162ef4678bfaf71fd786fc7e"
+    },
+    "svgp/rbf/pol/M512/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:73b52fd9b8bb2abe54aedba2dc79251629cbce21271b6ed11da2b099e36478ec",
+      "seed_pred": 10012,
+      "sha256": "sha256:8c406141176947a4c7be6bf432778fef2d17b2838f3c576201b602c45f158cfd"
+    },
+    "svgp/rbf/pol/M512/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:897adb9f78140f73cab5481b1a36cf5d0460939a462a051748d64ca6d058e53b",
+      "seed_pred": 10013,
+      "sha256": "sha256:164f2718375fd0bc60940bc38015700c2333062282997a3aaf0c539176098a4c"
+    },
+    "svgp/rbf/pol/M512/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:0a4dd998666f9ccf36ca10770c21812a1bfa75a5b8b4866741befad070034b32",
+      "seed_pred": 10014,
+      "sha256": "sha256:3aca971c24bb42478f0f92b32c886295545b1daaffd85ca7f86bb26cae7c4024"
+    },
+    "svgp/rbf/pol/M512/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:649339d1525ba5ece2a2f83a4b47259bdb6ff4a663c1140887a170fa677464ce",
+      "seed_pred": 10015,
+      "sha256": "sha256:c208e666ef1de6f638686238b4498da3191c44b8e00cea7beab37898a0d14842"
+    },
+    "svgp/rbf/pol/M512/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:9c97d610bd4cc93e5d16325a031dc08cb661c7762b2b8b0b59bcb0fc1ee71341",
+      "seed_pred": 10016,
+      "sha256": "sha256:9ad5ad0f1316befd51abd70841f51e34b2ed4dcf1cb6f31b0b7e30e0262dc885"
+    },
+    "svgp/rbf/pol/M64/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8b502f25d59ea8a9b491707047db6af7ce45a0eebb4e637c5e3c0ba305c995b3",
+      "seed_pred": 10007,
+      "sha256": "sha256:1e410a1547a61d545d3873ee4f55c98d1d86dd015693cd415af03630963dce9c"
+    },
+    "svgp/rbf/pol/M64/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:006dc0cff21ed881870676e434fbc7ffc467d909da8bc4ade074dfdeb31cbf1c",
+      "seed_pred": 10008,
+      "sha256": "sha256:914f32ed02a0daaf77cf26399cdabe3b4d99a23748b88c8ea779e68377d2da40"
+    },
+    "svgp/rbf/pol/M64/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:1c7b4092c7f96c12d3a682be55a2ab85114330c1b6c46ca6b010b1c638464e62",
+      "seed_pred": 10009,
+      "sha256": "sha256:c4ea1b1f8a0bc25be43ac7df3e129152e72f40e0566e98f35f80592f93f9b794"
+    },
+    "svgp/rbf/pol/M64/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:59efb0d984ef93911400b2817457554c7db80f90045da37d427a692791e3fa90",
+      "seed_pred": 10010,
+      "sha256": "sha256:4b8f8cab65fd16b627aae2bbb587fa1ddedf8fb20ed683e45a3e8a863fb82690"
+    },
+    "svgp/rbf/pol/M64/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:af98561efcf6136af2ab2b3ff4fdfe090bd4a5568e4d80f6f04789791d4e5742",
+      "seed_pred": 10011,
+      "sha256": "sha256:8b12c99cfe443871739019668ccf87563956ca96dc6f5f3eef4c41ee17c19f78"
+    },
+    "svgp/rbf/pol/M64/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:73b52fd9b8bb2abe54aedba2dc79251629cbce21271b6ed11da2b099e36478ec",
+      "seed_pred": 10012,
+      "sha256": "sha256:a482ef1bb308fb90229bb8939cfab81a52671cd66da260ab625f49c78d8ca4b5"
+    },
+    "svgp/rbf/pol/M64/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:897adb9f78140f73cab5481b1a36cf5d0460939a462a051748d64ca6d058e53b",
+      "seed_pred": 10013,
+      "sha256": "sha256:57d856e0650cb0046bfe369c4cf02ff46c76f9992fad56a2075e534f452feeb9"
+    },
+    "svgp/rbf/pol/M64/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:0a4dd998666f9ccf36ca10770c21812a1bfa75a5b8b4866741befad070034b32",
+      "seed_pred": 10014,
+      "sha256": "sha256:e619463ed27a3c80974646e8c5559c35837302de92cb28e740036de1aa2625a0"
+    },
+    "svgp/rbf/pol/M64/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:649339d1525ba5ece2a2f83a4b47259bdb6ff4a663c1140887a170fa677464ce",
+      "seed_pred": 10015,
+      "sha256": "sha256:f356b00aa36947f49e25f01468d9c53756d0437459bd6fe26badfac544fd150c"
+    },
+    "svgp/rbf/pol/M64/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:9c97d610bd4cc93e5d16325a031dc08cb661c7762b2b8b0b59bcb0fc1ee71341",
+      "seed_pred": 10016,
+      "sha256": "sha256:e97a854c40177e5fd9ab151c394479432cf86ac4e9cdf9d378bd08b582ce5a48"
+    },
+    "svgp/rbf/protein/M128/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:a200f4454ed549576a25b26f61835e0ec0f7873d0d323330e3e1a5cb7cca9a2b",
+      "seed_pred": 10007,
+      "sha256": "sha256:62e0ccfef271a4a553d7417f1fac1b03e7996ba77c3ee9d206719bfe8665c64b"
+    },
+    "svgp/rbf/protein/M128/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:c8eceadc928fc53dcef0b4a5fe2f953964667ca3791df69a24abb34d64abc72c",
+      "seed_pred": 10008,
+      "sha256": "sha256:9e9581aef7b688cabf19729dba2c47649bdbb306aab07c5514043c15a4c1ffb5"
+    },
+    "svgp/rbf/protein/M128/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:835528f2d4cdd33f881bed554a4723e02e3232228819d3eeb851a0078152300d",
+      "seed_pred": 10009,
+      "sha256": "sha256:5d268b5fc218f419fb1d9a76a6379b24c9c2b43763627ee05242a8749c75d1ac"
+    },
+    "svgp/rbf/protein/M128/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:e46d5a8ce6fa83dd0f348a4e4399fbc52799ed0137fa1e32ce426d3fd1eff9ee",
+      "seed_pred": 10010,
+      "sha256": "sha256:ec0940400bcbb33441cb48b4158db097c7adc34ec18be0588aa41d9840270aaf"
+    },
+    "svgp/rbf/protein/M128/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:5d26a0a156f72702226b9943fab4e749ca5e0901253a1885374b1c75a5beee73",
+      "seed_pred": 10011,
+      "sha256": "sha256:46d11a7a26e0af21f95f49a3ec7c24f35a96af3f9be1ea96179b8e1f799f3a9b"
+    },
+    "svgp/rbf/protein/M128/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:e5ced7f54364a50b1544b7708ee8132c121be949a60e80d76c85979263f3a5fa",
+      "seed_pred": 10012,
+      "sha256": "sha256:fc775a991bc24012ea93a1e0b524797e502388eff1117c58db9fe7e2ac6656fc"
+    },
+    "svgp/rbf/protein/M128/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:1e5c692d5abeac08c0bd36b6d5be3ca970b8cf38901c96d12dadb6044384b8b1",
+      "seed_pred": 10013,
+      "sha256": "sha256:3eeabcf85c92d934635fd522084e2900b9e81259c6a5e6020019f793f5b06f27"
+    },
+    "svgp/rbf/protein/M128/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:3caa05a7c11d4b1ee5ca6bbc4e326daf7a0fb481d6450ec0f031390abce9f222",
+      "seed_pred": 10014,
+      "sha256": "sha256:100cad0e54560e2ca0d7847d7acae2a8032f6f5e7b3164db7e469dcf77c93c86"
+    },
+    "svgp/rbf/protein/M128/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:92bf2749d2bf6ea0af2a7f3e0b6ebb957c7eadc7c4937c431a7be174cfe0a110",
+      "seed_pred": 10015,
+      "sha256": "sha256:ef5f6680802c0c86693ecb08d719b55635d7065d0a9748282f93dce36ab59b69"
+    },
+    "svgp/rbf/protein/M128/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:f35c146f40ba015ade2d2d2dc76afedcc905d50371d0c3c4034ffa7fa165cd3c",
+      "seed_pred": 10016,
+      "sha256": "sha256:894eafdfd62a1c3371a1b63251f24b9de3f0af39d8acb6ed8130a1800d4f5536"
+    },
+    "svgp/rbf/protein/M256/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:a200f4454ed549576a25b26f61835e0ec0f7873d0d323330e3e1a5cb7cca9a2b",
+      "seed_pred": 10007,
+      "sha256": "sha256:05a0dbc7e6a726dbd4a7d1959bd9ab4413fe4d408a2cb20b17cdec6a7be65d95"
+    },
+    "svgp/rbf/protein/M256/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:c8eceadc928fc53dcef0b4a5fe2f953964667ca3791df69a24abb34d64abc72c",
+      "seed_pred": 10008,
+      "sha256": "sha256:987d9c659599295cf5561eb9494aeb4c71dec2fb57b8fb72e50c363666a9bc24"
+    },
+    "svgp/rbf/protein/M256/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:835528f2d4cdd33f881bed554a4723e02e3232228819d3eeb851a0078152300d",
+      "seed_pred": 10009,
+      "sha256": "sha256:3bd51e0d9d5bbdeb7490b41638a9ba97973a915b0bdea681aabd736964383d22"
+    },
+    "svgp/rbf/protein/M256/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:e46d5a8ce6fa83dd0f348a4e4399fbc52799ed0137fa1e32ce426d3fd1eff9ee",
+      "seed_pred": 10010,
+      "sha256": "sha256:09dc103d25c3f8082e420c29e97fa9e60e94d167d45a0868d5ec139ac94073d0"
+    },
+    "svgp/rbf/protein/M256/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:5d26a0a156f72702226b9943fab4e749ca5e0901253a1885374b1c75a5beee73",
+      "seed_pred": 10011,
+      "sha256": "sha256:2b9148cf3edea6b9a46245729583554bd958736f7256ccea6189364380fd822e"
+    },
+    "svgp/rbf/protein/M256/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:e5ced7f54364a50b1544b7708ee8132c121be949a60e80d76c85979263f3a5fa",
+      "seed_pred": 10012,
+      "sha256": "sha256:53ecbe05498ac87459aa89508d72021e14dba5fd2d015291a647d92504c380cf"
+    },
+    "svgp/rbf/protein/M256/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:1e5c692d5abeac08c0bd36b6d5be3ca970b8cf38901c96d12dadb6044384b8b1",
+      "seed_pred": 10013,
+      "sha256": "sha256:c440a20173c37f64f1e54287809f2268914f699d7871496611572bc3dd29f99a"
+    },
+    "svgp/rbf/protein/M256/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:3caa05a7c11d4b1ee5ca6bbc4e326daf7a0fb481d6450ec0f031390abce9f222",
+      "seed_pred": 10014,
+      "sha256": "sha256:c66471decc7a960b2b8e3344af0990f4b1671e61e1eddc13980eeec8b93070de"
+    },
+    "svgp/rbf/protein/M256/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:92bf2749d2bf6ea0af2a7f3e0b6ebb957c7eadc7c4937c431a7be174cfe0a110",
+      "seed_pred": 10015,
+      "sha256": "sha256:a187456fb239fce91ea5151195fba72d544d52c24e0c9c5c5d5541e39a1702f2"
+    },
+    "svgp/rbf/protein/M256/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:f35c146f40ba015ade2d2d2dc76afedcc905d50371d0c3c4034ffa7fa165cd3c",
+      "seed_pred": 10016,
+      "sha256": "sha256:0570b777bc9bf509e87534f9ea537cfe391ad2e49039c1522fabdd82f02c6c7d"
+    },
+    "svgp/rbf/protein/M512/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:a200f4454ed549576a25b26f61835e0ec0f7873d0d323330e3e1a5cb7cca9a2b",
+      "seed_pred": 10007,
+      "sha256": "sha256:8490f38b0dd07de58071d1c5fb949d6ae921e12ece40691f075d00289db2cd56"
+    },
+    "svgp/rbf/protein/M512/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:c8eceadc928fc53dcef0b4a5fe2f953964667ca3791df69a24abb34d64abc72c",
+      "seed_pred": 10008,
+      "sha256": "sha256:8c4c8e7ad62a8d8ee01d381db992480091fb04e9dc98f784c9bdb26b7bb5a992"
+    },
+    "svgp/rbf/protein/M512/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:835528f2d4cdd33f881bed554a4723e02e3232228819d3eeb851a0078152300d",
+      "seed_pred": 10009,
+      "sha256": "sha256:98a2ee7b787ac25459f999ed7338d7efe771d515ee1346bfe0a998b8325969f0"
+    },
+    "svgp/rbf/protein/M512/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:e46d5a8ce6fa83dd0f348a4e4399fbc52799ed0137fa1e32ce426d3fd1eff9ee",
+      "seed_pred": 10010,
+      "sha256": "sha256:ad915f8df9609f1fda573a3c01e7087a52854d1ea1ec1ed0d2c4424b3deda920"
+    },
+    "svgp/rbf/protein/M512/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:5d26a0a156f72702226b9943fab4e749ca5e0901253a1885374b1c75a5beee73",
+      "seed_pred": 10011,
+      "sha256": "sha256:21bf7b8feebee7c670b727f75c189ed6d99e05799ae298db60fa1eefdf0f57f1"
+    },
+    "svgp/rbf/protein/M512/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:e5ced7f54364a50b1544b7708ee8132c121be949a60e80d76c85979263f3a5fa",
+      "seed_pred": 10012,
+      "sha256": "sha256:8b0520c6ffc7c8eb889222018f38cf9f628d6100809b933b8c851c97e3aacf5d"
+    },
+    "svgp/rbf/protein/M512/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:1e5c692d5abeac08c0bd36b6d5be3ca970b8cf38901c96d12dadb6044384b8b1",
+      "seed_pred": 10013,
+      "sha256": "sha256:6db66bedf1979394a075ed945b1abf7f23c2fe708f03f36625a08eb5567dbcbf"
+    },
+    "svgp/rbf/protein/M512/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:3caa05a7c11d4b1ee5ca6bbc4e326daf7a0fb481d6450ec0f031390abce9f222",
+      "seed_pred": 10014,
+      "sha256": "sha256:13e48220cb51242ac2e5d6624249056ca4d4fb29cbf72848c0c801c1fa99d4f4"
+    },
+    "svgp/rbf/protein/M512/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:92bf2749d2bf6ea0af2a7f3e0b6ebb957c7eadc7c4937c431a7be174cfe0a110",
+      "seed_pred": 10015,
+      "sha256": "sha256:b5432cdaac6fc1bb11592c5324264b87a4e4f96d3a26fbdd623f5d02fed376d8"
+    },
+    "svgp/rbf/protein/M512/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:f35c146f40ba015ade2d2d2dc76afedcc905d50371d0c3c4034ffa7fa165cd3c",
+      "seed_pred": 10016,
+      "sha256": "sha256:0823f1c2c446f8067d1a4d222f75e279e4a9dc2f4044af91c6cae842d529d0ec"
+    },
+    "svgp/rbf/protein/M64/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:a200f4454ed549576a25b26f61835e0ec0f7873d0d323330e3e1a5cb7cca9a2b",
+      "seed_pred": 10007,
+      "sha256": "sha256:d5654d0d9200fdc86939bfd98104fb562d8a2490e3de59b514a371e29120f980"
+    },
+    "svgp/rbf/protein/M64/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:c8eceadc928fc53dcef0b4a5fe2f953964667ca3791df69a24abb34d64abc72c",
+      "seed_pred": 10008,
+      "sha256": "sha256:92f4342cc38ef870c59122acd93dfe87fa89fdbda50534c5c6aa390986e16ee7"
+    },
+    "svgp/rbf/protein/M64/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:835528f2d4cdd33f881bed554a4723e02e3232228819d3eeb851a0078152300d",
+      "seed_pred": 10009,
+      "sha256": "sha256:80f5296a3cb912629e5e587ad72ed82efb80f80f734c1247bc8c86a051f7e74a"
+    },
+    "svgp/rbf/protein/M64/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:e46d5a8ce6fa83dd0f348a4e4399fbc52799ed0137fa1e32ce426d3fd1eff9ee",
+      "seed_pred": 10010,
+      "sha256": "sha256:8c688321b57c2895c5b4eb12f8b7586d96c178fda7362847a31989ecb5954757"
+    },
+    "svgp/rbf/protein/M64/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:5d26a0a156f72702226b9943fab4e749ca5e0901253a1885374b1c75a5beee73",
+      "seed_pred": 10011,
+      "sha256": "sha256:a106719b0846285446b8556383cdc3d33ea0ce4f13edd49e42ddb539fe760e2a"
+    },
+    "svgp/rbf/protein/M64/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:e5ced7f54364a50b1544b7708ee8132c121be949a60e80d76c85979263f3a5fa",
+      "seed_pred": 10012,
+      "sha256": "sha256:b4082df1c3c3976d834d3c513805c3720b59922a98a1e939621a7f85229bac8d"
+    },
+    "svgp/rbf/protein/M64/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:1e5c692d5abeac08c0bd36b6d5be3ca970b8cf38901c96d12dadb6044384b8b1",
+      "seed_pred": 10013,
+      "sha256": "sha256:517752a6c54415472997cc394a5c209a7f5e8ef61f982f286e1ae9f9bb45b7c4"
+    },
+    "svgp/rbf/protein/M64/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:3caa05a7c11d4b1ee5ca6bbc4e326daf7a0fb481d6450ec0f031390abce9f222",
+      "seed_pred": 10014,
+      "sha256": "sha256:8708a23e6f6a4ad4959a4370dc9d9a0f84a85dc04030c8499f590772dace6193"
+    },
+    "svgp/rbf/protein/M64/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:92bf2749d2bf6ea0af2a7f3e0b6ebb957c7eadc7c4937c431a7be174cfe0a110",
+      "seed_pred": 10015,
+      "sha256": "sha256:30e20737f0c3fab0e7e01b5cb5617727e689fe0e46ab28bf325bf445a20b3e46"
+    },
+    "svgp/rbf/protein/M64/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:f35c146f40ba015ade2d2d2dc76afedcc905d50371d0c3c4034ffa7fa165cd3c",
+      "seed_pred": 10016,
+      "sha256": "sha256:6efc2dc405b8a97e4036b1ea96cdd555cf4820db1ca003bb6aa3c708dc36740c"
+    },
+    "svgp/rbf/superconductivity/M128/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:c4c5bcd3b90e090dca68641c487b03a086cfed53ff3a812e78e26f651bccef0b",
+      "seed_pred": 10007,
+      "sha256": "sha256:a8799cb0a6ec9fa06a5e517eabeaea9f8a009e7a5efa58f202c128eb829cc0f6"
+    },
+    "svgp/rbf/superconductivity/M128/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:79d1260898dd2e00f013c8aac20c3ec894adaa6d11ea5599a4ce987eba61d07a",
+      "seed_pred": 10008,
+      "sha256": "sha256:970086b7b9eed8e66e087ba9c043fcd37d35e8c7588b04d8d609b8961869143e"
+    },
+    "svgp/rbf/superconductivity/M128/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:39160eefa850cfb1ec6cfd95ebfc29079ebd89265b972ad14890392326a40bbe",
+      "seed_pred": 10009,
+      "sha256": "sha256:d4bd92091448b894b40fa05567690bedcb27864284bf545535ad55119e54e266"
+    },
+    "svgp/rbf/superconductivity/M128/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:5e5ca64841145b8d0ebf7f751b8c627e4f5c56f97dd701e16c09ad881bc7e81f",
+      "seed_pred": 10010,
+      "sha256": "sha256:ee6f0fb191516a227775ce1e54e785188e1915592ee0badf7e935297bbe38aec"
+    },
+    "svgp/rbf/superconductivity/M128/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:01554bc57be6ea4746b6df492f9e4371c677ec342b63ec9e3f5d6653a0bb0ef8",
+      "seed_pred": 10011,
+      "sha256": "sha256:2076b285940a96807cbcc77265ce5eab3b6a9b67e322c35d24c1d309c9c4d758"
+    },
+    "svgp/rbf/superconductivity/M128/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:5c28e850f252b7877b576b1b7c9320ad6973d7826af07742b5f52fbfe9b8333d",
+      "seed_pred": 10012,
+      "sha256": "sha256:821af1bf9e40b4cef7e693a60b5cec17a650f936b2731c91a2e04dfe1948c930"
+    },
+    "svgp/rbf/superconductivity/M128/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:901c122954907c27d0138b096faee702cee1ea30624b4da371438d1fc863117c",
+      "seed_pred": 10013,
+      "sha256": "sha256:9813bcbc9012151d8b1a334b54321e5834e0f85701e396d13c0e4e1cb4b165e8"
+    },
+    "svgp/rbf/superconductivity/M128/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:494c6ad8cda33b849219bd9ed6f6f9d1290d14b2089ec234efa9f0079af7e741",
+      "seed_pred": 10014,
+      "sha256": "sha256:4aa0b4dbb085769d91956989d1cfe6df15ee6a1fecda68bcac82c7d591e15a39"
+    },
+    "svgp/rbf/superconductivity/M128/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:29d4a4aafbf17fd4bf848fa8314a07a2a64a17cd2edadd918e472b6f69893b4a",
+      "seed_pred": 10015,
+      "sha256": "sha256:55a5583a9904ff2d67846b2fae520f61ce837084790cad9560c2494780787c4a"
+    },
+    "svgp/rbf/superconductivity/M128/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:81d01fcd295acec162c0da77bdf9e4f78db92c8ebac98e67f6f98f20022e4896",
+      "seed_pred": 10016,
+      "sha256": "sha256:ad99cabbfe2d6f8ed3d5babcb9f558bee18cd12501d4d6a078fd54a68820b7da"
+    },
+    "svgp/rbf/superconductivity/M256/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:c4c5bcd3b90e090dca68641c487b03a086cfed53ff3a812e78e26f651bccef0b",
+      "seed_pred": 10007,
+      "sha256": "sha256:677915d923ca9b6a7b7a30f2d8be7abf6c2b61bd9b07cbe9a58890fef1e4e5b1"
+    },
+    "svgp/rbf/superconductivity/M256/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:79d1260898dd2e00f013c8aac20c3ec894adaa6d11ea5599a4ce987eba61d07a",
+      "seed_pred": 10008,
+      "sha256": "sha256:fddd0d7279ce1954486edc808e568b83f00bd0acd676dd7355c6b6a9397f5960"
+    },
+    "svgp/rbf/superconductivity/M256/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:39160eefa850cfb1ec6cfd95ebfc29079ebd89265b972ad14890392326a40bbe",
+      "seed_pred": 10009,
+      "sha256": "sha256:2df3508f8aa0cf52ab3cd16f60e323e3099fa9fac5ba2d3c1f81919da5fb7fe9"
+    },
+    "svgp/rbf/superconductivity/M256/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:5e5ca64841145b8d0ebf7f751b8c627e4f5c56f97dd701e16c09ad881bc7e81f",
+      "seed_pred": 10010,
+      "sha256": "sha256:9519ea96bf2e73aa4d2e5f5d9a4499645f55219e06b6684b735d3947c984f857"
+    },
+    "svgp/rbf/superconductivity/M256/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:01554bc57be6ea4746b6df492f9e4371c677ec342b63ec9e3f5d6653a0bb0ef8",
+      "seed_pred": 10011,
+      "sha256": "sha256:ce08293497daff632829ad2fa6b098aa14df8ffcf7b0fc621e8772fd718ad161"
+    },
+    "svgp/rbf/superconductivity/M256/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:5c28e850f252b7877b576b1b7c9320ad6973d7826af07742b5f52fbfe9b8333d",
+      "seed_pred": 10012,
+      "sha256": "sha256:b7a6c63e0e456c8668e27a77c361cfca32145dd5c2b503758f7256f8ac9f2b89"
+    },
+    "svgp/rbf/superconductivity/M256/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:901c122954907c27d0138b096faee702cee1ea30624b4da371438d1fc863117c",
+      "seed_pred": 10013,
+      "sha256": "sha256:e338f5ad8b154f2acdd10e19359199282ad657f807503c571668f6c33d98fd12"
+    },
+    "svgp/rbf/superconductivity/M256/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:494c6ad8cda33b849219bd9ed6f6f9d1290d14b2089ec234efa9f0079af7e741",
+      "seed_pred": 10014,
+      "sha256": "sha256:b37e46616f80d89620d8a56f11087fd4ea249d427294376320e23f38a4a430bc"
+    },
+    "svgp/rbf/superconductivity/M256/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:29d4a4aafbf17fd4bf848fa8314a07a2a64a17cd2edadd918e472b6f69893b4a",
+      "seed_pred": 10015,
+      "sha256": "sha256:118a94490e4509e67d09bd64dadce44396bb96d184f6671a632b1def0f015c00"
+    },
+    "svgp/rbf/superconductivity/M256/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:81d01fcd295acec162c0da77bdf9e4f78db92c8ebac98e67f6f98f20022e4896",
+      "seed_pred": 10016,
+      "sha256": "sha256:023c6f99d2205f7a4d407a0e366225ba44372243405c546dbb91546afe100c4c"
+    },
+    "svgp/rbf/superconductivity/M512/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:c4c5bcd3b90e090dca68641c487b03a086cfed53ff3a812e78e26f651bccef0b",
+      "seed_pred": 10007,
+      "sha256": "sha256:54fa037369560f016a2ceaed738aef0c7809be9180a409ee783160a49ac97e91"
+    },
+    "svgp/rbf/superconductivity/M512/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:79d1260898dd2e00f013c8aac20c3ec894adaa6d11ea5599a4ce987eba61d07a",
+      "seed_pred": 10008,
+      "sha256": "sha256:6c6568588e098e413f236ba671915fabbd20790245cc5a6df434d57cf41cfc0d"
+    },
+    "svgp/rbf/superconductivity/M512/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:39160eefa850cfb1ec6cfd95ebfc29079ebd89265b972ad14890392326a40bbe",
+      "seed_pred": 10009,
+      "sha256": "sha256:be45096d627ac2c7b6382acf75c444a95a27c32ac907a322364230ce96d48b89"
+    },
+    "svgp/rbf/superconductivity/M512/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:5e5ca64841145b8d0ebf7f751b8c627e4f5c56f97dd701e16c09ad881bc7e81f",
+      "seed_pred": 10010,
+      "sha256": "sha256:23cc576cc667d5a1823ada5107f591cee6b4683d0af872bf2b81b27f61b0bc3d"
+    },
+    "svgp/rbf/superconductivity/M512/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:01554bc57be6ea4746b6df492f9e4371c677ec342b63ec9e3f5d6653a0bb0ef8",
+      "seed_pred": 10011,
+      "sha256": "sha256:fafc510da392cbf7a52eff665ab4506dc720404c58881c1deb6fa7019bd8bfae"
+    },
+    "svgp/rbf/superconductivity/M512/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:5c28e850f252b7877b576b1b7c9320ad6973d7826af07742b5f52fbfe9b8333d",
+      "seed_pred": 10012,
+      "sha256": "sha256:c51fa6aba3fee5e01a7554be9e23c7875a25264f90a616a4749e9ee0bb7e998d"
+    },
+    "svgp/rbf/superconductivity/M512/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:901c122954907c27d0138b096faee702cee1ea30624b4da371438d1fc863117c",
+      "seed_pred": 10013,
+      "sha256": "sha256:fe1d211f2cf77f0269f29af2e971192fd3dda07d40cfc38e1e184bc2f5ed5ca5"
+    },
+    "svgp/rbf/superconductivity/M512/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:494c6ad8cda33b849219bd9ed6f6f9d1290d14b2089ec234efa9f0079af7e741",
+      "seed_pred": 10014,
+      "sha256": "sha256:c9b298bbd10de9554213b34478c293d5acd03efb68865b0a76e7ba81a5a8bfdf"
+    },
+    "svgp/rbf/superconductivity/M512/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:29d4a4aafbf17fd4bf848fa8314a07a2a64a17cd2edadd918e472b6f69893b4a",
+      "seed_pred": 10015,
+      "sha256": "sha256:ec59f11fae312b241e7ec2bc63688fbd8fbbbad72f3c2039d76adfe3f7e6825f"
+    },
+    "svgp/rbf/superconductivity/M512/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:81d01fcd295acec162c0da77bdf9e4f78db92c8ebac98e67f6f98f20022e4896",
+      "seed_pred": 10016,
+      "sha256": "sha256:adde7fa095ff2a3e9ba40f866bf1df4c9a76d0052d52ddac1d427fb76b0df00b"
+    },
+    "svgp/rbf/superconductivity/M64/SBT-SVGP/seed0": {
+      "partition_sha256": "sha256:c4c5bcd3b90e090dca68641c487b03a086cfed53ff3a812e78e26f651bccef0b",
+      "seed_pred": 10007,
+      "sha256": "sha256:0c08122529d4419b8dc8f1d7cc40b345780715d6147368db15c47522a4c7b12f"
+    },
+    "svgp/rbf/superconductivity/M64/SBT-SVGP/seed1": {
+      "partition_sha256": "sha256:79d1260898dd2e00f013c8aac20c3ec894adaa6d11ea5599a4ce987eba61d07a",
+      "seed_pred": 10008,
+      "sha256": "sha256:58b5eb73be8df416f164305b9da09c5c10d51ee1ad6b5fad92bae6b13c1f1e64"
+    },
+    "svgp/rbf/superconductivity/M64/SBT-SVGP/seed2": {
+      "partition_sha256": "sha256:39160eefa850cfb1ec6cfd95ebfc29079ebd89265b972ad14890392326a40bbe",
+      "seed_pred": 10009,
+      "sha256": "sha256:6d983e9b4714939c2c1a30afc6287869cc9448a1ed4d7ce8de13f0db8dcf6b12"
+    },
+    "svgp/rbf/superconductivity/M64/SBT-SVGP/seed3": {
+      "partition_sha256": "sha256:5e5ca64841145b8d0ebf7f751b8c627e4f5c56f97dd701e16c09ad881bc7e81f",
+      "seed_pred": 10010,
+      "sha256": "sha256:c9ca3cb52a706e623cbb87e648874d5d13ce24fb49902c27c1a2f34edff29f2b"
+    },
+    "svgp/rbf/superconductivity/M64/SBT-SVGP/seed4": {
+      "partition_sha256": "sha256:01554bc57be6ea4746b6df492f9e4371c677ec342b63ec9e3f5d6653a0bb0ef8",
+      "seed_pred": 10011,
+      "sha256": "sha256:0ebc53287fef81a134122afdc8b26fcc1b34fee942691f2dacc00c4bf873b20d"
+    },
+    "svgp/rbf/superconductivity/M64/SBT-SVGP/seed5": {
+      "partition_sha256": "sha256:5c28e850f252b7877b576b1b7c9320ad6973d7826af07742b5f52fbfe9b8333d",
+      "seed_pred": 10012,
+      "sha256": "sha256:694eafbce9b66f9380a24dfcf119cf67375bceb92568d3bf3cedc6b206391f86"
+    },
+    "svgp/rbf/superconductivity/M64/SBT-SVGP/seed6": {
+      "partition_sha256": "sha256:901c122954907c27d0138b096faee702cee1ea30624b4da371438d1fc863117c",
+      "seed_pred": 10013,
+      "sha256": "sha256:cb5dd906f32225ba4a1a08c1d1226bebc306f5a777a15d7c8c376fa722844198"
+    },
+    "svgp/rbf/superconductivity/M64/SBT-SVGP/seed7": {
+      "partition_sha256": "sha256:494c6ad8cda33b849219bd9ed6f6f9d1290d14b2089ec234efa9f0079af7e741",
+      "seed_pred": 10014,
+      "sha256": "sha256:9287fafaf3834a55f0aa96fdae331621ea50be2c167042ad36f8dd4f6966a112"
+    },
+    "svgp/rbf/superconductivity/M64/SBT-SVGP/seed8": {
+      "partition_sha256": "sha256:29d4a4aafbf17fd4bf848fa8314a07a2a64a17cd2edadd918e472b6f69893b4a",
+      "seed_pred": 10015,
+      "sha256": "sha256:c7775b60a80ce4b47902be299b31ab29f95ca73eb253e384ad431bf7572e0051"
+    },
+    "svgp/rbf/superconductivity/M64/SBT-SVGP/seed9": {
+      "partition_sha256": "sha256:81d01fcd295acec162c0da77bdf9e4f78db92c8ebac98e67f6f98f20022e4896",
+      "seed_pred": 10016,
+      "sha256": "sha256:cac02a319d4d8087b61dc4bf700c5aed8fe79ae8c642f4c4911323e88cb68f99"
+    }
+  },
+  "rejected": [],
+  "rejected_count": 0,
+  "scope": "prediction-only; frozen inputs verified before and after each evaluation",
+  "timing": {
+    "definition": "synchronized end-to-end prediction wall time on one allocated GPU; includes load, compilation, search, transfers",
+    "mean_seconds": 34.186685972525446,
+    "median_seconds": 31.676329427980818
+  },
+  "valid_count": 320
+}

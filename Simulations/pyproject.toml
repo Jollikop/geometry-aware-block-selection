@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "correlation-block-sgpr"
+version = "5.0.0"
+description = "Selected-block residual corrections for sparse Gaussian processes"
+requires-python = "==3.12.*"
+dynamic = ["dependencies"]
+
+# Installing the project (``pip install -e Simulations/``) is what replaced the
+# sys.path.insert prologues and the mandatory SIM / SVGP environment variables.
+# Every module is now reachable as ``common.*``, ``sgpr.*`` or ``svgp.*`` from
+# any working directory.
+
+[tool.setuptools]
+packages = [
+    "common",
+    "sgpr",
+    "sgpr.snelson",
+    "sgpr.residual_illustration",
+    "svgp",
+    "svgp.analysis",
+]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

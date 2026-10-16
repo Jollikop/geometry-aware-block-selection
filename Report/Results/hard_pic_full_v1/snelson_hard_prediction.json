@@ -1,0 +1,401 @@
+{
+  "caveat": "Snelson has no held-out split; RMSE/NLL are in-sample",
+  "expected_manifest_sha256": "sha256:36d9467617361085493ea3e08cb685182be2867b31cc20fc5c6d173512f693c7",
+  "fit_objective_deviations": {
+    "BT-SGPR": 1.1695644452913712e-12,
+    "E-SGPR": 9.392486788328824e-14,
+    "SBT-SGPR": 3.941291737419306e-15,
+    "SGPR": 6.661338147750939e-16,
+    "T-SGPR": 1.6653345369377348e-15,
+    "True GP": 2.8144153674247718e-14
+  },
+  "fit_reproduced_within_1e-4_per_datum": true,
+  "hard_figure_sha256": "sha256:ff96845a6e3c7033e70af668e26bf22033e6cc5a014307ea62efc051b509669c",
+  "historical_commit": "b85768b15bf55e37173baa1a14119bfe05027df6",
+  "historical_figure_sha256": "sha256:71e8db6f18ee12886ed8e7a220bc5b9fbab5ec84bd16b63d115bfea10edc7e20",
+  "implementation": "snelson-hard-pic-prediction-v1",
+  "methods": {
+    "BT-SGPR": {
+      "in_sample_nll": 0.2191612620189042,
+      "in_sample_rmse": 0.2905376182264222,
+      "inducing_points": [
+        [
+          4.620681273163017
+        ],
+        [
+          0.9828194915899288
+        ],
+        [
+          2.530472262339569
+        ],
+        [
+          1.7335715038575539
+        ],
+        [
+          5.1063884862995845
+        ]
+      ],
+      "kernel_variance": 0.14241522309252064,
+      "lengthscales": [
+        0.4341032404501489
+      ],
+      "noise_variance": 0.10575954382921812,
+      "plot_diagnostics": {
+        "assigned_counts": [
+          23,
+          5,
+          3,
+          4,
+          100,
+          11,
+          1,
+          4,
+          4,
+          95
+        ],
+        "block_sizes": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "cross_seconds": 1.955485375947319,
+        "factor_seconds": 0.22860117116943002,
+        "maximum_cholesky_jitter": 0.0,
+        "maximum_discarded_cross_energy_fraction": null,
+        "minimum_block_eigenvalue": null,
+        "minimum_raw_residual": 7.540708867252188e-07,
+        "partition": "fitted-blocks",
+        "representative_indices": [
+          69,
+          129,
+          34,
+          100,
+          52,
+          15,
+          6,
+          76,
+          32,
+          160
+        ]
+      },
+      "train_diagnostics": {
+        "assigned_counts": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "block_sizes": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "cross_seconds": 0.1137486060615629,
+        "factor_seconds": 0.077616804279387,
+        "maximum_cholesky_jitter": 0.0,
+        "maximum_discarded_cross_energy_fraction": null,
+        "minimum_block_eigenvalue": null,
+        "minimum_raw_residual": 9.120914486165867e-06,
+        "partition": "fitted-blocks",
+        "representative_indices": [
+          69,
+          129,
+          34,
+          100,
+          52,
+          15,
+          6,
+          76,
+          32,
+          160
+        ]
+      }
+    },
+    "SBT-SGPR": {
+      "in_sample_nll": 0.1521194448943906,
+      "in_sample_rmse": 0.2798107392005747,
+      "inducing_points": [
+        [
+          4.3205830151124704
+        ],
+        [
+          1.4466453281253102
+        ],
+        [
+          3.7586681696344884
+        ],
+        [
+          3.082179541381904
+        ],
+        [
+          4.809400011174551
+        ]
+      ],
+      "kernel_variance": 0.46605066074103274,
+      "lengthscales": [
+        0.6005043246531288
+      ],
+      "noise_variance": 0.08577065676992145,
+      "plot_diagnostics": {
+        "assigned_counts": [
+          13,
+          70,
+          12,
+          15,
+          15,
+          14,
+          14,
+          15,
+          16,
+          66
+        ],
+        "block_sizes": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "cross_seconds": 0.7648058121558279,
+        "factor_seconds": 0.08180486992932856,
+        "maximum_cholesky_jitter": 0.0,
+        "maximum_discarded_cross_energy_fraction": null,
+        "minimum_block_eigenvalue": null,
+        "minimum_raw_residual": 7.971716478625509e-06,
+        "partition": "fitted-blocks",
+        "representative_indices": [
+          5,
+          17,
+          22,
+          63,
+          179,
+          150,
+          166,
+          185,
+          198,
+          158
+        ]
+      },
+      "train_diagnostics": {
+        "assigned_counts": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "block_sizes": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "cross_seconds": 0.07928287086542696,
+        "factor_seconds": 0.3591989439446479,
+        "maximum_cholesky_jitter": 0.0,
+        "maximum_discarded_cross_energy_fraction": null,
+        "minimum_block_eigenvalue": null,
+        "minimum_raw_residual": 1.5016176096940218e-05,
+        "partition": "fitted-blocks",
+        "representative_indices": [
+          5,
+          17,
+          22,
+          63,
+          179,
+          150,
+          166,
+          185,
+          198,
+          158
+        ]
+      }
+    },
+    "SGPR": {
+      "in_sample_nll": 0.27947377348730656,
+      "in_sample_rmse": 0.2968676222118401,
+      "inducing_points": [
+        [
+          4.546579057711659
+        ],
+        [
+          1.7128164312434973
+        ],
+        [
+          2.5622682007672135
+        ],
+        [
+          0.9774869635127544
+        ],
+        [
+          5.178425980268133
+        ]
+      ],
+      "kernel_variance": 0.08680638451242455,
+      "lengthscales": [
+        0.43453472545002814
+      ],
+      "noise_variance": 0.1263305999639102,
+      "plot_diagnostics": {
+        "minimum_raw_residual": null,
+        "partition": "none"
+      },
+      "train_diagnostics": {
+        "minimum_raw_residual": null,
+        "partition": "none"
+      }
+    },
+    "T-SGPR": {
+      "in_sample_nll": 0.2465017227796995,
+      "in_sample_rmse": 0.2930015241580544,
+      "inducing_points": [
+        [
+          5.152627484252096
+        ],
+        [
+          0.9889399125828071
+        ],
+        [
+          2.549486666701924
+        ],
+        [
+          1.729005946080768
+        ],
+        [
+          4.5707965673270365
+        ]
+      ],
+      "kernel_variance": 0.10732416649410498,
+      "lengthscales": [
+        0.43039999433251985
+      ],
+      "noise_variance": 0.11548711079066418,
+      "plot_diagnostics": {
+        "assigned_counts": [
+          68,
+          15,
+          14,
+          13,
+          15,
+          14,
+          14,
+          15,
+          16,
+          66
+        ],
+        "block_sizes": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "cross_seconds": 1.6576002221554518,
+        "factor_seconds": 0.3238438299158588,
+        "maximum_cholesky_jitter": 0.0,
+        "maximum_discarded_cross_energy_fraction": 1.3092500512957073e-09,
+        "minimum_block_eigenvalue": -1.1217791934759636e-14,
+        "minimum_raw_residual": 5.77738426387374e-06,
+        "partition": "prediction-time-inducing-anchor",
+        "representative_indices": [
+          16,
+          44,
+          134,
+          63,
+          179,
+          150,
+          166,
+          185,
+          198,
+          158
+        ]
+      },
+      "train_diagnostics": {
+        "assigned_counts": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "block_sizes": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "cross_seconds": 0.2544199040858075,
+        "factor_seconds": 0.08212576084770262,
+        "maximum_cholesky_jitter": 0.0,
+        "maximum_discarded_cross_energy_fraction": 4.0965263408182804e-24,
+        "minimum_block_eigenvalue": -1.1217791934759636e-14,
+        "minimum_raw_residual": 9.971009926506456e-07,
+        "partition": "prediction-time-inducing-anchor",
+        "representative_indices": [
+          16,
+          44,
+          134,
+          63,
+          179,
+          150,
+          166,
+          185,
+          198,
+          158
+        ]
+      }
+    }
+  }
+}

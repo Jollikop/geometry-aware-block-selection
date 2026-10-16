@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Geometry-Aware Block Selection for Sparse Variational Gaussian Processes"
+authors:
+  - family-names: Hoxha
+    given-names: Matteo
+    affiliation: Nanyang Technological University
+  - family-names: Paulin
+    given-names: Daniel
+    affiliation: Nanyang Technological University
+license: MIT
+repository-code: "https://github.com/Jollikop/geometry-aware-block-selection"

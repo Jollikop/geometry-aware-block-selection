@@ -1,0 +1,16 @@
+{
+  "dense_max_discarded_cross_energy_fraction": 5.255749538545145e-11,
+  "dense_plan_sha256": "sha256:aad944cbcc6ee88392998882a6b7418a940958cc6e79151059d0d1689c0ffcc9",
+  "hard_certificate_sha256": "sha256:d8db0031c00d59957ae003535ae796b9b14bd44c60c5909cea5f7dc38b2d43e5",
+  "hard_plan_sha256": "sha256:315a3bd094ff0126ad3583fdf46ca348c49757b259ebd9395bdae05318d4c681",
+  "max_rmse_change": 0.0,
+  "maximum_absolute_mean_nll_gap": {
+    "sgpr": 0.05411615117840607,
+    "svgp": 0.07108637564280351
+  },
+  "outputs": {
+    "kin40k_sgpr_hard_vs_dense_nll.tex": "sha256:10b48e5e72d93e6ec9349dfac693bf4b855b2e749f03e7cbb249279a12e8cd4b",
+    "pol_hard_vs_dense_nll.pdf": "sha256:8327f203fca2b3624342684f84eabca308610d0f5a9cb950b1846ecab9199e3a"
+  },
+  "paired_predictions": 280
+}

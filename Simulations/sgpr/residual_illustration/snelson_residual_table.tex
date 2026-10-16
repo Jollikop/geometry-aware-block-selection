@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Snelson same-parameter residual-block comparison. SBT-SGPR is trained once with the configured optimizer; Exact, SBT, and BT corrections are evaluated at the learned parameters.}
+\label{tab:snelson-residual-sbt}
+\begin{tabular}{lrrr}
+\toprule
+Correction & ELBO$/N$ & Residual logdet & Excess (\%) \\
+\midrule
+Exact & -0.5237 & 27.921 & 0.00 \\
+SBT & -0.5368 & 33.161 & 18.77 \\
+BT & -0.6291 & 70.105 & 151.08 \\
+\bottomrule
+\end{tabular}
+\end{table}

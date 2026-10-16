@@ -1,0 +1,40 @@
+% Single-column layout of tables/kin40k_sgpr_compact.tex (same values, hand-formatted).
+\begin{table}[t]
+\caption{Kin40k, RBF: \(N=5000\), \(2000\) test points, \(b=500\). Accuracy:
+mean (SE in the last decimal places), ten seeds. \emph{Full}: complete
+predictor; \emph{Direct}: direct sparsification; \emph{Refined}: refined
+sparse predictor. \(^\dagger\)Dense method, which forms the \(N\times N\)
+residual or covariance. Bold: lowest mean among non-dense methods per budget
+and column; --- means not applicable. Search: milliseconds for one warm
+partition build on an A100-SXM4-40GB. Prediction times and protocol details
+are in Appendix~\ref{app:experiments}.}
+\label{tab:kin40k-sgpr}
+\centering\footnotesize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+& \multicolumn{2}{c}{Full} & Direct & \multicolumn{2}{c}{Refined} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-4}\cmidrule(lr){5-6}
+Method & RMSE & NLL & NLL & RMSE & NLL \\
+\midrule
+Exact\(^\dagger\) & .151{\scriptsize(2)} & \(-\).618{\scriptsize(14)} & --- & --- & --- \\
+\midrule
+\multicolumn{6}{@{}l@{}}{\(M=256\)\quad search: (S)BT 3.62\,ms, METIS\(^\dagger\) 883.64\,ms}\\
+SGPR & .269{\scriptsize(2)} & .141{\scriptsize(6)} & .141{\scriptsize(6)} & .269{\scriptsize(2)} & .141{\scriptsize(6)} \\
+T-SGPR & .235{\scriptsize(3)} & \(-\).027{\scriptsize(9)} & .049{\scriptsize(7)} & .238{\scriptsize(3)} & .052{\scriptsize(7)} \\
+(R)BT & .218{\scriptsize(3)} & \(-\).110{\scriptsize(11)} & \textbf{.022{\scriptsize(7)}} & .223{\scriptsize(3)} & .019{\scriptsize(7)} \\
+(S)BT & \textbf{.196{\scriptsize(2)}} & \textbf{\(-\).216{\scriptsize(11)}} & .034{\scriptsize(7)} & \textbf{.210{\scriptsize(2)}} & \textbf{.015{\scriptsize(6)}} \\
+\cmidrule{1-6}
+METIS\(^\dagger\) & .191{\scriptsize(2)} & \(-\).240{\scriptsize(11)} & --- & --- & --- \\
+\midrule
+\multicolumn{6}{@{}l@{}}{\(M=512\)\quad search: (S)BT 6.07\,ms, METIS\(^\dagger\) 1034.92\,ms}\\
+SGPR & .229{\scriptsize(2)} & \(-\).041{\scriptsize(7)} & \(-\).041{\scriptsize(7)} & .229{\scriptsize(2)} & \(-\).041{\scriptsize(7)} \\
+T-SGPR & .205{\scriptsize(2)} & \(-\).175{\scriptsize(10)} & \(-\).122{\scriptsize(7)} & .207{\scriptsize(2)} & \(-\).119{\scriptsize(7)} \\
+(R)BT & .197{\scriptsize(2)} & \(-\).219{\scriptsize(11)} & \(-\).144{\scriptsize(7)} & .200{\scriptsize(2)} & \(-\).142{\scriptsize(7)} \\
+(S)BT & \textbf{.185{\scriptsize(2)}} & \textbf{\(-\).280{\scriptsize(11)}} & \textbf{\(-\).158{\scriptsize(7)}} & \textbf{.190{\scriptsize(2)}} & \textbf{\(-\).164{\scriptsize(7)}} \\
+\cmidrule{1-6}
+METIS\(^\dagger\) & .179{\scriptsize(2)} & \(-\).304{\scriptsize(13)} & --- & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,20 @@
+{
+  "scope": "RBF and Amplitude; four main datasets; predictive accuracy only",
+  "seeds_per_cell": 10,
+  "full_donor_runs": 1280,
+  "sparse300_runs": 1280,
+  "complete_aggregate_sha256": "sha256:9abfa8a9fd5f9222b1d75bd4c6dd784241ff7d1c75f5822fe331a792d1c2572f",
+  "complete_accuracy_manifest_sha256": "sha256:32b5af68368106ecbd2b613d7d7df0ca6bcfe398d45062341d99232b164c25aa",
+  "transplant_validation_inputs": {
+    "<root>/Correlation_Block_SGPR/output/data/transplant300_final_20260909/export/EXPORT_MANIFEST.json": "sha256:780d7eb5fd6b9cebf9f3aadb85638800aa4f5397433cca13402f1d26d89d453d",
+    "<root>/Correlation_Block_SGPR/output/data/transplant300_final_20260909/export/LOCAL_VERIFICATION.json": "sha256:fa815b4ae171e2d676fa7f11bd937628a570a69830acb837958d3bbb3475d71b",
+    "<root>/Correlation_Block_SGPR/output/data/transplant300_final_20260909/export/transplant300_final.tar.gz": "sha256:f2cc5385c4a8a8f4def9c0626296bbd30e1b41385bd9763196de1284ce40d7d5",
+    "<root>/Correlation_Block_SGPR/output/data/transplant300_final_20260909/predictions300_recovery/recovery_plan.json": "sha256:bbccc241f983a0544cae65258331d91f7fc1f1d1f32797936463b3426fdcfe42"
+  },
+  "transplant_predictions_checked": 5120,
+  "outputs": {
+    "svgp_rbf_amplitude_final_page.pdf": "sha256:bce7c489775fe7cbb772241c51d9d1015bdf12d6c96ecc26394229ca681bb4b4",
+    "svgp_focused_final_summary.csv": "sha256:fc07c1b3b74d04947da703fa98b68acca046655ed5a03209ee3ad0a54e889959"
+  },
+  "note": "Existing numerical outputs only. No new training, convergence claim, or timing comparison."
+}

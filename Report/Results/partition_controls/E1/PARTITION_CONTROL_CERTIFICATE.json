@@ -1,0 +1,1622 @@
+{
+  "complete": true,
+  "count": 320,
+  "expected": 320,
+  "experiment": "E1",
+  "implementation": "partition-controls-certificate-v1",
+  "max_jitter": 0.0,
+  "min_raw_residual_variance": 1.5358816339113554e-05,
+  "missing": [],
+  "plan_sha256": "sha256:4f3681cc69dceb26adfcb6314b3d0b460eade063e5107ca8acc8c339128f99b4",
+  "predictions": {
+    "svgp/amplitude-rbf/kin40k/M128/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:a58cec8372dac47dd7eab40886da9ce52065c20a0098c4afe79398200880d0aa",
+      "seed_pred": null,
+      "sha256": "sha256:798a48f6ffa2213f70c8303a863d160249d8a3a54c329f363790d6eebffcdd2e"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:764a531c503c446be043690fef94da81813fb263f5ea55f9faa8687032ef2862",
+      "seed_pred": null,
+      "sha256": "sha256:2a94cc4d2bdfb24666502309c765faceb2ab4a59e3280fcb4f7d3a1c2c5e67a8"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:b52f3cc55d2f1ecddc962b3e64a80d3908e8655896b826d616429091635b50d2",
+      "seed_pred": null,
+      "sha256": "sha256:61e05ecca740476e21d618df6e6b2009006aed2421a54d7c1224ed8f6e15df52"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:b8dbc6ea198bc8198465a1f23f39ae48802c8361351cb912af428435e3d63fdf",
+      "seed_pred": null,
+      "sha256": "sha256:e117699db9e4295765d4764347a0e632bfebbb328a76826dfe5832e2ba9f393a"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:7337eab12dfbf6daf271fdf26b98c599aabe60026eac068fa10a33ba63df61f4",
+      "seed_pred": null,
+      "sha256": "sha256:7788211238c334f0099f017228db7548cc505c1857e6d0d1630c2b9e9697aaf2"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:7627763b25cea80f29186295a496df07dfc36292f6a2011e483e2953138f99e0",
+      "seed_pred": null,
+      "sha256": "sha256:d054276bdbfd39c0caa35328360d972ec93eae7b137b31464d9e70414ca095e8"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:374994726e223fc76f227eaa17563648a0b686e45fd1f0ec645e7937daedfb6c",
+      "seed_pred": null,
+      "sha256": "sha256:52798ec9c0cd5a7494a2976765427e0c658602f185b8883e081ffa9f757af3f4"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:1278efa64046994cfb112f90907c9b9baaa5e9fbafadcd83323ca7379bf26e3f",
+      "seed_pred": null,
+      "sha256": "sha256:032349bb0315d7f117f2c7c4e48d8539fd0ce15e4c9ee64adf539063a8a227e4"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:7903f77f34fe155dd54b20e39b2b3d618d2d772b38ea1cfffa5337a26f41060d",
+      "seed_pred": null,
+      "sha256": "sha256:c9b86a2c766d5ae7f3d62c6c857c21129b727ef0b80d7a47920116383015c52b"
+    },
+    "svgp/amplitude-rbf/kin40k/M128/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:6069256d83e4543fcf06346893a7a5dde2cdbea61a4a1eb6557e11b5d9ead10e",
+      "seed_pred": null,
+      "sha256": "sha256:e62743c228d1c87df056a7a74199560956e8fbc32acb58d87abff3b54eba3c89"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:a03d952388246ce78bdd31c882f171e31344d9c089b3c1375bb6cd87a25cee8a",
+      "seed_pred": null,
+      "sha256": "sha256:f30fc45750ff3c0792d7c44e74dfdd89521497140f81d433f70f0a06aa10b698"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:49caa4acd8ba57a3acea7a52660f7721ff873a0700487cf37810662f667a9152",
+      "seed_pred": null,
+      "sha256": "sha256:28f17529ab8d6756b603a78d6727f56b59185d261a67457891a1f6db4d0c10cf"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:752d4961a588db11c634531925b1e8bfd7c88fe4ea28c21b3f55ae4c676a4460",
+      "seed_pred": null,
+      "sha256": "sha256:963e273d517d8907f0f8f8197108d6d7645d338dd087536a688f1c2efa99cf26"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:f941f30be64ee393c1d758d715ffe8c3043467073df1a56dc6e155510d134c7e",
+      "seed_pred": null,
+      "sha256": "sha256:3755ab24726fd47eef7cd10d7e099f945d751fbe0dffa476f12f73548954c498"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:cf983b0987a3ad73cf4a29521691bca8d86c912edce6bc02804fe3a515a48cf9",
+      "seed_pred": null,
+      "sha256": "sha256:a2e7618260283fe73428fe8013174080645e61f95ef4f5797d0c3811f5a864e7"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:452c2e13b9f133c91bb7f60221440fe968a6be81e6b094db72e6335cab74a976",
+      "seed_pred": null,
+      "sha256": "sha256:792956293e2862bbcebf42f24023a25cc1c4d743729d70e8e6225be038c7a4ef"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:906d742370279fb82698978a70025a0313b13142deb49ed11b0e652b020b9149",
+      "seed_pred": null,
+      "sha256": "sha256:ac64ae34c0838640afbc788381ba5ce7af96b3ec4969707ac84a8b04533941af"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:4c3ac9bbedae4bfa07add60215c33df2c065e342ab9f939aa872c599e8988ed4",
+      "seed_pred": null,
+      "sha256": "sha256:47198154129a7584de511923fd1da32803386bc961ae50d9dcce987bd778e91b"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:7cab17e2892ebdec7bef424845ad1b38ccf78cba9ba19b1db013365649940430",
+      "seed_pred": null,
+      "sha256": "sha256:2d9dc26b257bf1fd11810dcefca913d98573a6ab71dadc0759ab2b7918d01ef5"
+    },
+    "svgp/amplitude-rbf/kin40k/M256/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:886cc56c97312e06044f16088413616518ea4f77a23cb416d2f6f37527f216e6",
+      "seed_pred": null,
+      "sha256": "sha256:723a66740778acd1060ed601559ef5c95885109f39d473026ebb61431e3e4c09"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:2307aff2f3041e3e4e1fe31c9f016c2993e18069357f0343361a40eb1171d393",
+      "seed_pred": null,
+      "sha256": "sha256:c9ef80ccf819724b825f9a778ad9a5afcbe4a69d62e0225559e65e0660663a66"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:73d5943d4823cc75f76d544caa4a5ee503759c9a7ea6e3e9d095ac422d5e81e9",
+      "seed_pred": null,
+      "sha256": "sha256:e1ac91989a6972f69d631ed27ce6ff05a197dd6440068d0e43b1966f699cfe77"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:c40479489d6c040b1edd0a38e971665c420544a335c205661ce1bbfd3f7a351f",
+      "seed_pred": null,
+      "sha256": "sha256:ec7b7dc5aad87528f7d1b33c9ace66957a9308c4301682f8fc63e6359678fd30"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:8774727574156f337e04c967bcf092f4840958016162c20ce4c997b9c47cbb3f",
+      "seed_pred": null,
+      "sha256": "sha256:dbb49d23a83f7a2da6fba9091b20e7bb7518de46eb5fc129516297d1d4943ca8"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:a69b3a908695b7e6aa59bfe63385408711e786c0d821ad6978009aa5c2c3572c",
+      "seed_pred": null,
+      "sha256": "sha256:ac6422d20b5e179ded4d7319e09aa1ef01ff236a17d734d82c6c2c5e38ddd1dd"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:8f243a9a0a58aa8f79ff52afa62f3578ace9aecb7f0f71a6181f24d4293716ab",
+      "seed_pred": null,
+      "sha256": "sha256:da98d1f1d8c80ad1f0fdfdffbbf7c26f2857e688b4ec79f5dac3a740e9feed06"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:f75b7efd4a62932fd2f6314c454fe9c1121f381b751ebf86742d5b9055a88a0e",
+      "seed_pred": null,
+      "sha256": "sha256:be61a8833567cef53281bfa116857c134967dae88b3480f4526e7806fd659ec4"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:67cae3688a096ea6535ad9245b76214d94b787dbe5b1432bfb7853df86a54f60",
+      "seed_pred": null,
+      "sha256": "sha256:222003487afa6e3c285b7d8771e00b361f7eaeb48086f94f079b10999cf6a7ab"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:99bbb7bfb0df3a4dbffc5caa6dfc1a1e7f210ed176bb27f6cc35757a8a3af5a2",
+      "seed_pred": null,
+      "sha256": "sha256:010c7c497d3a69a670a68ee5c79f828d977608dd169672e3df8a46224c144fcd"
+    },
+    "svgp/amplitude-rbf/kin40k/M512/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:7816c4eb4aacd1ea57d671652cfd567646791ecd63150b57feef6a9274f2bf80",
+      "seed_pred": null,
+      "sha256": "sha256:6e9b35e19665f5ae5c66d7dafc109958ff24d7b11c4b10baf778ec436834a2e7"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:3025f3be9da008b1618ad0854de1d5f2cbe13499c66b799c928deaf7043c2b94",
+      "seed_pred": null,
+      "sha256": "sha256:346aa51c08b661ac3d2f4f5f827d82004635fff75b06b76fe22ff9b4ce8f71ab"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:928e1554d85b81805eb96c0136bb904c58343dd4f225095d5489b62ec0bfce01",
+      "seed_pred": null,
+      "sha256": "sha256:03b4b17e784fca7124f9ecf8ddb3065055154d14ebc63ee466e8f4d237d14aac"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:1d6bb5e609ff44e824a34e2d32090d4bcadc5928f65b7470d39db0db4a04f2d7",
+      "seed_pred": null,
+      "sha256": "sha256:1e35a46f36dd23d3d75697723ce98d4e10ce6a904c7b511daaa1b652045280c5"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:8379661b2d866fe105d2950f2e668ad24d7ab0a8e60c36c8fbce0cdbf1462ad4",
+      "seed_pred": null,
+      "sha256": "sha256:d602986ffe70c9bc606cfe480a85c0acb2c6f54bfd5ca59fa7743eafa1fd2b1d"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:5acd8ff8194a393e0647bf3c0a9adda515ead3f208f036cb01e03dabb7a081b8",
+      "seed_pred": null,
+      "sha256": "sha256:a23ab909bc71becdf8923fec2265539a8e1177dcfd7ac39525cb1b5b9e4240a4"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:99225bdbcd0596bff4645b3d78f8a27ae2bde5593dbcd4f18b42c12b99e3306d",
+      "seed_pred": null,
+      "sha256": "sha256:31c46aac127bd1dc7c757a22a1cb3f0610fe8405458584093227e9cf510c83ca"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:7611749d7f305c15e95b597432cc219de4e225798b141baccbce13c7285a3f0b",
+      "seed_pred": null,
+      "sha256": "sha256:c3d43b844eab49d3e0a774e1e47f0a14f8301e156009235ad5185c09761dc66f"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:d6457e61073d9f93a06dd0309b13748c1cd3020ddd65c98f7eadf43dac3bbcbe",
+      "seed_pred": null,
+      "sha256": "sha256:a489013f4d685a5fb88d8385888fe59e30666d8289fe59f273f6d061bb590c81"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:da05f0a9ff3dd225d3df20df0389fcb433fcf2c245fdf9ca2e5261b00465bc1f",
+      "seed_pred": null,
+      "sha256": "sha256:9f1b841f808e160d6b7e6a8d6ef2b76900e1846328162b687bf4a2ee208a0f3b"
+    },
+    "svgp/amplitude-rbf/kin40k/M64/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:312387e1fe2a55968139b14cfc7f47aab7bc8bc0cb5ebc4f0557b0ec4cae78f2",
+      "seed_pred": null,
+      "sha256": "sha256:067980355a6933d5495da2f53d015a10be74bd8d84da8b3ac252c6dd7531d27d"
+    },
+    "svgp/amplitude-rbf/pol/M128/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:7ad05a43ed9b653406279d6420c9fc1375a0c118a4922dd5e5d74a93d48c97d1",
+      "seed_pred": null,
+      "sha256": "sha256:5437aa9aa620f5c5f9734bbb67401992bf5ead78d2081057a7180ece95663011"
+    },
+    "svgp/amplitude-rbf/pol/M128/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:8f36b254b21478e0aeda8decc3c950c68e597a3d2f14cc4a157c0f936f575429",
+      "seed_pred": null,
+      "sha256": "sha256:3a47defe7580b6a55f90ac1f6148bafa2ac732fa9db5eaec608321fa90e799d4"
+    },
+    "svgp/amplitude-rbf/pol/M128/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:896c2ce67f00d1799299f9d7b4eb44866e6d69b464ddc2941ece171d598ad5b2",
+      "seed_pred": null,
+      "sha256": "sha256:03a629fb7f1516e9886d9bec562fbafa86b10107f7c7a3362ab183797ede9e6e"
+    },
+    "svgp/amplitude-rbf/pol/M128/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:a64f8fb1ede764cb918f802b3b477726ffb5e84f49645325960ef5c7da432abf",
+      "seed_pred": null,
+      "sha256": "sha256:f9e164628beee3d738c68af0e3eb7c6694ea5e5f55adf361fb9e8ca9f4010baa"
+    },
+    "svgp/amplitude-rbf/pol/M128/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:a88c2ba8dde16f0a47844e5305081def6df8a139292a4f4892d40c7ca5128c1d",
+      "seed_pred": null,
+      "sha256": "sha256:725b20fafc8b37d56b944237d03b2d4c3e055425c96149adaa732df648f19da8"
+    },
+    "svgp/amplitude-rbf/pol/M128/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:7cf7765c69e38235ee80dee1d8ba043e535470917e10d3b2003a3c69975bba09",
+      "seed_pred": null,
+      "sha256": "sha256:780e0233dd5bc05f29e21ac797f54f2ea02211bbe59f3e099585f8e835c59d8f"
+    },
+    "svgp/amplitude-rbf/pol/M128/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:575dfd3f0df2e61a87e204e2a0300c08805e5cb732fb6b3d2789b7ea1b430dd2",
+      "seed_pred": null,
+      "sha256": "sha256:8a6a7e237e54528b8c76e6474e94e04ffcfab3bf61186d0e9fa0a595f94f3885"
+    },
+    "svgp/amplitude-rbf/pol/M128/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:e8e4ddb88e19c7cdd2af7387b11041a331eab386ef71425a55429f735d0a3c90",
+      "seed_pred": null,
+      "sha256": "sha256:0812ec358d43eaf0a43d35d1c649f8996460ca823e56c1955107dc20807e3bd3"
+    },
+    "svgp/amplitude-rbf/pol/M128/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:e1167a082dd7b6de8ca7eeae9205ea089668ac839849b9293cd006b00783f012",
+      "seed_pred": null,
+      "sha256": "sha256:5cf7e88f91de74b9e854a04489ea8fe3dab86a4c68fe27226644767af51d7261"
+    },
+    "svgp/amplitude-rbf/pol/M128/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:8ccc117f2394cfd5f50dc31c79a99406c728efb0c53562c480648f71109e3450",
+      "seed_pred": null,
+      "sha256": "sha256:d0f477a2ef1f6e674d34770d1304f074d481828e10d535d8cf2b788645b7bc01"
+    },
+    "svgp/amplitude-rbf/pol/M256/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:07a446c90f0c6df0db2e8e21bc07683095b2c4521ec586e08737bdb8a6b3a36d",
+      "seed_pred": null,
+      "sha256": "sha256:c6fb4975135697e2d3dcb4d8e7e7df48683754bbfed817158c16b89879552396"
+    },
+    "svgp/amplitude-rbf/pol/M256/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:a7fd8e1bace59e14804ed053c0237622eaa9bb1b60a4118f40cc4cbb465c0ce4",
+      "seed_pred": null,
+      "sha256": "sha256:516c9586fcdf198a5201ff9a1ca67980940e3240d14dc9a2d0d3c38a702882dc"
+    },
+    "svgp/amplitude-rbf/pol/M256/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:0220d5574fef25a96fc9f397ab782f37ae4f812dd86814bae027d0093088bd23",
+      "seed_pred": null,
+      "sha256": "sha256:a0150bcf59427f82ddaa38b6c0c82ee2c362ab6a65089df67d88f556fb6e00d4"
+    },
+    "svgp/amplitude-rbf/pol/M256/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:aab59935bc4ff23df46ebf4c57426722d73fa99767af1132d6564dfeb4b88aeb",
+      "seed_pred": null,
+      "sha256": "sha256:81f0d3eb14b37b69c3b8e823d3b78dc2f689df4fb9ab4f3a382c8b9811987078"
+    },
+    "svgp/amplitude-rbf/pol/M256/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:fef8a5c612a8a5c1262938a6b6ddbdbf4834927180343630558038efa86d5ef2",
+      "seed_pred": null,
+      "sha256": "sha256:fba29b34dbc6be5349ff02441cd6accb502183e696ed4e11669c710e7afd9bf2"
+    },
+    "svgp/amplitude-rbf/pol/M256/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:520e34b851f6458874990ea9df7e41c626c8cee48f01dc3f3112f69b9c41a9b2",
+      "seed_pred": null,
+      "sha256": "sha256:5e3fa31da14583deaf01a8e32de7ab80d8409dc057ab2e35890e5b781d485438"
+    },
+    "svgp/amplitude-rbf/pol/M256/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:5e97af2e1042b8e1cf0f16d577d27ae870acfc90a2396755d5c2495b0b612389",
+      "seed_pred": null,
+      "sha256": "sha256:74a6b850c836be8b6f7c527a18eebcd2046934b00ee486a61a767106159b152c"
+    },
+    "svgp/amplitude-rbf/pol/M256/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:1ff93713ba7d56f4c569fa4db6770e9e870710bfc1ddb6161afef965be651962",
+      "seed_pred": null,
+      "sha256": "sha256:cec250f6e8ea16fa824e764c62374101e8169cd5b958ef9f5f6e467201d800f7"
+    },
+    "svgp/amplitude-rbf/pol/M256/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:fa9755c7c70bff187343bc6438a381925a53838b6bc14012338124e21b0d3f0b",
+      "seed_pred": null,
+      "sha256": "sha256:a594a858ee68846c2fb326873442538e9a99d6910e44d5b0b585a4f3d5aa9d67"
+    },
+    "svgp/amplitude-rbf/pol/M256/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:5169552066eeaff403ee0ec1dd9f9e0d78820daf9e94b759e9dbb6621b2c2273",
+      "seed_pred": null,
+      "sha256": "sha256:ded470aff77ecb38c9126d7c7d0e64ff276b84b626347225a3b61d6819b323b9"
+    },
+    "svgp/amplitude-rbf/pol/M512/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:eb046ff09550e75d1d515ac4f4998a5826df1c2b3ac4001669ef38b240ebf5f5",
+      "seed_pred": null,
+      "sha256": "sha256:5a7630e9b78db35597a908e5e4bf06664870052e03a20fe59f52a025914a5339"
+    },
+    "svgp/amplitude-rbf/pol/M512/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:26680bb83aee1da2d21e77ee4798f5ccb86824e32ef650de8f90ddde52cb9b51",
+      "seed_pred": null,
+      "sha256": "sha256:53a5a8a7eeda574f9f2d94928394294f3272bfa11e844a1664dbf3e0e3824154"
+    },
+    "svgp/amplitude-rbf/pol/M512/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:43e591ed0dc364fba46989f2ab6a240d4287d8d76c2c727c1f9b4901959ddb43",
+      "seed_pred": null,
+      "sha256": "sha256:73808437108130e13e1b6545a97d4f1b2250505126ea775978590fdca6532697"
+    },
+    "svgp/amplitude-rbf/pol/M512/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:43f9eb657c883fa1b08fda7042b880301161c30048d99597d52ec4a95efa22b9",
+      "seed_pred": null,
+      "sha256": "sha256:e120005aaf5464e0fbf118c95cf5d98727bf81e374cdeffc22deba43fae01e7d"
+    },
+    "svgp/amplitude-rbf/pol/M512/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:5a9cfd924a41649cfdfc4deb186f5670912091db8b6ce1f6576fde1c6ebb9c67",
+      "seed_pred": null,
+      "sha256": "sha256:317ea60a9ad2d3eb7e50fcbba9902d94a4a0bc4b8adc64e1a13b93349f7a08c0"
+    },
+    "svgp/amplitude-rbf/pol/M512/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:2283f8e26eb3e29c503325256f70c26a4d3377e5e2e275320ba6211381a7b206",
+      "seed_pred": null,
+      "sha256": "sha256:c6df5306ba27c1357d3502020a07bffb7053ed7af7a32094c8b988eb6c2a3bcf"
+    },
+    "svgp/amplitude-rbf/pol/M512/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:f855239c1458357ffb6e10dd03fa0eb81934716cdc2c717aea561e2da259f1f0",
+      "seed_pred": null,
+      "sha256": "sha256:b7f83799da521e225d07413c09d535609db3ec6e24b56c7ceefb141033577194"
+    },
+    "svgp/amplitude-rbf/pol/M512/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:94cb735f9b34e07d072a6876f969b397edbcba8bde60bfba64338d7d4b12b916",
+      "seed_pred": null,
+      "sha256": "sha256:8afd945cf87347df8e73639c4a1d9196c01f357b0ce5ba4f0c0a13988c726eb5"
+    },
+    "svgp/amplitude-rbf/pol/M512/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:59b07d639d85b7f0b7ec3ad3d54f25948570f7203ee19c3bd1f3a84610954918",
+      "seed_pred": null,
+      "sha256": "sha256:e7a6562932835d25b184339868301e9607b731ab2ecd449f495283a9e533fd14"
+    },
+    "svgp/amplitude-rbf/pol/M512/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:4191e54de7fc1fa6f0812aae8f24c5bb05ba8cc694516236c7bf2af9de9d134b",
+      "seed_pred": null,
+      "sha256": "sha256:a808a693adda1d11b01480323915348d433cf3a22f3bdbd2e1572964c309946b"
+    },
+    "svgp/amplitude-rbf/pol/M64/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:524a655c9eff0fd3e14dc8f2b5fadd5616101fc8ed7f335c84a760683c448fec",
+      "seed_pred": null,
+      "sha256": "sha256:ede5745fa1c7d30975dc3a1b1fd3d7bc48a95bf1acee2f87df4dd858862e9d94"
+    },
+    "svgp/amplitude-rbf/pol/M64/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:3b311554e010dcc60bb4b900f33384773f9b7df8c666a81e910c335eafcfea3a",
+      "seed_pred": null,
+      "sha256": "sha256:8cd12bcc0c48b519be4dcb542fc29ec2fb593d0f0d66d33c0b2012ee0da5f0ea"
+    },
+    "svgp/amplitude-rbf/pol/M64/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:58e933cfa0bda601f3722389ccdec827f44f0c0aad79da9a25676fe5a6daa7ce",
+      "seed_pred": null,
+      "sha256": "sha256:daad8fb134bc1be2afe81da5bfcf5d0df280f659ae6e64a6a641afb8ee83408d"
+    },
+    "svgp/amplitude-rbf/pol/M64/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:5b4b6a5e84c82d719ac78e93972b3362bcfbbddbfba62fcd856a110b9149e8e1",
+      "seed_pred": null,
+      "sha256": "sha256:857d865f67cac339a1b8538694c9169589368309f5ccb09c0960b5c25c216bd3"
+    },
+    "svgp/amplitude-rbf/pol/M64/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:11fca481c075c4115f3dec0d081eb367289d6cb89ea20e1193502feda2e57e0a",
+      "seed_pred": null,
+      "sha256": "sha256:40a985c3c58bec35d44a121684c1242b0f68747db9827a09686390d386fb5b74"
+    },
+    "svgp/amplitude-rbf/pol/M64/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:370fd3c8b942145170ee77f821a1c25f5b61844d0223b600b0828e0b533c6cc2",
+      "seed_pred": null,
+      "sha256": "sha256:4498ad48a07e2e46608a08555f1d395068757d0d837f4b6e566f79f6c5fdf8f1"
+    },
+    "svgp/amplitude-rbf/pol/M64/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:dc9056f118e505ea73b6f68b529e68e9bc7169ee41fb4ee43db49f2211e1f723",
+      "seed_pred": null,
+      "sha256": "sha256:7abc612fd3e82587184f04a1e8d009cde092d9ebbffe7174a46a7ccfa720b56d"
+    },
+    "svgp/amplitude-rbf/pol/M64/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:a4d778cbdb6a6e5e58fedb82b22aaf9849c1289fe4b0d328254535360c10dd2f",
+      "seed_pred": null,
+      "sha256": "sha256:bafa604bcdc64e23f574ac21844a8f6e9e105d3b375ed8d25d128c378f3680b0"
+    },
+    "svgp/amplitude-rbf/pol/M64/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:ff97e3938a004b541b611b3fc435ae50526e02d1aaf576cfcea54fcfcca42915",
+      "seed_pred": null,
+      "sha256": "sha256:c8c861468d566eff9efef1cd655470228627456a91d670c1fd6710d978295511"
+    },
+    "svgp/amplitude-rbf/pol/M64/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:5b9e5fb709eec8825353b3412d5f690758b335821ac60ff58d479ebc28dce2fe",
+      "seed_pred": null,
+      "sha256": "sha256:c3fed527e610f97f7d598e92b8034fed06eb7a20188ce02f3051567b82a11d9f"
+    },
+    "svgp/amplitude-rbf/protein/M128/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:4512b5c819afb13abd99db53385c4d75ea1a40067301e02779710ea3baef916f",
+      "seed_pred": null,
+      "sha256": "sha256:b5113f1f42863f0f0038cebb13af1402b75e095789a35732a1aabcb07b251641"
+    },
+    "svgp/amplitude-rbf/protein/M128/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:0d54335b1512e1b959561b253f57366f2a652756685c5c2033e18acbc53ac369",
+      "seed_pred": null,
+      "sha256": "sha256:ecdf3710572b388dcfba3f3767ccb846c687b3ed4ae30be3d1104f2171cf4ac8"
+    },
+    "svgp/amplitude-rbf/protein/M128/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:4865c3c94b08ff810988dc3c6864141a0c8e4690c8f284c57fe9d0a56f43769b",
+      "seed_pred": null,
+      "sha256": "sha256:8efccb8e5f75b0ce63cdc1220ccb8959b126bc32bb3188e6ec975c0b7b7ffd05"
+    },
+    "svgp/amplitude-rbf/protein/M128/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:495f1f807079f80f93584ee294d9a30f7c7542f6755cf4c85802f7166edf450c",
+      "seed_pred": null,
+      "sha256": "sha256:71d2bd45693b2c290a7902a0b91b7af953ce3b385425158e2317a8e0bad3fea9"
+    },
+    "svgp/amplitude-rbf/protein/M128/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:9176f8e259948a5a5f7270a3830dcfebccb875490ca859b237e82b557d95dfc9",
+      "seed_pred": null,
+      "sha256": "sha256:7df2d281e5ef9c828091f31a19f6a8e8a4c208740128619547d4a315b21455c4"
+    },
+    "svgp/amplitude-rbf/protein/M128/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:2aba0cdb5f22f71bd7165a810406eb5ca9e580b91ce3cf9002fec323baca8e07",
+      "seed_pred": null,
+      "sha256": "sha256:69dd2e80ea80cbca15aab61084ce4c38acd9f45e77fdce5b52f295d3c97e1358"
+    },
+    "svgp/amplitude-rbf/protein/M128/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:bbcd026f8fb5015eddbf78b37ddedcdc9d6a8a24c7aedd198e5156f313f9ad76",
+      "seed_pred": null,
+      "sha256": "sha256:e1e96a137a16ccd712f08166da2ce860e8c3c030d906671cd36aebf1849e7510"
+    },
+    "svgp/amplitude-rbf/protein/M128/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:2b10a691135b91b004448bcdada856286e0e46a5f4dbbe3549ce686bce039ea5",
+      "seed_pred": null,
+      "sha256": "sha256:445c8a71b9e3aee4326a32cfafe567b0dac7ad0ae134dc650e38902c5d2c1ae7"
+    },
+    "svgp/amplitude-rbf/protein/M128/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:ad33528e5c774b770f18d4926dcd2a4f620cc3d4f75e0e2cb5009c8146963562",
+      "seed_pred": null,
+      "sha256": "sha256:7a4dff4ee7a09f8acf9162ded3d0300eb7b7f3bfd4da6fbe95059de71711dff9"
+    },
+    "svgp/amplitude-rbf/protein/M128/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:ded28d40cc8818cdc1f473706384c85de912763683586f65bf5afed9a61d6999",
+      "seed_pred": null,
+      "sha256": "sha256:3591777a7052a0650d2426703a0d86d8113c55d994970b333c591f8036ba47a7"
+    },
+    "svgp/amplitude-rbf/protein/M256/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:7074ff9ba7974a6bc9f8d08c6353d2bbd99d91fc21ceade420b97c1ba7dd80c1",
+      "seed_pred": null,
+      "sha256": "sha256:9336f3a99f176b8191824efd4368d7c7483b5a987d29fc483675e4b2feeb9c9f"
+    },
+    "svgp/amplitude-rbf/protein/M256/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:be08e3d04964591b1b13e1f226495975fe6c08e9f36832214028c2ec3d6cad33",
+      "seed_pred": null,
+      "sha256": "sha256:3a3ae3a2b13f777329a6067a5a7babd7a2605a4afe23b1d7d62c9943704a9bc1"
+    },
+    "svgp/amplitude-rbf/protein/M256/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:a547dd8292d98a4549befec07527774ad71fa18f3360879c81e084ef3f73386b",
+      "seed_pred": null,
+      "sha256": "sha256:aa51e2b9c2aeeb38c6194109cd25ef440f9e837083dd2554663b39ed8474ea3a"
+    },
+    "svgp/amplitude-rbf/protein/M256/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:d7b60126aeb052a7c1e3f4afbb545b82e4f7b4825d9cba2eb8b1e52b7b2e046f",
+      "seed_pred": null,
+      "sha256": "sha256:d16315c1ace6e1f1227a72b8870f4b1f4bff7855b2e1bda512f8a5098fbbd32d"
+    },
+    "svgp/amplitude-rbf/protein/M256/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:7fe0be46e6aa97c9843220334b907eec02ed767d5605da59b17f1de32f15fdc4",
+      "seed_pred": null,
+      "sha256": "sha256:2c33b26f6dc0a460da904177d4376e215efbf168177313d631956303f5bc75fd"
+    },
+    "svgp/amplitude-rbf/protein/M256/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:f42ee2bd9743229d73c0f18f74bb3284397c4bac31a0e6ea0540e0cc23c2037f",
+      "seed_pred": null,
+      "sha256": "sha256:02d3300076a23762b64b26db5541bcc0acc3c634b0634152f12030e1128af2b6"
+    },
+    "svgp/amplitude-rbf/protein/M256/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:1abb39ce69ecf7cf418945e3e9aec049a99e457035d14bcfb042c2c4811996f5",
+      "seed_pred": null,
+      "sha256": "sha256:d2451380f29b2f3558518333ae1e97078532950f3541c338c29840fdb99fa280"
+    },
+    "svgp/amplitude-rbf/protein/M256/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:eb8c48bb65e795884c819d31bb256f4bda2772c7c2d96e8a0b62c670d8439de9",
+      "seed_pred": null,
+      "sha256": "sha256:66b0754115190e0d4ff78b318e2bc13942a4b5fccd7710db663570ea9ca10247"
+    },
+    "svgp/amplitude-rbf/protein/M256/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:adcd03024bc9dc7abc2831b1b752ac2f6391e2d729e776f67ccc06c77fb5e18c",
+      "seed_pred": null,
+      "sha256": "sha256:cb19517df4979e9e5aaf0d015856375b67a43a979bda7c6387e325786d369297"
+    },
+    "svgp/amplitude-rbf/protein/M256/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:da5af22737dba0c807b9fe035c65defc56ecb51018e4dd1aa2d33fa92a6478dd",
+      "seed_pred": null,
+      "sha256": "sha256:ddad04f70e208966c06a9776f2d07169c81b92bdceb3351a93ddc443cdabde9d"
+    },
+    "svgp/amplitude-rbf/protein/M512/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:44b1ffcf328dceb2f2d0f816ab95bc99db0d9644972c1e74fe8b9e714cee96c8",
+      "seed_pred": null,
+      "sha256": "sha256:ba3956c36e70d1563560004337973334df6dd8743a6b2401224ca24f62037973"
+    },
+    "svgp/amplitude-rbf/protein/M512/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:119a657fdef05fbfe1e54a9a63ce35d6ebb419da9448faa4611ac54cec504494",
+      "seed_pred": null,
+      "sha256": "sha256:5476b4ea85401cb37a5358a86c2ecb6b4298079b0e3edbb586b481cd5421658f"
+    },
+    "svgp/amplitude-rbf/protein/M512/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:d91252ceadc0e43ff97c60fcfad9a10ccd2bf1a7ff0eb820d49ebfc31d3c468f",
+      "seed_pred": null,
+      "sha256": "sha256:99e9207d071a3d0850b4621e9e3d6b04010b863526ff7185965917c01f391bdc"
+    },
+    "svgp/amplitude-rbf/protein/M512/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:7ee2e77cff03fee55fed1efe9fbc8117249f81c9ad8c8d1280ba92add3b78b35",
+      "seed_pred": null,
+      "sha256": "sha256:e6995894668533d15192188dcf5ed9decdb9820732956b85f059b7e57ac8d4dc"
+    },
+    "svgp/amplitude-rbf/protein/M512/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:b6553aa86e802280637c66a67f9295876c7af0f1bdcb9e864a5c96a40ed045aa",
+      "seed_pred": null,
+      "sha256": "sha256:7fa4ae1e2d112359e766dae79500661d9b2b5ab3c1c6d359baea90b9e5f8c0c1"
+    },
+    "svgp/amplitude-rbf/protein/M512/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:1a33a98d84ff567bdaebb6875335dc27888d56b911149fdcfe92dae0c9717006",
+      "seed_pred": null,
+      "sha256": "sha256:5a2db1e5c7c6c25a13993e894d687f4954598e144d9f84a553f2493a6ebb2c8f"
+    },
+    "svgp/amplitude-rbf/protein/M512/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:77d6f511186b43ad1ff01d18b85dd51ad55ce5be9d7a2cc4066eb3ad7f0e573f",
+      "seed_pred": null,
+      "sha256": "sha256:c6645b183fc055c882da04deb506952e2f0dfd8fb669ae5f8c26151abd017a42"
+    },
+    "svgp/amplitude-rbf/protein/M512/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:5a912ff6dc62f2304c91e63a6421c0c3e0ec5febedd30fab00ff2c10cff5480b",
+      "seed_pred": null,
+      "sha256": "sha256:3eeae45922a1c679d99f51e8ea169143823e95942030293c3b601333d867ff45"
+    },
+    "svgp/amplitude-rbf/protein/M512/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:49a58ca7691f82352c9c8d0ed5b567677302efa628f5fa575f2f00dd628cb1c1",
+      "seed_pred": null,
+      "sha256": "sha256:4cfabf2418f53c93f122b7605aa19d1719f5de49a4b0f9e5246c161287f04b8a"
+    },
+    "svgp/amplitude-rbf/protein/M512/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:04aedb7481f4f1c194ac09e94a07ad73857420c452ca38bea768706be1a55325",
+      "seed_pred": null,
+      "sha256": "sha256:d0eed0af4c5ceae321be4e41d7cee259cbab86877b67080d8ca56e462ae7e4eb"
+    },
+    "svgp/amplitude-rbf/protein/M64/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:295e5744da50f65c8895a37a7c30cefb18cd52eec2085ad402c280977b56d676",
+      "seed_pred": null,
+      "sha256": "sha256:c399842c18f5b99240bc87bfdddb3f2a0d55cc619f9389dd8269e37b10fa1914"
+    },
+    "svgp/amplitude-rbf/protein/M64/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:1029dfcc438cb4865bd74b6be4a0ceff41857203b30f002e7ef69d2bb16defaa",
+      "seed_pred": null,
+      "sha256": "sha256:2b3d761991089fb18135b6a4baaf6fb45ef8f6abfc453cf8c95961772ff509c0"
+    },
+    "svgp/amplitude-rbf/protein/M64/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:981eeb91fdbfb01a09229801b82a61a31ffa955b027d7452a2b3dce60ec99750",
+      "seed_pred": null,
+      "sha256": "sha256:ef2d79655859a3b20e48696c7d8b042dceb40aae6d89e04c7955426b308a7493"
+    },
+    "svgp/amplitude-rbf/protein/M64/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:b2a528732f4664c8a2b370bef880694ccaaee9ea32e5c18a08ef1387babe1e47",
+      "seed_pred": null,
+      "sha256": "sha256:4ed80edd3de42a271d23c439d25a9b06f0ea06748cd4a8af19447b7c04ec5e26"
+    },
+    "svgp/amplitude-rbf/protein/M64/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:d8a874d2000f2a721be911290a940c48a97bd02ce5ec4a66a2d2e95167c3f5e6",
+      "seed_pred": null,
+      "sha256": "sha256:bc312bfced632a60a9d2329d0821f04d12d2836848c549481a494f6700997868"
+    },
+    "svgp/amplitude-rbf/protein/M64/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:57701d0359eb77eb259ce4db8d80eb556d428b4d7b7c9b46e8f8fb95f85d8cd8",
+      "seed_pred": null,
+      "sha256": "sha256:e9dd4177cc5a86d0018e7f80ac5af8e9ce689c556968fa1080c01af56432d993"
+    },
+    "svgp/amplitude-rbf/protein/M64/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:813ddcc3a04b1babd8b22d2e871ed7b71ccba5a9275358f80a5123e161ce70ed",
+      "seed_pred": null,
+      "sha256": "sha256:1ec953157c3fd7204cc336eeb6939aa2e0d9e64aabe18432cf6cc42737bf9b66"
+    },
+    "svgp/amplitude-rbf/protein/M64/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:25804f5ac9a9324afd31969b90424b733962fdc0447d87db6affe5079090a5c0",
+      "seed_pred": null,
+      "sha256": "sha256:fa66f4f183c77d78f82393aef6c50ddd7e86b8249bacebfef77fcf906f50cf6a"
+    },
+    "svgp/amplitude-rbf/protein/M64/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:853c1b2de259572cd6d94f7c5b24bdebf888d7ac6eeccbb11e38e013a7950225",
+      "seed_pred": null,
+      "sha256": "sha256:106aba201dda36dfb3a769f83b9f88cd0c4dd22148accdf267131fdfe263a86a"
+    },
+    "svgp/amplitude-rbf/protein/M64/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:e65acea3823df629f2b12344313355864bfe4fd93cd99f41cb751bcd2ba750a9",
+      "seed_pred": null,
+      "sha256": "sha256:e42741996153f5137797b4a87364a28a7c8a7facf509ceac3a74231e6e99d1e0"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:c31e33dea43c4f5de1342022622e16aca4a1523d66f23a54844086ac43b9a9ce",
+      "seed_pred": null,
+      "sha256": "sha256:589df146b1680896675b7c2c27be8dcc788a52fefc1e37f91805729cffb16ad7"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:29d2898d1435195aeb3644367f1c2651d04a31ee54037dee73a9b3631e9657e6",
+      "seed_pred": null,
+      "sha256": "sha256:293e24b7fcadd9fa19870689d5014b2e08033d5c2324da63868a974a3386e8e5"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:650a39ca4e699463024186e4f0520db92a3ab2b033d780fb58e635c3717ac211",
+      "seed_pred": null,
+      "sha256": "sha256:4e06495c0730c709f898341de9f8b7238a9b46cda024fc305be2dab11b30ab22"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:b48ecf4c6e20e3a4f56cdb6b4839845d6fad72afb6512579349162d714a2cff1",
+      "seed_pred": null,
+      "sha256": "sha256:96cd563e78ea121654cbbbb1dc6215bdb16f3ba9974ab843226ad0c2956d8107"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:acc289ea398647025f7f5bf89c789221d160070a64b4f348e9cc6a24098074e2",
+      "seed_pred": null,
+      "sha256": "sha256:8539f08816354c835b53f44e125c566500a6b0c18e755b262cae32f9337bbbb4"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:a0c1c9876c3e99127802bfe6ab285efea1b71107ba2a9390fc86b3aa5a606e25",
+      "seed_pred": null,
+      "sha256": "sha256:ee382ec9d0c5a9339ded9f4db93a0cc4579e69c105804760cd22573de456a4f7"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:66543ce67f54bd79f8814205f46a40b8aab69fbfc27c62e8765a2ee8116dc586",
+      "seed_pred": null,
+      "sha256": "sha256:e6b1070270c5db3d140aa16a85493809943410c06d3c7e3af490b69a18fa49a2"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:d83542b898857eebd006302393e7d612e257f81bbe10eb3a5fe3d46c0d6c50ba",
+      "seed_pred": null,
+      "sha256": "sha256:2e8f5195745cf11dcbe4383c6af25aef5c7ba9830b8f4da4f7085c88efdda314"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:7dfc52bf707dddabe01915ef09e22dcd455367721f122834b6840c9e14e20660",
+      "seed_pred": null,
+      "sha256": "sha256:00823422502266d6add7bf9ca657a6169800ea53ab0119c28fc1cd07f3b1f06d"
+    },
+    "svgp/amplitude-rbf/superconductivity/M128/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:526bc0d4c6b90460448c9a9a8961cef38387be2b86555583f5725816e8820e38",
+      "seed_pred": null,
+      "sha256": "sha256:dac94ed73f941e3d695bb0858688addcd63975e20c9c8fbc4eba065da168b94a"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:50f07606d30aa08f8b65e251079e03091a229058435755319af36a957308a53c",
+      "seed_pred": null,
+      "sha256": "sha256:6e0205db4df6ef28c4a53c3c7ec18046561ac2986156f0e15ceff30243ad25e5"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:0253efdd2a4e2b2fe4757b07b3d40476f4c3b5060048167f2159fde6428d70bd",
+      "seed_pred": null,
+      "sha256": "sha256:cde9d050fc2523be3abec6214b743896cc0fc07c4024002d9414be030d4b0616"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:1baf5a359d900c7cfb85babda5862418c9ea58b51675a833d19b491b6e15d4cc",
+      "seed_pred": null,
+      "sha256": "sha256:5f123584a6df22ddcaeb617af798494d26f6cbee42b8bb43ca148b85220cc83e"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:c79e8e0a561f7c4ac18343bd205a7613f8ce272c68d7a177ac59d1f5b1f0eeb8",
+      "seed_pred": null,
+      "sha256": "sha256:bbb448f10d4f1d4fad9aa23780ae55ff66ff9855923d9c21bb9f17332957fead"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:ad9faeaa7f538f2fb0a03447d81ac89dfbf24f5af99b01f0920c915d62a3df03",
+      "seed_pred": null,
+      "sha256": "sha256:628ec00aae01de74fdc1c74c9b4e68441ab58bbd37afb88539a0b45bf59d435d"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:727679f711af416bd905dd51e480413ee1c217f949eb0d7629763d21a14694f1",
+      "seed_pred": null,
+      "sha256": "sha256:b5b79401739f404114e4672cd519a18e9cfd85f3066ce7cd8a2889a9837ba638"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:7591268511ea38ad1d8cfdf514285c4c75a123165c3cbe76f064ae09de3e9cb6",
+      "seed_pred": null,
+      "sha256": "sha256:c64ed0bbb78f6a6c75c0d1f1001ceecba80c9061915bff5d2acd0f6ad1c9314a"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:baa6d930cc904b670a7a1780767cd67e01784b393a689c051f0956eb32ea2c6a",
+      "seed_pred": null,
+      "sha256": "sha256:f52edfe0573bcee59f8fa43ce8e5f18728de73be439dcdfff4904b72e03f3cd5"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:64a359411cdb3e6622fea7772c12db2c6128d84f6029eeb019359532b12226cc",
+      "seed_pred": null,
+      "sha256": "sha256:116c4868f66b28daa4a113a9a1a79a5fe3e40c4f8744d8510921d431248ca6ff"
+    },
+    "svgp/amplitude-rbf/superconductivity/M256/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:e04898fd0eab8bb76b857dadf9459829f39391b76eb7cb2e0c47c3a3194d615d",
+      "seed_pred": null,
+      "sha256": "sha256:14eece183bec5ff5835ec7ad0fb0098f62a53090d64fe61e8c46448ef8f78e9f"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:eca9ae73f0c61294125d259f8326cd497e7e197715ca8e62b181d51016496a4e",
+      "seed_pred": null,
+      "sha256": "sha256:e5a8dd011d6ee4188f2ab7bd12f483081a42caf310d5f9e756b866594105d6b1"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:334afbf5e9dadf7166ef3ab73ad5f73cf8e0cb42bcce2ab0e494a6f83543b719",
+      "seed_pred": null,
+      "sha256": "sha256:c1497b8985c8a56348dad2c61d724be934913a7559a2a133b7b7b93bd1529bbf"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:3da2b3ee6a2b63a7aee1eb602fb4efe77d3eb313dd5b863acbcb70c1dd901802",
+      "seed_pred": null,
+      "sha256": "sha256:a66be60cd6ac261d61a78c9ecaacf983f9be54159f0f9117d40970414a4095b3"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:3aafcb22582323c8f76bf12f52b295cce0a8e266f16651c8faecc57005879f81",
+      "seed_pred": null,
+      "sha256": "sha256:c572a1fe334e97891f45f204734964ff2d4913abcc7b952483c57874375d5356"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:630aa68b4393479c2358d79fa9e82cc6f290d137b2d796ec40fe9d984fde6ab8",
+      "seed_pred": null,
+      "sha256": "sha256:745d0a49bb844bdf480b323265b57525948816d33c29ecfbe1fe81dafd86e9a4"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:df20c887f9285b98f9b08f15a33d9e93f2846df17eebd8c3e74d5ce196d79352",
+      "seed_pred": null,
+      "sha256": "sha256:21e5df0cc9232933ddc113d335fb87f0726a302d7c2162ea51110baad8b1300b"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:17a7bd9e2845b3f71f6308485193d06c618b5eb917275c84e1577d1967d278cb",
+      "seed_pred": null,
+      "sha256": "sha256:eddcd4da846a4fb8deb385bbd2a3c7c1157d11ff35573a22238de438dd9179df"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:5ff1c9871bf6aac92bf37b8f142dbedb87596fe54f91e3cc48150ce2dad21d58",
+      "seed_pred": null,
+      "sha256": "sha256:4a23aacb3fae46e3a3527e8f5fc8da10221b4a98757b3ed65422c7ad806a47f1"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:bd2ca8817c13513f2f2c954309f7e3703082b14d60ba6029456a96523a9029b6",
+      "seed_pred": null,
+      "sha256": "sha256:bf949dc25becbcfca1c6493afe5ab31e06b821bb21cf7a519f0a7aaa405c2d39"
+    },
+    "svgp/amplitude-rbf/superconductivity/M512/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:6f37a6afdf71588c0d7718c4f5a2bb1645ee50a01c3ec471e987bc98b73edcd1",
+      "seed_pred": null,
+      "sha256": "sha256:de85fec05d61e7fe7bde4bbc93703cd60f29c48cdb265f3ce39f1d5fa6773f40"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:0df48f80085e5ec64c88432836aa3fe275e7cb40602c298a470a9828171dc39b",
+      "seed_pred": null,
+      "sha256": "sha256:767e04634958ce38d0692e5bf7539c00eae2041557780aa1ed4626328b3ef0a8"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:ab64fbed7df63adea9e00449225a68ebb062e2ad8a2bcb8d288c9fb701e0e8bb",
+      "seed_pred": null,
+      "sha256": "sha256:88c344631106c465075399d882c1df8a04484c9f588c1c8be3144511b897acbd"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:3f5bc657a21e548b61ae5f285ccf960569737ab1c55149c8e44dfdcff8e5f3d5",
+      "seed_pred": null,
+      "sha256": "sha256:d0fcef8d398ca76086451de7ac41d1521659ba316bb1ac794d7539ede0835129"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:e5e3e6bdd533a11574d50ac4bc553dfac9729a5159122201337edb3bf7713faf",
+      "seed_pred": null,
+      "sha256": "sha256:63366e8d1f7b2d75adfd56d61a2fcb5c7cbce788cd2b28e81eb717746d7268dc"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:a6c22220c42fa9c9e6666bf69a84f4835c542f893caf51cefda1839d83e16417",
+      "seed_pred": null,
+      "sha256": "sha256:35f52c5f78df6240c4f0608f236a85563131f89d1c179d254ab4b056e452a4b3"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:6324139d9f7f080b8f4a59d64a2ba8e5bc788a28bd3252000d9167b83a424d9b",
+      "seed_pred": null,
+      "sha256": "sha256:e6e361dbb2d7967d90de30f852e04c1e41a6df177ceaa0d0ae729c4b4094d2ff"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:8a6575315bf53d4b63bfabb3710f5c9eccecc6b62fc0fe18dd88a252951308af",
+      "seed_pred": null,
+      "sha256": "sha256:83fc7de1a1e75ce02c25fe07c9288033e94b821cb5a9c27ee35ec82c3546e3a4"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:205ec3415812086eb3a8335dc3be53b62cb85d9301727066621e52180d6e516d",
+      "seed_pred": null,
+      "sha256": "sha256:c0961fe8ca6c4f759da0c5b2e4f13a8999b3729249c776c5d13fd401c6974761"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:83cb78c117f312ba544ddbf6722c3e62c03cc15f4ba561a5ac699899c15d3e21",
+      "seed_pred": null,
+      "sha256": "sha256:8f4fb1b901fb8b0544557b709f0ab07f5fc451e1dd3cef1500388b5bd04f2643"
+    },
+    "svgp/amplitude-rbf/superconductivity/M64/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:81b03539088f7e0ca7617db64b1b57cf0ada8f9f65783e40fb19d31a26504644",
+      "seed_pred": null,
+      "sha256": "sha256:ef310fe43593909e2141679465daf66d9ed2724ba37cf60f7ea08514ff6e6829"
+    },
+    "svgp/rbf/kin40k/M128/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8eff6d714d48e72ca733f44ba98c8d760b2bdd7235647148e88409b05e4dd8bb",
+      "seed_pred": null,
+      "sha256": "sha256:d59c71fc5fa02abda69d0b3a928ead9cfa333abc6f2906ec35ace23e301f8f3e"
+    },
+    "svgp/rbf/kin40k/M128/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:279ae6e222f708fc02e4d82ca75861ce9d00b165e7d382a94e6a7ce05c79652b",
+      "seed_pred": null,
+      "sha256": "sha256:d204ad33fe74a74333dde4cb4d35531d122a5763e6b8fa41564fa5e43b07454c"
+    },
+    "svgp/rbf/kin40k/M128/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:e3a0cc88f70b290200c2f0703ffad438251b7fc2ec8c13b762d243dad3301d31",
+      "seed_pred": null,
+      "sha256": "sha256:f52a0e5effeae1e7cb1697904e45bf254d48579f11ac183151d63a252cb6439a"
+    },
+    "svgp/rbf/kin40k/M128/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:abef6e358346b2b11cdbabba556b192cb8d3331037c84f4910f7915a3c9ff060",
+      "seed_pred": null,
+      "sha256": "sha256:09ccf44dbe6455b6b275011bc3a12757264927fb6601d730518e50f7e9034ec3"
+    },
+    "svgp/rbf/kin40k/M128/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:7f273dd384eda4c00b84ae3c4e1d7c483fa8931b0c5a0913093ef80c0406b32c",
+      "seed_pred": null,
+      "sha256": "sha256:6243588fae0dcbc75127c495fda3565f25996a92c397feb227445f20b820e534"
+    },
+    "svgp/rbf/kin40k/M128/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:f8c0dd80ebf67c93ea7d77e32295fb6b7ebc7702955466627bf80f7dcc0b924d",
+      "seed_pred": null,
+      "sha256": "sha256:9702a6c04aeb6a0f4fa9123bee956d3821ea5a0fa5e29d18afda87499fa20640"
+    },
+    "svgp/rbf/kin40k/M128/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:eee5343268ad96b091c594144705337602555bb606ed3c5a8dadb1ad90ba7c5c",
+      "seed_pred": null,
+      "sha256": "sha256:c61d5313725a553f34cf259d7aad3d088ae1722cfa4d2f04d3c170ce6d50425e"
+    },
+    "svgp/rbf/kin40k/M128/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:3a091f6faaa55ef9e07a3086e5891533529aa9be730ca79f6764d4eaa9a61b20",
+      "seed_pred": null,
+      "sha256": "sha256:3e8df93769576b8151d35da16e85bd876b8239a61aad76f448ae3e3f951e9e92"
+    },
+    "svgp/rbf/kin40k/M128/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:82130ef9238a9b2008043c708ee079d27274a4407a1d1b17b176f7590ff8d2b1",
+      "seed_pred": null,
+      "sha256": "sha256:18c3e55af18fe28a743e7c94d609e0ef1e7c4b0531fdf6778f2bcd91bc3ed6a6"
+    },
+    "svgp/rbf/kin40k/M128/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:de4834af9508b36ff0d227356b6947ac85e64a4e80c2b738f5052b8786293f10",
+      "seed_pred": null,
+      "sha256": "sha256:9be7c8c4cc83d3a5be7b3acf36a67259a570dc8f2641036c5687a83f019225f6"
+    },
+    "svgp/rbf/kin40k/M256/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:67d7461910f9448a0c1d87eed9dc8cc3ac7c0f0f9f5587ccb0570a09ea7d6331",
+      "seed_pred": null,
+      "sha256": "sha256:fce257dbdbe031da24f3b27eb697cbfb2c81eea770826d81a1dfd8806ca511c4"
+    },
+    "svgp/rbf/kin40k/M256/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:b002e2e621f8555586f5ad77a8a6b193f5c8222e12116ff86d666c42af7c7555",
+      "seed_pred": null,
+      "sha256": "sha256:d26a0ba827a5e67cc6c93c16dbab47b6068ece1dd63d4163465b173b849361a3"
+    },
+    "svgp/rbf/kin40k/M256/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:abc699756001e06e6c49df154606f71830d9d2fa406f5ea08af92598e14bd524",
+      "seed_pred": null,
+      "sha256": "sha256:69135dab03eb279273c4a0fa68f4ea0e4101b6d5b560caf361190d8ce9364df9"
+    },
+    "svgp/rbf/kin40k/M256/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:fed67a1ad0f3d1e3c16909abb6a7476c5b2424286bbaf03c4aa8edaf2c3bf375",
+      "seed_pred": null,
+      "sha256": "sha256:ff0ff895948f9eaad5814e89f576eb180a9611ae3c9660672eb689479f0cd243"
+    },
+    "svgp/rbf/kin40k/M256/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:b84a75ec6000d0ec1089d96202829a4c0d73f267c729bcaa265a947a3df231d9",
+      "seed_pred": null,
+      "sha256": "sha256:583c8d058baa03756377264ce32a9b29056176b84051384cd4a893531b0619bd"
+    },
+    "svgp/rbf/kin40k/M256/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:50b8f1b121ef0f93cee9b6fb8bfd07105bda4e3bb48d06fb892ecbfc22b2881c",
+      "seed_pred": null,
+      "sha256": "sha256:144138e17f8d4e987325a7094c091787deeef4be3d24ddfdd48ce5a7bc5ccaca"
+    },
+    "svgp/rbf/kin40k/M256/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:379fa35e816171a0a34c4a2dba3b480dc17bc7c2b99fce0c2bba9d3b3ae95a32",
+      "seed_pred": null,
+      "sha256": "sha256:d7ae4ff98c00feb4055b9b0e9934334ddeeb29a415b8b8e8f2b56c7777c4c934"
+    },
+    "svgp/rbf/kin40k/M256/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:19fe216f568103cc2ade70a4eda6a366b65a96bb19fb773d8f4f54171232b339",
+      "seed_pred": null,
+      "sha256": "sha256:d8623a718044930d15f828ee4fa560585c0b80694a31a02ececb2f143a18bcbb"
+    },
+    "svgp/rbf/kin40k/M256/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:29af6ccdf0cabc9583b9a2129f18294b484081c988f6a1542b27ce443b0b5893",
+      "seed_pred": null,
+      "sha256": "sha256:ccf07971eda3e0d3118c34a22fad96faf961c3b7637795bade64f044cf5d1703"
+    },
+    "svgp/rbf/kin40k/M256/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:aa070e264cbb611171efcd6e708ae29ce80b9f4a2c7764694a7b63f323928238",
+      "seed_pred": null,
+      "sha256": "sha256:b0d9966d7b7f278e7651cb7d1eaf7e54313366fa43b64fce6b74ee30bd906650"
+    },
+    "svgp/rbf/kin40k/M512/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:53d900c2842018ad7ad897aa59bd18aaae2846ec1dbe3f07741244338971d941",
+      "seed_pred": null,
+      "sha256": "sha256:a328b81ef7c00e55115e102a6e98cbc3a0091e3205f2a3403ae9325973c52b5e"
+    },
+    "svgp/rbf/kin40k/M512/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:543a1d23029827d7c415ab948128063e1d67eb26c4dc86a7f59496bc72fa476a",
+      "seed_pred": null,
+      "sha256": "sha256:90488ee5c5f1916ca8515bd4e877a5f5918005f27a816af87a73f1fb4b521289"
+    },
+    "svgp/rbf/kin40k/M512/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:a87a834834d6fe5cd5acd2cf00d41e0b2bd005f1e80f069bab4462e4dac9f359",
+      "seed_pred": null,
+      "sha256": "sha256:455199472a2e18342b36dc25761b9e7692723abc101f02f753468afdd26e5c9e"
+    },
+    "svgp/rbf/kin40k/M512/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:64efbb59c5f14fb17cb73a2ced5515a301cd060738c284f34ab67bcb2d6e0e46",
+      "seed_pred": null,
+      "sha256": "sha256:5692360502ea128e3a39c402e721a14c48e6137ba5be602665ffd43bd76fcccc"
+    },
+    "svgp/rbf/kin40k/M512/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:c7f263ee670e41a99a95c9b37228d5482ba2fd014a0b984b14f5fb3c8c020ba6",
+      "seed_pred": null,
+      "sha256": "sha256:a77d66ceddbf00cc26fc25af570b0dd0f721fa2449f6eaf4fdc68b93870842d5"
+    },
+    "svgp/rbf/kin40k/M512/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:d2e6c6ac9fb6963b35c0e8edea9030f9e5d5fa97967fd95a36748e7679aef100",
+      "seed_pred": null,
+      "sha256": "sha256:b3e29abef60ec3a77370b16437a68eedf2a2a8836e1a403324874e9107d1f5fd"
+    },
+    "svgp/rbf/kin40k/M512/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:cd704304f599d0093bb4afca5ba92f65a863bf2b1d6f63ed3595f95520a6e081",
+      "seed_pred": null,
+      "sha256": "sha256:b956a15e9a1df629337897001f4aa06f7190c4f3f5eea567520be6b096e9b4c3"
+    },
+    "svgp/rbf/kin40k/M512/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:cdea3b4a9c143bad28a0af9b63b62ca216c4e7e0849d70816854a4bb45914cd9",
+      "seed_pred": null,
+      "sha256": "sha256:a285b330d499870ec1fbff4becf0953bb368c616be0c6fa85ee31eec2f67335b"
+    },
+    "svgp/rbf/kin40k/M512/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:b0073a2f6fb8511168af77b972ec426bd2f752480086bcff189b2c756704b3bf",
+      "seed_pred": null,
+      "sha256": "sha256:343831906535ae9a1689521dda7b8a96a2d0490ea86fc86e76f0a334d5a7c0b1"
+    },
+    "svgp/rbf/kin40k/M512/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:d3faafa1eeaf3a7b23a07c9d9d649e0c11fc487e540149b22d9ea642edcbeb7e",
+      "seed_pred": null,
+      "sha256": "sha256:28f4291904c08f85a899b5d6dcafce12da214a5cdf022affc31052a2852bf1e3"
+    },
+    "svgp/rbf/kin40k/M64/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:60374d36f8ce96040bfa31559b7ca80600b988de71bb212dcfd832176527f441",
+      "seed_pred": null,
+      "sha256": "sha256:92434dd7e14b03ef8ebc933a07be4f5b08c346ef5e6f5bcc147d411b15966ffa"
+    },
+    "svgp/rbf/kin40k/M64/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:1248e7cbd6e6c7756aadf839dacc420d64efa103be34ff347410879c2457696e",
+      "seed_pred": null,
+      "sha256": "sha256:3a4478febc019b75320765cc8f40a16cace3b4d50777519e72a29a9ca3a38eb4"
+    },
+    "svgp/rbf/kin40k/M64/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:5ac8b7edcdb27881b2ecdae298a6820bf5201db587df396e41ba663f063fe0b7",
+      "seed_pred": null,
+      "sha256": "sha256:9ac15e3273a3916734f3017910822617e6fe1ab7d705d3d987e2e21fbd5359a5"
+    },
+    "svgp/rbf/kin40k/M64/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:b4e455ac4fa41c2fbef4a9b8275102c305a24861fab08a03f81b4ae17bfcf158",
+      "seed_pred": null,
+      "sha256": "sha256:11af71200429e9d55c0325bbc4fa1479e55d8f9f7857aeea76472bc662f83cea"
+    },
+    "svgp/rbf/kin40k/M64/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:d8f007e245dfb3236af5ed247358a4c59aaf36aa9c7212b22f155cb6b10834ea",
+      "seed_pred": null,
+      "sha256": "sha256:b920733e539af606d18d714c59ae74a511099cfdf3861f3cd8df40c8940c2578"
+    },
+    "svgp/rbf/kin40k/M64/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:14941a350a4113e436d6bbfc69ac27c5553e09f76d55519f660c0499ec93c489",
+      "seed_pred": null,
+      "sha256": "sha256:117b84903664490ae3d02ea4f4e99d98c47d1a6948555706698b66944a388738"
+    },
+    "svgp/rbf/kin40k/M64/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:340cfd02c86ae57020a508d3280875c5e26012188e386b1bac2a4b7875fc0d24",
+      "seed_pred": null,
+      "sha256": "sha256:eb81272f61ef072ca8a0f997bd27b021073781ad7e604036f046c603f5db8c2a"
+    },
+    "svgp/rbf/kin40k/M64/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:ce8619a00919cf4a6767b682bea70d14e81092196863575ef38b26c865212502",
+      "seed_pred": null,
+      "sha256": "sha256:aba2e388bc721af505d2fc20589bb4813f2986358469118c4067aa6aff10974e"
+    },
+    "svgp/rbf/kin40k/M64/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:e6c6b96cf184d974ca1727b11554b23a147c4dc335e9d22356671e6ed1e937c2",
+      "seed_pred": null,
+      "sha256": "sha256:c40637b2d3e4a642a7767db7ce78bb1a4df749329785be8715af23b840440c2e"
+    },
+    "svgp/rbf/kin40k/M64/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:16dfb1974df487cdc89d59e64ed640bf8891dbcbbc42cfb65d106fec7e7f39df",
+      "seed_pred": null,
+      "sha256": "sha256:3dc91d3f5bd2cc369123c95b93c125de4a77bcddb0a318b552341d443cb2954d"
+    },
+    "svgp/rbf/pol/M128/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:ce412130849a2e9981fe6caef75c2cd9c0a37e29ded68dc45b730677947e352a",
+      "seed_pred": null,
+      "sha256": "sha256:f6e801f032bd85d786cf037347084d6c8fe41fec90ab198eb678e95de3046d30"
+    },
+    "svgp/rbf/pol/M128/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:710826155106854e7c9aada5a776b5019ded11fb46468c636ed4833a0b00787f",
+      "seed_pred": null,
+      "sha256": "sha256:ccb5cbeec8f63964b3dae751897c3e27dc0a47d3b11e3a8c4fff405013b2e36c"
+    },
+    "svgp/rbf/pol/M128/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:ee079f87c21cc3f217204bb5e50312b0abd18c2fcf0026f9c4753d2efb6490d4",
+      "seed_pred": null,
+      "sha256": "sha256:acd3992880e9ba77fba9f370aaf5e51350578cf72306225018cd67ebdfee45f2"
+    },
+    "svgp/rbf/pol/M128/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:06f117c07dd58170070665235481b6fa09e386f41a5686ee7fae32f0e3a44c05",
+      "seed_pred": null,
+      "sha256": "sha256:099afa47e5574b780a1129a4907d3c87a666dfabd8c38a2f92c0e01c8d645e2e"
+    },
+    "svgp/rbf/pol/M128/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:b5cca9227e37bfb1615ae1cad2aaae94e55b480ed68b8afac6773c9eb1b37c44",
+      "seed_pred": null,
+      "sha256": "sha256:26d49c8bd224cc879a0bb096d45818ca5cfbac65ccca8e5afc15a5dd48cda9b0"
+    },
+    "svgp/rbf/pol/M128/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:0d2f1bd8e42db6342eb7bf135c511008221381f9f3ff24192c58837f4c36a1a9",
+      "seed_pred": null,
+      "sha256": "sha256:7ae360675a67db73bc6170830415a067c15305af04b17d4918fadfda785717dc"
+    },
+    "svgp/rbf/pol/M128/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:e3ad76bba0f4d96095d210e709f6e3df5f1826ded29ebd6c1fd84a057b60df6e",
+      "seed_pred": null,
+      "sha256": "sha256:b8598f35db6c632d5014ae7bfaff74d9e40f2f8a617a35bd61d8fc97da0530d5"
+    },
+    "svgp/rbf/pol/M128/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:4fa6429748cbe555a67da9300abb4aa40167e9134092f94c6a3123ac2499d41e",
+      "seed_pred": null,
+      "sha256": "sha256:236b7fdc08bc881ac2e402ea26d782b8f7241140b599cb1d5172e9ddc3c82bcc"
+    },
+    "svgp/rbf/pol/M128/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:94aa1afa91cfe5cc33df679147990bf1cc975b9c7a26e84a5b8695e6603507b1",
+      "seed_pred": null,
+      "sha256": "sha256:1ec033601ef493a712cca3279c31506eb3e282549bedb4c726a6338db8490a21"
+    },
+    "svgp/rbf/pol/M128/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:9c3e1991ab602a6269b418f886c0e24882ac3a8303c15b62ee600016ac24a666",
+      "seed_pred": null,
+      "sha256": "sha256:5d98bedffbd6d164e468ceba9a4cfe5edf54c453d43616ea9826fd85fe41f33d"
+    },
+    "svgp/rbf/pol/M256/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:e7043b90801c5e538cff1083f42b6f31a264566f333678aaf34fd9bbdc2faed4",
+      "seed_pred": null,
+      "sha256": "sha256:2eff6d9a1bd8d9ea9075f35617bfae89fd99ebef26e20e825bbb05494fbac0ba"
+    },
+    "svgp/rbf/pol/M256/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:df325d1c9ba7ab3d419e692eebf4cb9a8cd59387337595774cc478af928b6911",
+      "seed_pred": null,
+      "sha256": "sha256:63e028a6b1576f0f09f4b20cb64956661f445ea932ad8740270146bcc50241a5"
+    },
+    "svgp/rbf/pol/M256/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:89c0a26096796d059f0d20e44320b04c1af1dd0dd09b2c47afef44ea8d75c453",
+      "seed_pred": null,
+      "sha256": "sha256:e3668e266a1f6eebe6c3012a6b47b5bd0bf0cd29253a20bb86384a5d50cb4542"
+    },
+    "svgp/rbf/pol/M256/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:584dd5de37adaa9893d84734913700793226c5c17d01f019701bf5a1f8607cc8",
+      "seed_pred": null,
+      "sha256": "sha256:f173339e7fbeb0abed242b76e7f787383d1ccd75b125108f538edebe4986c5dd"
+    },
+    "svgp/rbf/pol/M256/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:fd7bcf8fcb0ef5e4f9fa4daf1dcb08622f687f15ad04b315ea54bb4f131e720b",
+      "seed_pred": null,
+      "sha256": "sha256:d8ea81ba8b857fe041d26f9521d4fea562717636c992b293312b91fb745da306"
+    },
+    "svgp/rbf/pol/M256/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:2755ccc0bc8310d6d622748004a8ebca5065f04a8d4df373608618433b6323db",
+      "seed_pred": null,
+      "sha256": "sha256:19413cbd181f91fd90d78c6a5535f75ccd263454361e9b0919c20bfabed0f97d"
+    },
+    "svgp/rbf/pol/M256/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:90d36533ecd145ded6f817f8f904af3cb06b8405f6cb9444226b8c06da720257",
+      "seed_pred": null,
+      "sha256": "sha256:c0b5e90f83d125a8f64948a788422fcb622995cf81a1292530d8bd34d43ecf43"
+    },
+    "svgp/rbf/pol/M256/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:edf2d7ac9240316b1b4e88dd345710ebf7e3fb91a9a1e91b6f709f9c94f48f82",
+      "seed_pred": null,
+      "sha256": "sha256:8f27ea0b6fc315d38c4b2329cecc6e7eb28a3c40f6e0ede6e27b7c1e9781b853"
+    },
+    "svgp/rbf/pol/M256/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:7767e945c27345fbfba73ed6b8e1314a4821aadc772e40c3328228f3af4baacf",
+      "seed_pred": null,
+      "sha256": "sha256:2037ad05a8aba216a35c907bd5bf5a2b197ea672e8d8aef75e8195afbeabbc22"
+    },
+    "svgp/rbf/pol/M256/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:e75b79dfa88ebc861b735af26379a8c78fd45ee8d48092856e791c44099904f6",
+      "seed_pred": null,
+      "sha256": "sha256:e784d3ed5d56435fbded65b24a83e4ac86bcef0f70592125e6e4aca7fbc25e7a"
+    },
+    "svgp/rbf/pol/M512/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:bb98703a73a237c986c4437da4842e3aa4538d150d93c538bcb3c075df66d28f",
+      "seed_pred": null,
+      "sha256": "sha256:635af3d1e6203bd7c49ab43ad54b9b2193acf77ad1c10a8da370292c079cb348"
+    },
+    "svgp/rbf/pol/M512/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:f7a9f88d20fdef6889feefb4a5b0f36fc02e8c7131abb429fffb917bf4867f2a",
+      "seed_pred": null,
+      "sha256": "sha256:1c1f517c662244da387fc66906db25ca7ba112246ebafa099d0bc10f075db9dc"
+    },
+    "svgp/rbf/pol/M512/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:b4f758edb4af9a188911520001008a45fe6f6988181920f5c5842a374c14668d",
+      "seed_pred": null,
+      "sha256": "sha256:dff19d568f7de4887b21a39374d9b242d222f2a44fda33151b76c409c6e3e743"
+    },
+    "svgp/rbf/pol/M512/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:31864fd6dab30a62d1e1ef1fdcf7109359a45407bf7100d6cdca70e5d2b0ab4a",
+      "seed_pred": null,
+      "sha256": "sha256:82d496135542af982d9864ed6c19c28ab4aaf31f4b5d76385566e34100433521"
+    },
+    "svgp/rbf/pol/M512/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:b81b44b8e4980a9c61c5560f01eb6058d7b41b5112e0cf465118f394f1a75aa8",
+      "seed_pred": null,
+      "sha256": "sha256:8d086e862ae0d1355716b3a8247ea11e3f36f9712258ea0e28f35b26d2a69755"
+    },
+    "svgp/rbf/pol/M512/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:78ea091faedcec74cbae874cfa654eb04228b7128c03512512a9681335b07749",
+      "seed_pred": null,
+      "sha256": "sha256:c9b12f770b6d4970fdde18fbeb23d90b0378c94d4affa97e47b65f43b90e40f5"
+    },
+    "svgp/rbf/pol/M512/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:ba155665c3f16471f789d1a149d8c21e812ca824381b97a21e97ac74b7ab416e",
+      "seed_pred": null,
+      "sha256": "sha256:1b937ae101dc377aab39304294b2948ad4d29ed5dac1192b5467d2746cd3d0c0"
+    },
+    "svgp/rbf/pol/M512/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:637a9bce0c1b07cdbd6980cf6025e0fa4182a5250c6faa8729893e5bb4528011",
+      "seed_pred": null,
+      "sha256": "sha256:842be38ad68be69e0965f78f12a0e3df51e7e0703b6de2f60bd9604dddfb1eca"
+    },
+    "svgp/rbf/pol/M512/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:52d28c0ca64b893bb4d371d6462df34ca7114368ccb339052f6d5d9afeb3a741",
+      "seed_pred": null,
+      "sha256": "sha256:4eb455c857a697e2021e4c72bb33c21e4937e461412fdfc4308ec326655f4c66"
+    },
+    "svgp/rbf/pol/M512/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:ef5a588d04ed97dad900d6890e6df7a71c002501f321c9e8e06612b843fa84c5",
+      "seed_pred": null,
+      "sha256": "sha256:5753409fc47f6a4265b6efa4313de9867610173b47fb4e6dde4007094e226157"
+    },
+    "svgp/rbf/pol/M64/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8067486b8d8ab397124c6b268085dfb4efbe0fcaa148d018ae3bfac5ac2b2ca2",
+      "seed_pred": null,
+      "sha256": "sha256:e9946863244a58f5fcb0edc98fadab627b3b2f30bc3f955a903858f2c2a7828b"
+    },
+    "svgp/rbf/pol/M64/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:c2c4aed20834f7b2e9610a960a3ec874033d3de9319d49383f6915e3d75e8736",
+      "seed_pred": null,
+      "sha256": "sha256:7db8166a2166236b257fea1af27971db66451a811437871b54e35ec7ad0bbcb8"
+    },
+    "svgp/rbf/pol/M64/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:95aa2444f47c54829db75647fdc30633e1befbead157a85b8c3de0f7cd048d1e",
+      "seed_pred": null,
+      "sha256": "sha256:0b21d8ed1f52e614b29084c5911f63add11295a68adcdd947ea54e7c66bcb0ff"
+    },
+    "svgp/rbf/pol/M64/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:467c63a9dde9d888b62c5be5e8e1003bac25b30690f80c70e7fbd2dc7fe965dc",
+      "seed_pred": null,
+      "sha256": "sha256:0a1d63a60484e0c33ef6345442ee42e440a9ed4efbac40ea51501469cc45e417"
+    },
+    "svgp/rbf/pol/M64/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:45158893f575a5bf762931f76c69a0897f4c9fac1beb2895395b10b093e5a9b2",
+      "seed_pred": null,
+      "sha256": "sha256:0ba90cadc46ba8c66e1d99c03e3d57b630fca0d7fbb380e0160309eafbb834d5"
+    },
+    "svgp/rbf/pol/M64/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:b57e9066b52b7afda1daed45b305e9c8dbc5badc95f8d80b8684fdb9305ef37b",
+      "seed_pred": null,
+      "sha256": "sha256:a028be3daa506dc6ec030582f81d0e5e5f2daa22c26a2c5869c54c22c1698892"
+    },
+    "svgp/rbf/pol/M64/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:37bf58a41d468466c3db0ca0c09e3da8b0fe62094bd26ce4513cb75f9e555ec4",
+      "seed_pred": null,
+      "sha256": "sha256:313e0b66fb70b6eae5969222bc153f778522a34f42bc58d10e93331bcfb299e8"
+    },
+    "svgp/rbf/pol/M64/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:3269ad58ce4d2b11ec1239ab86fa4df7f39278a953974c9209fa3fd70bd495d9",
+      "seed_pred": null,
+      "sha256": "sha256:26bbc4861ef27a70913ea52d32534f0e1e89049c429ad24552dd3e22fe6bb26c"
+    },
+    "svgp/rbf/pol/M64/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:b2946e1749369e1a14c35a562f83b82492bcb4a6e01341d9db2ce96758341ea3",
+      "seed_pred": null,
+      "sha256": "sha256:4ef150addb3ace954ac8cea85e7713371e07e6a7d5c72a9d4ba5101787f81e20"
+    },
+    "svgp/rbf/pol/M64/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:90b0b3f9c6d5f8889d91495be8a966048ea845daea88a0647d5d61a24d000e29",
+      "seed_pred": null,
+      "sha256": "sha256:3721028d44c0647e3cb6e66f9223c967392b8789556611b928b1db8e7d8896c7"
+    },
+    "svgp/rbf/protein/M128/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:25a94943c0c59f009cd89b2c505eadee0237bc9fb229afd38193000ccac6ccf8",
+      "seed_pred": null,
+      "sha256": "sha256:3bf713e20978ae7575cb13cba7590cee210f9154ea856234b06de7039eadb6a2"
+    },
+    "svgp/rbf/protein/M128/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:db51d833fdb865950718ffd20037830cdca0e5ff980f9dc2b3bafb9258d90a0e",
+      "seed_pred": null,
+      "sha256": "sha256:f3ca24248bd29f5c14b4e5d3af0888962ffd1ca15e343e65a1d701e2e19a11f5"
+    },
+    "svgp/rbf/protein/M128/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:c97e3398bae54e73ae9dff2aa9f93f3ef87c79744d7ea00758bade5a017e557a",
+      "seed_pred": null,
+      "sha256": "sha256:27aa7ae2d97d40dc89684e18e7d8d8e0f7204b4df81a88c05b1185103f754017"
+    },
+    "svgp/rbf/protein/M128/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:ad7197ef40b956af8c08ec4428e9d5932adbe2b21278f9151e73745848f42474",
+      "seed_pred": null,
+      "sha256": "sha256:02be15e91d091f8851923c25b3b0c7fc70e452a0ccd9d00bf45b8860a654f5f0"
+    },
+    "svgp/rbf/protein/M128/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:3868a2620830b9e97df586d4c93c47ccfd5cea26e485907f13b37d9f01eb11ee",
+      "seed_pred": null,
+      "sha256": "sha256:904695ad06339053aa1df3048cc760a28d2cba4b0f1dbb6a16f76aa88d76807b"
+    },
+    "svgp/rbf/protein/M128/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:1dffa8c10458b57594a7fa6fc598bf4bd448476c3fb01c8426d5dd5a4f3a2d43",
+      "seed_pred": null,
+      "sha256": "sha256:8c57c3686cd859aa8b9df322880b1347c0d56f65133cf117e447f25c680b2677"
+    },
+    "svgp/rbf/protein/M128/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:496ebd030cd38b21e3d4ae862dffd84f5cf35a1729f64f780da121d405683c51",
+      "seed_pred": null,
+      "sha256": "sha256:691b7470d0984415c69aea6f1e63d31a18c53d30835ae136f7dc9459508d956a"
+    },
+    "svgp/rbf/protein/M128/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:7a7ec1cc70c45337e110bf4ea5792d30edd85736104cef86b9480e641ce6aec1",
+      "seed_pred": null,
+      "sha256": "sha256:aa569493d8e4c5442603a806599f5d4abd7becc089d4776ebb4fa1b7e7aaacad"
+    },
+    "svgp/rbf/protein/M128/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:29c31e4ac2a45d094b5234f0f6492c2fea8bcd5d7dff62d43ecd9cc5835b826e",
+      "seed_pred": null,
+      "sha256": "sha256:cd34715573d881c88564a725c582cb1c595278ca1d7f24401d61194747283e01"
+    },
+    "svgp/rbf/protein/M128/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:112d3784dc5058616fda8afea050b223da38f3c7a78fa345b19f606fb8f9f648",
+      "seed_pred": null,
+      "sha256": "sha256:85f6c1ec2b7fcb78099c7c5be8ecd47c07130c33452b1119d93c97c2b412bb5e"
+    },
+    "svgp/rbf/protein/M256/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8d4a58a330e6bfcff8ff24b2c92ba40ad0b236ecf16ec220dac759fb0eee3dc7",
+      "seed_pred": null,
+      "sha256": "sha256:0ccdf5350e8b48489309e518c77831d1878636ffda0b2c2d02ef52f4eebf012f"
+    },
+    "svgp/rbf/protein/M256/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:6a9fd6ae8b23b7d5c2ec28ca702c338996614a321c8ea76c7442e281ca5b1929",
+      "seed_pred": null,
+      "sha256": "sha256:eb0db1d25526861af359bde02c02e121e3e999a8698045d4bb2532fb98f13f3c"
+    },
+    "svgp/rbf/protein/M256/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:d6f277c5728fac5866db2e749b6a76c88bbef9f7ea7bce171bdc7633cbac533e",
+      "seed_pred": null,
+      "sha256": "sha256:b84e4f0b9c47a08f44aae88f0107681db05bc7468fcc63ae3bb87c589a1d6276"
+    },
+    "svgp/rbf/protein/M256/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:9ab1c480bb01e3034f092227a90256a843d6216bc4c691b8c5e45bae02c61656",
+      "seed_pred": null,
+      "sha256": "sha256:fd059812f84852d4119065a6ef3edb162cb1f7f079a0224ddef76195f1d6ee19"
+    },
+    "svgp/rbf/protein/M256/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:7fa45f742caf7dd5349014b63a1d4ffa4773a79d3fcd5784144e0c5c7b459179",
+      "seed_pred": null,
+      "sha256": "sha256:fd18a94464f9a164e3f3506d9325da8f1747420a605ac559eddfd4e151943bd3"
+    },
+    "svgp/rbf/protein/M256/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:9dae59545c718fa74a319186683f0f9b201c9e389804d73b70cfb15979a93b61",
+      "seed_pred": null,
+      "sha256": "sha256:0ad26db36e73226fae8ec4207e0c2d38184290777b73be53cbe219a4b5e7e0a0"
+    },
+    "svgp/rbf/protein/M256/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:6a23a07a08ce48f99196533e13bf2d776ac565a5a1d4b178ca11bf36543572f1",
+      "seed_pred": null,
+      "sha256": "sha256:2a3074cb8c4c88030709d536fb15b8bb2bce31782cf9417d53d25e4cdc1a7f8c"
+    },
+    "svgp/rbf/protein/M256/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:d3b22f307a6f54b834b4394e646ea1fd58a4378a36816d04c21a097a956b8879",
+      "seed_pred": null,
+      "sha256": "sha256:ed1499a2d9a38c77981b758adbff9a82a18bb525f8d526e52baf4c60c70eea9a"
+    },
+    "svgp/rbf/protein/M256/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:f516244aaf2e6df9d690d6526bca4d88f7d55fdbb240d5d5ea7dad67b7dc7a33",
+      "seed_pred": null,
+      "sha256": "sha256:63f5f0c2f8acbb9f6b06471d4594871ed21fc813b6829b1c1f6979f47a3c1abe"
+    },
+    "svgp/rbf/protein/M256/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:55ec9094815f1b81c55692ee814a56dc4425807d759361b2aece537a55bb4930",
+      "seed_pred": null,
+      "sha256": "sha256:5a401e1b68ab7746a067642b5e036410d6d2eb7b7ad2932dcaed68280dc8ace5"
+    },
+    "svgp/rbf/protein/M512/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:8c92ec49bc9b81a44ded8c12f6335b5e9638d8ceab95f6669cf2f6885a95d6bc",
+      "seed_pred": null,
+      "sha256": "sha256:7424e917aa94c361dfdb0e3503a05048a54403b6163a2352a03cabec986b8d9c"
+    },
+    "svgp/rbf/protein/M512/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:e98283e9f8a1d5f2609bd31a339bf17597ed5595a5692421035b92f70d4718ab",
+      "seed_pred": null,
+      "sha256": "sha256:726dceadcf6f93f956f2ec7ab39cd6f751a269de2bbb2a599233028fa27ed866"
+    },
+    "svgp/rbf/protein/M512/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:37b8e5dad73ecbec0fe3b161a52d4b215fafc310e323891a0acba1c2f98681b7",
+      "seed_pred": null,
+      "sha256": "sha256:7e13c3935d7ef13216e3025eb66e97697d861df7e6f1bf87d8242a237591117b"
+    },
+    "svgp/rbf/protein/M512/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:aa37da544a9babba77665b03c25739d54e3e2ec07ff91da3be40ad4fd803bff9",
+      "seed_pred": null,
+      "sha256": "sha256:631096d2c22010a505b4939db9b3c7a088c1cc4bcf23b748ff107176d6d271e9"
+    },
+    "svgp/rbf/protein/M512/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:15a504c2d81879dab3aed38bbcb6dfa51e95843347f8d2f08bbea5124dadc3ca",
+      "seed_pred": null,
+      "sha256": "sha256:8cf870d5fc042a6d51f8f799aac35a4c01d8886e61339a9eb4a74c4d52a6f6b3"
+    },
+    "svgp/rbf/protein/M512/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:65fd59d14bbf6740a5f40bf655c57af6ff4fd33f45a5e51503d2e54abe3f9b9a",
+      "seed_pred": null,
+      "sha256": "sha256:5001592d61f4d926c8bc3636a38156ae9483af3fefea197977dfa1f9b4c886bd"
+    },
+    "svgp/rbf/protein/M512/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:4b3d4e804125453b577f9c89f2c8930be1c5d68fb87f4b1b6bfb3fa420c578d4",
+      "seed_pred": null,
+      "sha256": "sha256:2f6a89c933d9c0764806fd23613888fe94e0ab0ac8b681a95d75e5e59180d14a"
+    },
+    "svgp/rbf/protein/M512/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:356ae8cdecfbbfcf08eab731f378a5ac1105fc5ec14c5905d627b5ee21badf07",
+      "seed_pred": null,
+      "sha256": "sha256:39362dc09d65abddf26536c98e35b225609e2ea1b207c608eb1ef94fdf7739ea"
+    },
+    "svgp/rbf/protein/M512/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:cccba94bd365029ac26655b9d7f018ef5795758eb2e5886b91bd2e38b2ed615d",
+      "seed_pred": null,
+      "sha256": "sha256:55a103fa06af151fcb85aed80eecf1cf4cff861dc658595e755504f64090d4ff"
+    },
+    "svgp/rbf/protein/M512/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:f277958baaf0c1630e248e07454cee7cc2a9c0d208102b68b251332b18277ddc",
+      "seed_pred": null,
+      "sha256": "sha256:4bea6bd1c8e441d74b0ee9324f6ac946e990c2326cee1d136b74d46f77e209f0"
+    },
+    "svgp/rbf/protein/M64/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:4365074e64ce6010d52dca043bac5d9a2c8d220393865f7b6e7eb31187a412a3",
+      "seed_pred": null,
+      "sha256": "sha256:76eb81ce0eefbabe28a9fd0afa2b7acc6f4318630b25be6497e68f3cc932f726"
+    },
+    "svgp/rbf/protein/M64/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:a035aa9a384a7404bedac080195007f109c1d45251bdf82fa46eeeee5c2f7684",
+      "seed_pred": null,
+      "sha256": "sha256:a3c82bda17e150c6f07f47e91cb5f00e823d6e3b4bc17cb1a74cb50ccfacd613"
+    },
+    "svgp/rbf/protein/M64/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:f03ddf939475930c4ce9892d74c275dd9d3800d94e587b9c97bda5b7b665ab1f",
+      "seed_pred": null,
+      "sha256": "sha256:cfb9e0e18dc5b7b20e52aa9fff525bc3d8b840c2368c40c522ff10188268cc5e"
+    },
+    "svgp/rbf/protein/M64/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:edc0d291615d42d06fb80624eb64f08db59c8748e49940b1bb4c921d098d1544",
+      "seed_pred": null,
+      "sha256": "sha256:6fe39a1871aa81150d2e5c20dbcc9747fa7b826495b763e3c46c2b9d67e8652b"
+    },
+    "svgp/rbf/protein/M64/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:559d792572f96d812ebb9dbf00b88df3f7ca06a6e812c7db8e60ca6134613c42",
+      "seed_pred": null,
+      "sha256": "sha256:452166b5e833c2d4870d6e3706acd86e99ed56ba33541f3473689e5575c0100e"
+    },
+    "svgp/rbf/protein/M64/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:17c9254d38942de5d325ce98e0a95ffcd5e4bbc68a4aa6606c8598e043d0d0f2",
+      "seed_pred": null,
+      "sha256": "sha256:27d63b1fea91f55fbffea5090083c553a0df4c289ccc41ced1d8aea6eca8e11c"
+    },
+    "svgp/rbf/protein/M64/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:46699e3dd3d31d0287232140f2e732f463468e1542d3fbd49b3320e9fc81c84d",
+      "seed_pred": null,
+      "sha256": "sha256:98f296bf7944d9d15236aadd7173c8ed8acc59570c232b285db39239d334cf33"
+    },
+    "svgp/rbf/protein/M64/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:0d2f49ada1b8735792f30c490af412df61f52804c5d509942de33938b8fefb11",
+      "seed_pred": null,
+      "sha256": "sha256:a81b3b24505a98ddb11ebec62316a894cd44828d8b11aa27cf1d0f86c68ae131"
+    },
+    "svgp/rbf/protein/M64/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:b6a02205fd7485dd7505365988a71e899c3b0f9e5931d4070f80d1731730e4d7",
+      "seed_pred": null,
+      "sha256": "sha256:1e3549798aa93e2c8480e5553bfaef0e7f978bf00ab699f631dc8296a36adc20"
+    },
+    "svgp/rbf/protein/M64/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:5a8af485a0e26eb370a890498fa70baed73b28769c4aebbd10fbf30dc3eb7598",
+      "seed_pred": null,
+      "sha256": "sha256:975b49a948cf917c9fa8bf16563d7c3a7fc731fadd1a381c1fb737e013b5d9e3"
+    },
+    "svgp/rbf/superconductivity/M128/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:6c5e146e210ab9b70613cf1f65e6f8fc17464cdd483967a61a6fdb75d4f536f9",
+      "seed_pred": null,
+      "sha256": "sha256:35b7aca07a7d968930c834f564dfb4de9f0e4f5a7a156a3ed95c83553c3dd66e"
+    },
+    "svgp/rbf/superconductivity/M128/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:dc6b9e23d5c37c02480a65cd965e697195e32be780bf293a635124d6a457bcb2",
+      "seed_pred": null,
+      "sha256": "sha256:a61d57860fdec6a45bbfee7812c7145f24b2ea4fb481940bc139a256e44e4461"
+    },
+    "svgp/rbf/superconductivity/M128/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:2ecabb523a42a1045fc538409c71f70f3c13591946b68e1e3ffc26a99f18a588",
+      "seed_pred": null,
+      "sha256": "sha256:61d0d88227306457bc72d055211c32aa790fc03b5284fa68c66233da7b782556"
+    },
+    "svgp/rbf/superconductivity/M128/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:b137800b3a2f147e2b97c1d7c5bda4c51b498d50e7ab564627fe75920c7818c0",
+      "seed_pred": null,
+      "sha256": "sha256:0aadf350f5c26de1dc2319999e8bf4dfdc2847fdf9def2c1473bc271bdaafcf6"
+    },
+    "svgp/rbf/superconductivity/M128/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:9be15116b135e28da640b424f649c8faa741aada65ea12ad428c0be01e2fc2c7",
+      "seed_pred": null,
+      "sha256": "sha256:51956168b93ca58dcd56122977c33931e0c82b5d18fad98a017efe370d7541b7"
+    },
+    "svgp/rbf/superconductivity/M128/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:04d79185804eb0ec32e0e65e54d917bbe46a53b0aab04b5f29dd0294c14f3e03",
+      "seed_pred": null,
+      "sha256": "sha256:576da9802e75c1c5fc6193293ff65529b32af84af942060ad2aa647d62ac6854"
+    },
+    "svgp/rbf/superconductivity/M128/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:38c4a2b3140e084126ce1b02b5a4b6b45b3601bec0037ccf977fb8ae800a2d2a",
+      "seed_pred": null,
+      "sha256": "sha256:f04abd5f8f5a401910b2ab00fb3ff73513512b5727c2ec83cf9fe1cccda419ec"
+    },
+    "svgp/rbf/superconductivity/M128/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:31beedabce81c7f9761535c17964c1ee1d50936f3297176a4d6f08a8b75850f1",
+      "seed_pred": null,
+      "sha256": "sha256:819a0b52f506035e66c4c5d0af2bef87bfe0bbd44357290e01d662399f0d81b8"
+    },
+    "svgp/rbf/superconductivity/M128/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:c040280fc99d778a5a27b1b030604f1910cc0f0cc56873eb92fe43bb391c5a0f",
+      "seed_pred": null,
+      "sha256": "sha256:201d2abef7b109e57115cce0487510e4321988bb452067bdc1d3127b04bcec29"
+    },
+    "svgp/rbf/superconductivity/M128/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:26e47fd8e400dffe27f605fc44eb79120555067ee9a5ffaeee013ea3aca9545a",
+      "seed_pred": null,
+      "sha256": "sha256:86cfe9a3516a0f0f989d7091ac2c04796d5a9b07525efc3b1cbef2ed15467159"
+    },
+    "svgp/rbf/superconductivity/M256/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:a8af14cc5ab5d9916b9c0ade629b01d8c13298591203263dba4789207353a47e",
+      "seed_pred": null,
+      "sha256": "sha256:f475d02209ae5998e50001c3543ef9faadc2ce0dd49dd3b01c41834ecc2eff0a"
+    },
+    "svgp/rbf/superconductivity/M256/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:1a3791758374a2f72f86f99f7d1d3342b9284c142cb46908d7cf7cf16cd1ebab",
+      "seed_pred": null,
+      "sha256": "sha256:fd35fc425ea84554e6f2893426ef14f04f223f6209fd75e8eac64d2c0e300fe1"
+    },
+    "svgp/rbf/superconductivity/M256/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:b10140432a86d35418a6b76f9a0338f365d4c7f4ec8bfb2425faab40f3fe44ac",
+      "seed_pred": null,
+      "sha256": "sha256:21ef2787881026c6e1ad7e91d458a5bda2d9abcc7b8322f973464a2d8bdcea01"
+    },
+    "svgp/rbf/superconductivity/M256/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:57d11f9ac40f4cb829da63da04bc6dbb3ecc448ee4d7465a6a5914f89b6a8371",
+      "seed_pred": null,
+      "sha256": "sha256:7c45acb08bf36568c2f7bcc9a305b4c5838179240ce21846f1aa0da43f4e4da7"
+    },
+    "svgp/rbf/superconductivity/M256/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:0ef1a712a6ac0be33e140a80d05980f90554620c6425c4cab45b1235a2aca61e",
+      "seed_pred": null,
+      "sha256": "sha256:1b64e99abc51a3224252c859f2637c2cccc37261dc6e4bd7348c3f55c64af152"
+    },
+    "svgp/rbf/superconductivity/M256/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:2f4167c1ccd5918bbee0e1c1390b807783628db67e5dd3dcac85b28f464a9f5c",
+      "seed_pred": null,
+      "sha256": "sha256:79a8b2f553904c3b706e8132eef02f83705e77843c6600caea2a84485fdd2883"
+    },
+    "svgp/rbf/superconductivity/M256/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:d6b96816bb68124f1c8d53a4270cb1a67719ce0496c6eb8e107de8fef131519d",
+      "seed_pred": null,
+      "sha256": "sha256:2030e7f4bb59cb4c9466fd5a9d0f3ac88a40a16cf42f2b8f8858714e1804e5e7"
+    },
+    "svgp/rbf/superconductivity/M256/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:5722f619101c90963dbbc3e1a05f38a956fc884d77287f36fb2a15752a6e5676",
+      "seed_pred": null,
+      "sha256": "sha256:76c802b01a8a5e22180eecbe2bb8264f6492a0374095da1affeee5cd3585bd12"
+    },
+    "svgp/rbf/superconductivity/M256/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:91685067ff30e9c93c208517b9d02d4d968a3ed137d8326bab46820602f6efdd",
+      "seed_pred": null,
+      "sha256": "sha256:ba1b96bb9ffda1e07c45394f87cc9c9b7f4d075f7ba3524d2706147c6347f97d"
+    },
+    "svgp/rbf/superconductivity/M256/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:4dc95f1539d7d13ac228c40a28f733e473591bde7a08e98d2a8cd6c93904d2ad",
+      "seed_pred": null,
+      "sha256": "sha256:46fd3564da213bdcc77c4d2beffb7967da78baeee7fd37ce0138643ba155585a"
+    },
+    "svgp/rbf/superconductivity/M512/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:5be5a282e7748953b7cccaae448f9f237892ab97f4ba261e25475f26858f4a60",
+      "seed_pred": null,
+      "sha256": "sha256:9caa80acd15e255b997303b1cc1c5f61f28fe01ddcf10bb4f65c04b76f874b75"
+    },
+    "svgp/rbf/superconductivity/M512/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:e77471b587c28f33f667bc293694928834edb28e623e33146056cbcdf948f7d7",
+      "seed_pred": null,
+      "sha256": "sha256:711abbbc99cc03022208a6e6ffca36c98e8350e4433d544e320e52890c8aa28f"
+    },
+    "svgp/rbf/superconductivity/M512/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:5c3e39c42fe3c9cf1d02aa4064dace22ea1754a68c6094077c396e19b50e6176",
+      "seed_pred": null,
+      "sha256": "sha256:3562e880ed033ea99840847f8aed04793ef25333bc1e79753cc3f8a0a511b148"
+    },
+    "svgp/rbf/superconductivity/M512/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:7af5040ec5184fc9a07f2862c7fa68f359d11510986de3b4dd0294fcf7355720",
+      "seed_pred": null,
+      "sha256": "sha256:c20ba277b0c539579493804543e5608a5c3fb95dd4b71ac1646ccc356ae61ae5"
+    },
+    "svgp/rbf/superconductivity/M512/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:d6e7f54f151f5fd83696918981e7bb9bb66dda730819da49509a17b512093164",
+      "seed_pred": null,
+      "sha256": "sha256:10e556adcf0236400ceb231aabfe7b5d0e40f0526cdd562cab297fcf11be8090"
+    },
+    "svgp/rbf/superconductivity/M512/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:40bb9c887625474f6d5d84b83191331ac44925c37e4a4f21c9163c6e8c738b86",
+      "seed_pred": null,
+      "sha256": "sha256:f1ad89a59f7760af5c6a0f6b8c9d5d50a6f2417754eeb8c22b5de1b57f1e7403"
+    },
+    "svgp/rbf/superconductivity/M512/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:fe47065142cad6fb81ae42e34ceb4255aa8c12d04c8dcabb540fc1179f4db60e",
+      "seed_pred": null,
+      "sha256": "sha256:c674a9a5ebb44b55622f81eb886c652e3ad91cf560fb687e620838d53062c3cd"
+    },
+    "svgp/rbf/superconductivity/M512/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:16db09d2d57cc37589c46a4099099eb91bcdd2f30daf6ca4e6d07796a443eea6",
+      "seed_pred": null,
+      "sha256": "sha256:a59e0718cabb5a1604e5c0cc3b9bc8087cefc8e5073ed41856edc34a00db99f1"
+    },
+    "svgp/rbf/superconductivity/M512/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:f63ebc703a30b1778dc372d141499cf70e1ffc646b3ba65f314cc2310e137af6",
+      "seed_pred": null,
+      "sha256": "sha256:b0750b65ab376ed9e052b7e7f93d6c5bb08cf6b87b7f36606c0ab679fdd01666"
+    },
+    "svgp/rbf/superconductivity/M512/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:2f7c3b5e5b06b899340068d9c2ce79fe01a7e6791972447f6e6dd3fe44314de8",
+      "seed_pred": null,
+      "sha256": "sha256:04d1506286bcdcaa682f3b17ba084147334a0ebd2edd6d3979ff795c33c2010e"
+    },
+    "svgp/rbf/superconductivity/M64/RBT-SVGP/seed0": {
+      "partition_sha256": "sha256:2f57f26baec234bb90c7ca887c5b1b8e65482b511ab8d7407bee28d1fd1b45e9",
+      "seed_pred": null,
+      "sha256": "sha256:e4c5611da3133e997cfde7fab12b1db6d8f0ab1980de4df1e7c5d32f7e71067b"
+    },
+    "svgp/rbf/superconductivity/M64/RBT-SVGP/seed1": {
+      "partition_sha256": "sha256:09b64075e73a832f2d6c0484281cf42c61071bf5c77d8dc93a37754551020284",
+      "seed_pred": null,
+      "sha256": "sha256:a396372ba3c2cc0c6df423ca0b61bd738830862d263faf1704eecdcc60cd7d71"
+    },
+    "svgp/rbf/superconductivity/M64/RBT-SVGP/seed2": {
+      "partition_sha256": "sha256:a11b2f2a6878869b87920161eed06911d90dacbf5931269b40267895c7d51bfb",
+      "seed_pred": null,
+      "sha256": "sha256:d0cee85af4588a5b361456c3e25b61a36751d60ada55604b3d13814646a35973"
+    },
+    "svgp/rbf/superconductivity/M64/RBT-SVGP/seed3": {
+      "partition_sha256": "sha256:98a8fa4ef1d87cdb0268112857b2fd390d2515acd5c3108d79e4f21fcd16c43d",
+      "seed_pred": null,
+      "sha256": "sha256:54f1147e13c78b81a7aeef9c680f1b8acc71e1712641c8c2d0bff7fdd7a496ce"
+    },
+    "svgp/rbf/superconductivity/M64/RBT-SVGP/seed4": {
+      "partition_sha256": "sha256:699d3a9ae38d4e07ba3d1384bc4c16bf723e15ee8a8a38cca3cb2043cad2f1b8",
+      "seed_pred": null,
+      "sha256": "sha256:aed180b153ebb63c9803be496eaed8273598802a3100d6177453d396cbf7f1dc"
+    },
+    "svgp/rbf/superconductivity/M64/RBT-SVGP/seed5": {
+      "partition_sha256": "sha256:5300c99c861f594ce5910668c1ed752cec7f6bbcf96dd74f72eefa082c039ab5",
+      "seed_pred": null,
+      "sha256": "sha256:9118fa707861a08674635273c3b85f3784f3271ad0d13f73711afa63e7097553"
+    },
+    "svgp/rbf/superconductivity/M64/RBT-SVGP/seed6": {
+      "partition_sha256": "sha256:6f4a6a2f89696ffe41f2d1257918df2d74cd1204d1253fe87a7763afd321f0f1",
+      "seed_pred": null,
+      "sha256": "sha256:7bfe69d97d97d4e41350ba963ad025894eb85d1f2674a8511b86bac022257298"
+    },
+    "svgp/rbf/superconductivity/M64/RBT-SVGP/seed7": {
+      "partition_sha256": "sha256:852d0dfe9ac334e808ca754dd461fd0dcfa01df32f1499ab6dca2cd9f153420e",
+      "seed_pred": null,
+      "sha256": "sha256:b45af1435e165c04688a64bcf507a814d2c2559a5bd2d7fee4d2d730859ff549"
+    },
+    "svgp/rbf/superconductivity/M64/RBT-SVGP/seed8": {
+      "partition_sha256": "sha256:b7de633c0e80299b5183a6f52468c2efe96cf3b077d5e72e8cfaa2e529a44fb7",
+      "seed_pred": null,
+      "sha256": "sha256:6fabaf1b9c7df0ed753a58f2b7fc391e0e68dc992edf5b7b3d139b208246b287"
+    },
+    "svgp/rbf/superconductivity/M64/RBT-SVGP/seed9": {
+      "partition_sha256": "sha256:e36b5459610a8d33fcc7ecc232122f1b370ec53fe839d2507c2142712a6a22b0",
+      "seed_pred": null,
+      "sha256": "sha256:77a1c30e86c3e318e7315023e519068a6813dcb9da91aa5e0d0b20091bf5c0be"
+    }
+  },
+  "rejected": [],
+  "rejected_count": 0,
+  "scope": "prediction-only; frozen inputs verified before and after each evaluation",
+  "timing": {
+    "definition": "synchronized end-to-end prediction wall time on one allocated GPU; includes load, compilation, search, transfers",
+    "mean_seconds": 39.377746006414235,
+    "median_seconds": 38.475783028057776
+  },
+  "valid_count": 320
+}

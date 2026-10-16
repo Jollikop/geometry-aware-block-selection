@@ -1,0 +1,44 @@
+% Generated from the audited RBF v23 subset.
+\begin{table*}[t]
+\caption{Kin40k collapsed SGPR with an RBF kernel, \(5000/2000\) train/test points and block size \(b=500\). Entries are mean (standard deviation) over ten seeds. All fits pass the v23 convergence checks. Each row uses its own sparse, diagonal, or fitted-block predictor; Exact-GP uses the exact posterior. \emph{Pred.} is the mean wall time for the full test set on A100-SXM4-40GB GPUs.}
+\label{tab:kin40k-sgpr-details}
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Method & Pred. cov. & Obj./N & RMSE & NLL & Pred. (ms) \\
+\midrule
+\multicolumn{6}{@{}l}{\textbf{RBF, \(M=128\)}} \\
+\multicolumn{6}{@{}l}{\textit{Dense covariance or dense search}} \\
+Exact-GP & exact & -0.153 (0.015) & 0.151 (0.007) & -0.618 (0.045) & 25.1 \\
+METIS-SGPR & all fitted blocks & 0.480 (0.116) & 0.307 (0.069) & 0.211 (0.247) & 69.9 \\
+\multicolumn{6}{@{}l}{\textit{No dense residual matrix}} \\
+SGPR & sparse & 0.639 (0.042) & 0.368 (0.035) & 0.440 (0.085) & 11.8 \\
+T-SGPR & diagonal residual & 0.592 (0.045) & 0.338 (0.038) & 0.334 (0.112) & 19.6 \\
+RBT-SGPR & all fitted blocks & 0.552 (0.079) & 0.322 (0.060) & 0.272 (0.194) & 74.4 \\
+\textbf{SBT-SGPR} & \textbf{all fitted blocks} & \textbf{0.489 (0.113)} & \textbf{0.307 (0.069)} & \textbf{0.213 (0.245)} & \textbf{71.7} \\
+\midrule
+\multicolumn{6}{@{}l}{\textbf{RBF, \(M=256\)}} \\
+\multicolumn{6}{@{}l}{\textit{Dense covariance or dense search}} \\
+Exact-GP & exact & -0.153 (0.015) & 0.151 (0.007) & -0.618 (0.045) & 25.3 \\
+METIS-SGPR & all fitted blocks & 0.227 (0.015) & 0.191 (0.006) & -0.240 (0.035) & 71.4 \\
+\multicolumn{6}{@{}l}{\textit{No dense residual matrix}} \\
+SGPR & sparse & 0.432 (0.014) & 0.269 (0.007) & 0.141 (0.019) & 10.5 \\
+T-SGPR & diagonal residual & 0.382 (0.015) & 0.235 (0.008) & -0.027 (0.030) & 19.5 \\
+RBT-SGPR & all fitted blocks & 0.335 (0.016) & 0.218 (0.008) & -0.110 (0.034) & 76.9 \\
+\textbf{SBT-SGPR} & \textbf{all fitted blocks} & \textbf{0.256 (0.016)} & \textbf{0.196 (0.007)} & \textbf{-0.216 (0.036)} & \textbf{72.3} \\
+\midrule
+\multicolumn{6}{@{}l}{\textbf{RBF, \(M=512\)}} \\
+\multicolumn{6}{@{}l}{\textit{Dense covariance or dense search}} \\
+Exact-GP & exact & -0.153 (0.015) & 0.151 (0.007) & -0.618 (0.045) & 25.3 \\
+METIS-SGPR & all fitted blocks & 0.139 (0.016) & 0.179 (0.006) & -0.304 (0.042) & 75.5 \\
+\multicolumn{6}{@{}l}{\textit{No dense residual matrix}} \\
+SGPR & sparse & 0.285 (0.016) & 0.229 (0.008) & -0.041 (0.022) & 11.1 \\
+T-SGPR & diagonal residual & 0.236 (0.017) & 0.205 (0.007) & -0.175 (0.032) & 21.6 \\
+RBT-SGPR & all fitted blocks & 0.209 (0.017) & 0.197 (0.007) & -0.219 (0.034) & 75.0 \\
+\textbf{SBT-SGPR} & \textbf{all fitted blocks} & \textbf{0.167 (0.015)} & \textbf{0.185 (0.006)} & \textbf{-0.280 (0.036)} & \textbf{76.6} \\
+\midrule
+\multicolumn{6}{@{}p{0.98\textwidth}@{}}{\textbf{Partition construction:}\enspace \(M=128\): METIS 955 ms, SBT 2.22 ms;\enspace \(M=256\): METIS 884 ms, SBT 3.62 ms;\enspace \(M=512\): METIS 1035 ms, SBT 6.07 ms} \\
+\bottomrule
+\end{tabular}
+\end{table*}

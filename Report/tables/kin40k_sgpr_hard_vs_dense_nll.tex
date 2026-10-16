@@ -1,0 +1,21 @@
+% Paired prediction-only comparison on frozen RBF-Kin40k M=512 states.
+\begin{table}[!ht]
+\caption{RBF--Kin40k, $M=512$: test NLL (mean (SE) over ten paired seeds; lower is better). Block diag. is the predictor in the main results; full uses the dense $\mathbf D_{\mathbf{ff}}$ in Eq.~\eqref{eq:bui-predictive-variance}. Bold marks the best of the four principal methods; $^\dagger$ denotes comparators.}
+\label{tab:kin40k-sgpr-real-nll}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Method & Block diag. NLL & Full-$D_{ff}$ NLL \\
+\midrule
+SGPR & -.041(7) & -.041(7) \\
+T-SGPR & -.146(7) & -.160(8) \\
+(R)BT-SGPR & -.179(7) & -.213(8) \\
+(S)BT-SGPR & \textbf{-.240(7)} & \textbf{-.294(7)} \\
+\midrule
+(METIS)BT-SGPR$^{\dagger}$ & -.296(6) & -.336(7) \\
+\midrule
+Exact GP$^{\dagger}$ & --- & -.618(14) \\
+\bottomrule
+\end{tabular}
+\end{table}

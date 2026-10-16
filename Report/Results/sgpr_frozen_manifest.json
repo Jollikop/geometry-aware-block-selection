@@ -1,0 +1,23 @@
+{
+  "schema": "aistats2026-sgpr-suite-v1",
+  "code_commit": "52e117aac0f4f4ec2f15aab8db06318fb7781bea",
+  "checks": {
+    "sgpr-main": {
+      "expected": 280,
+      "complete": 280,
+      "invalid": 0
+    },
+    "sgpr-transplant": {
+      "expected": 40,
+      "complete": 40,
+      "invalid": 0
+    },
+    "auxiliary-figures": {
+      "expected": 2,
+      "complete": 2,
+      "invalid": 0
+    }
+  },
+  "sha256_file_count": 1961,
+  "read_only": true
+}

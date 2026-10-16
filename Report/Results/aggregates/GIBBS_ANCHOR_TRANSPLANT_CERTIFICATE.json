@@ -1,0 +1,11 @@
+{
+  "release_certified": true,
+  "scope": "Gibbs SBT-SVGP inducing-anchor donors to sparse SVGP; 150+150 epochs",
+  "runs": 320,
+  "prediction_model": "sparse SVGP at 300 epochs",
+  "numerical_reference": "518db753c8a18e5a3d6349da9289568df36cb13e",
+  "donor_root": "<home>/experiment_results/gibbs_anchor_warm300_20260917_115548",
+  "plan_sha256": "sha256:710a1100e719eeacf5a6a6aefc2655293c41e3f870462c765f0e03f1bc502dfd",
+  "aggregate_sha256": "sha256:1efde3d655f3b0259f94aa518736811b92727678a22d93ffe5b12889438e3f33",
+  "notes": "Donor freeze unchanged; training and predictions are separate outputs."
+}

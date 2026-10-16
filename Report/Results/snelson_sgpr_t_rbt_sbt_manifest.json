@@ -1,0 +1,98 @@
+{
+  "artifacts": {
+    "snelson_sgpr_t_rbt_sbt.pdf": "sha256:137236adf578af69891fa6699afcac0ec891ff07cfa316c2af4c2b0114aa9061",
+    "snelson_summary_sgpr_t_rbt_sbt.csv": "sha256:15a67738fe71a430273e0ba12aa9d9643816538f1a75cc9cee3921a4359e1743",
+    "snelson_table_sgpr_t_rbt_sbt.tex": "sha256:1430c7e8c1bb4b968790ad9c0032ec43f58e97f05d96ca359f0ba57fa854c767"
+  },
+  "code": {
+    "commit": "518db753c8a18e5a3d6349da9289568df36cb13e",
+    "dirty_entries": [],
+    "source_dirty": false,
+    "source_paths": [
+      "Simulations"
+    ]
+  },
+  "data_signature": "sha256:5bab4bbce15e916b126cf0fc5011714c35ef731d05873c43104774d58931c253",
+  "data_source": "repository:snelson.csv",
+  "final_negative_bound_per_datum": {
+    "E-SGPR": 0.30468348582689586,
+    "RBT-SGPR": 0.48213875961112235,
+    "SBT-SGPR": 0.33763811710942465,
+    "SGPR": 0.5589146589994543,
+    "T-SGPR": 0.52531705865736,
+    "True GP": 0.27950138344680825
+  },
+  "implementation": "snelson-bound-matched-sgpr-v6",
+  "protocol": {
+    "M": 5,
+    "block_size": 20,
+    "max_iterations": 60,
+    "n_train": 200,
+    "phase_iterations": [
+      2,
+      3,
+      5,
+      20,
+      30
+    ],
+    "reported_predictor": {
+      "BT-SGPR": "block",
+      "E-SGPR": "full",
+      "Exact-GP": "exact",
+      "METIS-SGPR": "block",
+      "RBT-SGPR": "block",
+      "SBT-SGPR": "block",
+      "SGPR": "sparse",
+      "T-SGPR": "diagonal"
+    },
+    "seed": 72
+  },
+  "runtime": {
+    "cuda_visible_devices": null,
+    "jax_devices": [
+      {
+        "id": 0,
+        "kind": "cpu",
+        "platform": "cpu"
+      }
+    ],
+    "nvidia_smi": [],
+    "packages": {
+      "check-shapes": "1.1.1",
+      "gpflow": "2.10.1",
+      "jax": "0.4.30",
+      "jaxlib": "0.4.30",
+      "matplotlib": "3.9.4",
+      "numpy": "1.26.4",
+      "optax": "0.2.4",
+      "pandas": "2.3.3",
+      "pymetis": "2023.1.1",
+      "scikit-learn": "1.6.1",
+      "scipy": "1.13.1",
+      "tensorflow": "2.16.2",
+      "tensorflow-probability": "0.24.0",
+      "tf-keras": "2.16.0"
+    },
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.12.13"
+  },
+  "schema": 1,
+  "training_fit_metrics": {
+    "RBT-SGPR": {
+      "nll": 0.19808995205488955,
+      "rmse": 0.29053761546655543
+    },
+    "SBT-SGPR": {
+      "nll": 0.14853247449624538,
+      "rmse": 0.27981073919678284
+    },
+    "SGPR": {
+      "nll": 0.27947377352130426,
+      "rmse": 0.29686762222718127
+    },
+    "T-SGPR": {
+      "nll": 0.21520676396780236,
+      "rmse": 0.2930015241580365
+    }
+  }
+}

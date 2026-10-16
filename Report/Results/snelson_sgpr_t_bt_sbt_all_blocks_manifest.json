@@ -1,0 +1,59 @@
+{
+  "artifacts": {
+    "snelson_sgpr_t_bt_sbt.pdf": "sha256:258351a70278b3817287cbf3589af7a37aae3cd98d695830bc3023e94b0c9409",
+    "snelson_summary_sgpr_t_bt_sbt.csv": "sha256:74aff06f0d27e04c69ceb98dc5e24292433b1b95be50c8d590a52408209a67b2",
+    "snelson_table_sgpr_t_bt_sbt.tex": "sha256:462d4461e483fbe804f2bbc96320d6f7b23c4082c5820895320f530c71140906"
+  },
+  "code": {
+    "commit": "aaae08b420dab529bfd106ae0ba7e1dfcc7f5884",
+    "dirty_entries": [],
+    "source_dirty": false,
+    "source_paths": [
+      "Simulations"
+    ]
+  },
+  "data_signature": "sha256:5bab4bbce15e916b126cf0fc5011714c35ef731d05873c43104774d58931c253",
+  "data_source": "repository:snelson.csv",
+  "final_negative_bound_per_datum": {
+    "BT-SGPR": 0.48213875961112235,
+    "E-SGPR": 0.30468348582689586,
+    "SBT-SGPR": 0.33763811710942465,
+    "SGPR": 0.5589146589994543,
+    "T-SGPR": 0.52531705865736,
+    "True GP": 0.27950138344680825
+  },
+  "implementation": "snelson-full-residual-sgpr-v5-top10",
+  "protocol": {
+    "M": 5,
+    "block_size": 20,
+    "max_iterations": 60,
+    "n_train": 200,
+    "phase_iterations": [
+      2,
+      3,
+      5,
+      20,
+      30
+    ],
+    "predictive_top_k": 10,
+    "seed": 72
+  },
+  "runtime": {
+    "cuda_visible_devices": null,
+    "jax_devices_error": "ModuleNotFoundError: No module named 'jax'",
+    "nvidia_smi": [],
+    "packages": {
+      "check-shapes": "1.1.1",
+      "gpflow": "2.10.1",
+      "matplotlib": "3.9.4",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "tensorflow": "2.16.2",
+      "tensorflow-probability": "0.24.0",
+      "tf-keras": "2.16.0"
+    },
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.12.13"
+  },
+  "schema": 1
+}

@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Snelson collapsed benchmark with trainable random inducing points. Every method is optimised for the same number of L-BFGS iterations and reports the predictor its own bound implies: the sparse predictive for SGPR, which models no residual, and the fitted diagonal, random-block, selected-block, or dense residual covariance for T-SGPR, RBT-SGPR, SBT-SGPR and E-SGPR. RMSE and NLL are measured on the training inputs -- Snelson has no held-out split, so they are a fit diagnostic, not a generalisation estimate. Lower is better throughout.}
+\label{tab:snelson-sgpr-t-rbt-sbt}
+\begin{tabular}{llrrrrrr}
+\toprule
+Method & Predictor & RMSE & NLL & Neg. bound & Neg. bound$/N$ & Iter. & Time (s) \\
+\midrule
+E-SGPR final & -- & -- & -- & 60.937 & 0.3047 & 60 & 0.98 \\
+SGPR & sparse & 0.2969 & +0.2795 & 111.783 & 0.5589 & 52 & 0.52 \\
+T-SGPR & diagonal & 0.2930 & +0.2152 & 105.063 & 0.5253 & 39 & 0.43 \\
+RBT-SGPR & block & 0.2905 & +0.1981 & 96.428 & 0.4821 & 57 & 0.83 \\
+SBT-SGPR & block & 0.2798 & +0.1485 & 67.528 & 0.3376 & 60 & 0.34 \\
+\bottomrule
+\end{tabular}
+\end{table}

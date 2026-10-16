@@ -1,0 +1,16 @@
+# Generated experiment output. These are artifacts, not experiment source.
+#
+# code_state() records source_dirty for the whole of Simulations/ with
+# --untracked-files=all, and every official run refuses to start on a dirty
+# tree. A stray generated PNG is therefore enough to mark a finished campaign
+# as uncertifiable: 39 leftover figures under SVGP_Benchmark_Modern/ made all
+# 280 runs of the collapsed campaign invalid, after ten hours of GPU time.
+# Keeping output out of git is what makes the source check mean what it says.
+runs_*/
+logs_*/
+figures_*/
+tables_*/
+experiment_results/
+__pycache__/
+*.pyc
+*.egg-info/

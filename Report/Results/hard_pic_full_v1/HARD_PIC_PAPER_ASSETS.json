@@ -1,0 +1,106 @@
+{
+  "caveat": "Finite one-block conditional predictor, not the exact dense variational covariance.",
+  "frozen_campaign_provenance": {
+    "complete": {
+      "aggregate_sha256": "sha256:52673038871b94d779c89f7a3da3f7fe2959c077ac17cc256e791637732874a8",
+      "certificate_sha256": "sha256:69da8ceb4ff052ff9e11a0789e1443e9a8e0eeee635583fbc2b3bbcef6f95670"
+    },
+    "gibbs_sbt_anchor": {
+      "aggregate_sha256": "sha256:dccc24e03f840f6e40976772f98c72c14c5c6843f1a5b6cc8858441ed40e0f7a",
+      "certificate_sha256": "sha256:857fbc5053d37f87c33f41c3c27e5a750a121fbac6fcefd9e40cc074e51cab25"
+    },
+    "gibbs_sbt_anchor_transplant": {
+      "aggregate_sha256": "sha256:1efde3d655f3b0259f94aa518736811b92727678a22d93ffe5b12889438e3f33",
+      "certificate_sha256": "sha256:271f5c760eaff786c45089f6980cbd8c8abd362403547d59b29a409930481bce"
+    },
+    "sparse300": {
+      "aggregate_sha256": "sha256:f7c5dd8b52b9edc8140d54129280aaef65b7f65f85399950cdb9db609f17cfd1",
+      "certificate_sha256": "sha256:3506e0baf250fb44732c6b430e18c23b50aa4871fdfdbe18d7c6453bd04d308a"
+    }
+  },
+  "hard_prediction_provenance": {
+    "certificate_sha256": "sha256:d8db0031c00d59957ae003535ae796b9b14bd44c60c5909cea5f7dc38b2d43e5",
+    "minimum_raw_residual": 1.0714567568227776e-08,
+    "plan_sha256": "sha256:315a3bd094ff0126ad3583fdf46ca348c49757b259ebd9395bdae05318d4c681",
+    "prediction_files": 3880
+  },
+  "implementation": "hard-pic-pitc-paper-assets-v1",
+  "outputs": {
+    "Report/Results/hard_pic_full_v1/svgp_hard_pic_summary.csv": "sha256:060be5c79beb85c7fd1652071c09849bb70081833750db672a65db7de4320fe5",
+    "Report/figures/hard_pic_full_v1/amplitude-rbf_1.pdf": "sha256:5471c5b7207aff3466cabb20114b2628c366abe7a745a51147888683912aa59f",
+    "Report/figures/hard_pic_full_v1/amplitude-rbf_2.pdf": "sha256:eec3ccb64957cf1715ae09c96fffa91d98d6584fc0921d6ea79c4c6780effb85",
+    "Report/figures/hard_pic_full_v1/gibbs_1.pdf": "sha256:bac1a2d7309b43cc4084ca5a435a3d914766e8ec66961a50f26841b1480ee141",
+    "Report/figures/hard_pic_full_v1/gibbs_2.pdf": "sha256:b6cc7ea66d9a847c692c595d8d3005a6fe2c0046082ec13d50b7abade2c67ea1",
+    "Report/figures/hard_pic_full_v1/matern52_1.pdf": "sha256:b1571aaf7fea3147746925de3d3ac6bdbf2084e6877c019378f9f5c5f599b413",
+    "Report/figures/hard_pic_full_v1/matern52_2.pdf": "sha256:522f53b63836141b63bdaaa17459b5e88ea91ec0ddc9d1313543eff9e86e4278",
+    "Report/figures/hard_pic_full_v1/rbf_1.pdf": "sha256:945a5e9271ac1b8760b8964afcd135818b92dcbafa741c515ac940101763eb50",
+    "Report/figures/hard_pic_full_v1/rbf_2.pdf": "sha256:c6d7e1b15f362d79240a6bd2e211cb7ebc58f84f2464c54320e8e8ee29720858",
+    "Report/figures/hard_pic_full_v1/svgp_rbf_amplitude_final_page.pdf": "sha256:743ab60071ffbda94db1af8a54ba3eca14235f47d098ce5ea8e62e1f0a94a331",
+    "Report/figures/snelson_prediction_hard_pic_readable.pdf": "sha256:6e33507e31acec9912006c73a8d927522cf54b69bff90b379db826081e1d947b",
+    "Report/tables/kin40k_sgpr_hard_pic_512.tex": "sha256:59c5caec94d11a165f6b08ba9f080f091d8f319375b9f6a1603b6b88b0f7971d"
+  },
+  "scope": "3880 paired hard-block predictions; frozen training untouched",
+  "sgpr": {
+    "Exact-GP": {
+      "nll": [
+        -0.6178550040828386,
+        0.014207147110283909
+      ],
+      "rmse": [
+        0.15109616855116637,
+        0.0022906535037357516
+      ]
+    },
+    "METIS-SGPR": {
+      "nll": [
+        -0.29637772579073185,
+        0.006470970065470743
+      ],
+      "rmse": [
+        0.17908923668357868,
+        0.001965671689650239
+      ]
+    },
+    "RBT-SGPR": {
+      "nll": [
+        -0.17862207091247492,
+        0.0070442236594569635
+      ],
+      "rmse": [
+        0.19704078992023374,
+        0.0021865675089708437
+      ]
+    },
+    "SBT-SGPR": {
+      "nll": [
+        -0.24005167004188677,
+        0.006679608096996081
+      ],
+      "rmse": [
+        0.1847307023882557,
+        0.0019655235575322507
+      ]
+    },
+    "SGPR": {
+      "nll": [
+        -0.04145506861159351,
+        0.007062352607740729
+      ],
+      "rmse": [
+        0.2286572657344246,
+        0.0024676608455380363
+      ]
+    },
+    "T-SGPR": {
+      "nll": [
+        -0.14585888077380657,
+        0.007362046299505692
+      ],
+      "rmse": [
+        0.20548383257330413,
+        0.00230385773917497
+      ]
+    }
+  },
+  "snelson_hard_record_sha256": "sha256:bceb65f8e92c0665ffbe8b5827e2c1f0a517d82814dab2097c8508552358375a"
+}

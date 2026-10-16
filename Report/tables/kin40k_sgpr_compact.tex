@@ -1,0 +1,29 @@
+% Generated from frozen RBF v23 outputs. No model or evaluation changes.
+\begin{table*}[b]
+\caption{Kin40k, RBF: \(N=5000\), \(2000\) test points, \(b=500\). Accuracy: mean(SE in the last decimal place), ten seeds; bold: lowest mean per budget/column, excluding Exact GP. Times: mean milliseconds for one warm partition build and full/direct-sparse test-set prediction on A100-SXM4-40GB. (R)BT reuses cached blocks; --- means not applicable. Protocol details are in Appendix~\ref{app:experiments}.}
+\label{tab:kin40k-sgpr}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}llrrrrrrr@{}}
+\toprule
+& & \multicolumn{2}{c}{Full} & Direct & \multicolumn{2}{c}{Refined sparse} & Search & Prediction \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-5}\cmidrule(lr){6-7}\cmidrule(lr){8-8}\cmidrule(lr){9-9}
+\(M\) & Method & RMSE & NLL & NLL & RMSE & NLL & ms/build & full / sparse \\
+\midrule
+--- & Exact GP & 0.151(2) & -0.618(14) & --- & --- & --- & --- & 25.3 / --- \\
+\midrule
+256 & METIS-SGPR & \textbf{0.191(2)} & \textbf{-0.240(11)} & --- & --- & --- & 883.64 & 71.4 / 13.3 \\
+ & SGPR & 0.269(2) & 0.141(6) & 0.141(6) & 0.269(2) & 0.141(6) & --- & 10.5 / 10.5 \\
+ & T-SGPR & 0.235(3) & -0.027(9) & 0.049(7) & 0.238(3) & 0.052(7) & --- & 19.5 / 10.1 \\
+ & (R)BT-SGPR & 0.218(3) & -0.110(11) & \textbf{0.022(7)} & 0.223(3) & 0.019(7) & cached & 76.9 / 8.1 \\
+ & (S)BT-SGPR & 0.196(2) & -0.216(11) & 0.034(7) & \textbf{0.210(2)} & \textbf{0.015(6)} & 3.62 & 72.3 / 7.8 \\
+\midrule
+512 & METIS-SGPR & \textbf{0.179(2)} & \textbf{-0.304(13)} & --- & --- & --- & 1034.92 & 75.5 / 15.3 \\
+ & SGPR & 0.229(2) & -0.041(7) & -0.041(7) & 0.229(2) & -0.041(7) & --- & 11.1 / 11.1 \\
+ & T-SGPR & 0.205(2) & -0.175(10) & -0.122(7) & 0.207(2) & -0.119(7) & --- & 21.6 / 11.4 \\
+ & (R)BT-SGPR & 0.197(2) & -0.219(11) & -0.144(7) & 0.200(2) & -0.142(7) & cached & 75.0 / 8.7 \\
+ & (S)BT-SGPR & 0.185(2) & -0.280(11) & \textbf{-0.158(7)} & \textbf{0.190(2)} & \textbf{-0.164(7)} & 6.07 & 76.6 / 8.2 \\
+\bottomrule
+\end{tabular}
+\end{table*}
